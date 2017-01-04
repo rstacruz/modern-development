@@ -14,12 +14,14 @@
   - Automated deployments
   - [Recap](workflow/recap.md)
 
-* **Release management**
+* [Managing timelines](timelines/README.md)
   - Sprint rhythm
   - Versioning
   - Release notes
 
-* **Communication**
+* [Communication](communication/README.md)
   - Communicating effectively
   - Sprint kickoffs
   - Sprint retrospectives
+
+* [Team management](teams/README.md)
