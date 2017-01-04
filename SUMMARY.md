@@ -1,6 +1,6 @@
 # Summary
 
-* [Modern development](README.md)
+* [Modern Development](README.md)
 
 * **Introduction**
   * Preface

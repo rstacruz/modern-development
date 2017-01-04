@@ -1,10 +1,10 @@
-# Modern development
+# Modern Development Handbook
 
 > Using agile methods for friction-less web development
 
 ## Thanks
 
-**Modern development guidebook**<br>
+**Modern Development Handbook**<br>
 © 2017+, Rico Sta. Cruz. This work is licensed under a [CC-BY-NC-SA-4.0][CC] license.<br>
 Authored and maintained by Rico Sta. Cruz with help from contributors ([list][contributors]).
 
