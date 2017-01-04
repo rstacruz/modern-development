@@ -26,3 +26,51 @@ nav[role="navigation"] > .summary > .chapter > a {
   font-weight: bold;
   color: #111;
 }
+
+/*
+ * Different accent color
+ */
+
+/* .book-summary ul.summary li.active > a {
+  color: #10D368;
+} */
+
+/*
+ * Next page
+ */
+
+.markdown-section > blockquote:last-child {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-shadow: none;
+  border-top: solid 1px #f0f0f0;
+  margin-top: 4em;
+  padding-top: 16px;
+  position: relative;
+}
+
+@media (max-width: 480px) {
+  .markdown-section > blockquote:last-child {
+    margin-top: 1.5em;
+  }
+}
+
+.markdown-section > blockquote:last-child a::before {
+  content: 'Next';
+  position: absolute;
+  top: 12px;
+  right: 0;
+  font-weight: bold;
+  border: solid 1px #f0f0f0;
+  border-radius: 3px;
+  padding: 4px 16px;
+  font-size: .86em;
+}
+
+.markdown-section > blockquote:last-child a:hover::before,
+.markdown-section > blockquote:last-child a:active::before {
+  background: #10D368;
+  color: white;
+  border-color: transparent;
+}

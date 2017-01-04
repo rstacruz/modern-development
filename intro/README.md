@@ -9,6 +9,4 @@
 - **[Managing timelines](../timelines/README.md)**<br>
   Be wise and be smart.
 
----
-
 > **Next:** What should we look for in [building software](../basics/README.md)?

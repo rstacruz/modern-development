@@ -7,6 +7,4 @@ For team collaboration to be sustainable, we need to follow a few rules. Our wor
 * There should always be a working version (`develop`).
 * There should always be a release-ready version (`master`).
 
----
-
 > **Next:** Learn about the [*develop* and *master* branches](main_branches.md).
