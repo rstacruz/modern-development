@@ -3,15 +3,15 @@
 * [Modern development](README.md)
 
 * **Introduction**
-  * [Preface](#)
+  * Preface
 
 * [Git workflow](workflow/README.md)
   - [Feature branches](workflow/feature_branches.md)
   - [Pull requests](workflow/pull_requests.md)
   - [Main branches](workflow/main_branches.md)
   - [Why use branches](workflow/why.md)
-  - [Continuous integration](workflow/continuous_integration.md)
-  - [Automated deployments](workflow/automated_deployments.md)
+  - Continuous integration
+  - Automated deployments
   - [Recap](workflow/recap.md)
 
 * **Release management**

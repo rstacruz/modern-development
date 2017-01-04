@@ -19,3 +19,7 @@ All work start as a feature branch. Nobody should directly push commits to the m
 
 - Your work can easily be reviewed later through [pull requests](pull_requests.md).
 - It can be reverted later on as one branch, if need be.
+
+---
+
+> __Next:__ Once you're done with your work, [create a pull request](pull_requests.md).
