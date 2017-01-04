@@ -1,10 +1,6 @@
-# Modern Development Handbook
-
-> Using agile methods for friction-less web development
-
----
-
-**[Start reading](intro/README.md)**
+<p align='center'>
+[![](images/cover.png)](intro/README.md)
+</p>
 
 <br>
 
