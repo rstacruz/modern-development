@@ -13,6 +13,7 @@
   - [Feature branches](git/feature_branches.md)
   - [Pull requests](git/pull_requests.md)
   - [Reviewing pull requests](git/reviewing.md)
+  - [Emergency fixes](git/hotfix.md)
   - [Why we use branches](git/why.md)
   - [Recap](git/recap.md)
 

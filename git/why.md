@@ -1,6 +1,6 @@
 # Why we use branches
 
-We've been describing a git workflow that relies heavily on branches. This isn't the only way to use Git. In fact, the most obvious way to use Git is how the [Git manual] first tells us to: push all commits to a single `master` branch.
+We've been describing a git workflow that relies heavily on branches. This isn't the only way to use Git. In fact, the most obvious way to use Git is how the Git manual first tells us to: push all commits to a single `master` branch.
 
 This works for solo developers, but it breaks down once you have two or more on the team. Let's go through the problems that would come up in a single-branch model.
 
@@ -43,4 +43,4 @@ It becomes harder to review changes when they're not contiguous or grouped in an
 
 The Git workflow described in this chapter is a logical evolution brought about by the problems above. By compartmentalizing each piece of work into branches, we make it easier to manage large amounts of work over long periods of time.
 
-[Git manual]: https://git-scm.com/documentation
+> **Next:** Let's [recap what we've learned](recap.md).

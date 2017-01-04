@@ -10,6 +10,7 @@
 This git workflow is based on [git-flow].
 
 - [git-flow]() (nvie.com)
+- [GitLab flow](https://about.gitlab.com/2014/09/29/gitlab-flow/) (gitlab.com)
 - [Git manual]() (git-scm.com)
 
 [git-flow]: http://nvie.com/posts/a-successful-git-branching-model/
