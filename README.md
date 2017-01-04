@@ -4,7 +4,8 @@
 
 ## Thanks
 
-**Modern development guidebook** © 2017+, Rico Sta. Cruz. This work is licensed under a [CC-BY-NC-SA-4.0][CC] license.<br>
+**Modern development guidebook**<br>
+© 2017+, Rico Sta. Cruz. This work is licensed under a [CC-BY-NC-SA-4.0][CC] license.<br>
 Authored and maintained by Rico Sta. Cruz with help from contributors ([list][contributors]).
 
 > [ricostacruz.com](http://ricostacruz.com) &nbsp;&middot;&nbsp;
