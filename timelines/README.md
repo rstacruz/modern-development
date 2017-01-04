@@ -7,3 +7,12 @@
 - Maintain good release hygiene.
 - Use three-point versioning (semantic-style).
 - Publish release notes.
+
+Project lifecycle:
+
+- Discovery
+- Design
+- Iteration
+  - Build
+  - Test
+  - Release

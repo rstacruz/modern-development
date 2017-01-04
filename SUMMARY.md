@@ -15,6 +15,7 @@
   - [Recap](workflow/recap.md)
 
 * [Managing timelines](timelines/README.md)
+  - Project lifecycle
   - Sprint rhythm
   - Versioning
   - Release notes
