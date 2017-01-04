@@ -1,13 +1,11 @@
-Recap
-=====
+# Recap
 
 * Everything you do has to be reviewed by someone else.
 * It should be easy to review other people's work.
 * There should always be a working version (`develop`).
 * There should always be a release-ready version (`master`).
 
-See also
---------
+## See also
 
 This git workflow is based on [git-flow].
 

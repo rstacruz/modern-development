@@ -1,5 +1,4 @@
-Feature branches
-================
+# Feature branches
 
 To start working on anything, you first create a `feature branch`. These branches can either be a `feature`, a `fix`, or a `chore`.
 

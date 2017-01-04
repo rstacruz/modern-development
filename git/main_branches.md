@@ -1,10 +1,8 @@
-Main branches
-=============
+# Main branches
 
 There are two main branches to be maintained `master` and `develop`.
 
-The develop branch
-------------------
+## The develop branch
 
 <p style='text-align: center'>
 <img src='../images/develop-timeline.svg' style='width: 80%'>
@@ -18,8 +16,7 @@ The `develop` branch is what we consider the main branch. All everyday work will
 
 Staging servers are usually set up to mirror what the current state of `develop` is. An [automated deployment](automated_deployments.md) workflow will take care of this.
 
-The master branch
------------------
+## The master branch
 
 The `master` is maintained to be in a *production-ready* state. In practice, the `master` branch is often a mirror of what code is running in production at any given moment.
 
