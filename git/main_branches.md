@@ -30,4 +30,4 @@ The `master` is maintained to be in a *production-ready* state. While the *devel
 
 At the end of a [sprint](#), the `develop` branch will be merged into *master*. This effectively promotes the current development version into a production version. From then, [automated deployments](automated_deployments.md) will take care of deploying it to production. This means whatever's live on production at any moment is always what's the latest on `master`.
 
-> **Next:** Let's get started working by [creating a feature branch](feature_branches.md).
+> **Next:** Let's start working by [creating a feature branch](feature_branches.md).

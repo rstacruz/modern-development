@@ -15,3 +15,5 @@ The *Manifesto of Agile Software Development* ([agilemanifesto.org]) is a short 
 
 - **Responding to change** *over following a plan*<br>
   Agile methods are focused on quick responses to change and continuous development.
+
+> **Next:** [About this book](about_this.md)
