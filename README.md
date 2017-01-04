@@ -1,5 +1,5 @@
 <p align='center'>
-[![](images/cover.png)](intro/README.md)
+<a href='intro/README.md'><img src='images/cover-shadow.png' width='80%'></a>
 </p>
 
 <br>
