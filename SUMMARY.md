@@ -12,6 +12,7 @@
   - [Main branches](git/main_branches.md)
   - [Feature branches](git/feature_branches.md)
   - [Pull requests](git/pull_requests.md)
+  - [Reviewing pull requests](git/reviewing.md)
   - [Why we use branches](git/why.md)
   - [Recap](git/recap.md)
 
@@ -19,8 +20,8 @@
   - Continuous integration
   - Automated deployments
 
-* [Managing timelines](timelines/README.md)
-  - Project lifecycle
+* [Project lifecycle](lifecycle/README.md)
+  - Phases of a project
   - Sprint rhythm
   - Versioning
   - Release notes

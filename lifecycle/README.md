@@ -1,4 +1,4 @@
-# Managing timelines
+# Project lifecycle
 
 > To be written; stay tuned.
 
@@ -11,8 +11,10 @@
 Project lifecycle:
 
 - Discovery
-- Design
+  - Research
+  - Design
 - Iteration
+  - Plan
   - Build
   - Test
   - Release
