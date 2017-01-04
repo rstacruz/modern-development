@@ -2,7 +2,11 @@
 
 > Using agile methods for friction-less web development
 
-## Thanks
+---
+
+**[Start reading](intro/README.md)**
+
+<br>
 
 **Modern Development Handbook**<br>
 © 2017+, Rico Sta. Cruz. This work is licensed under a [CC-BY-NC-SA-4.0][CC] license.<br>
