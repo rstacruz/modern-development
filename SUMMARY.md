@@ -1,6 +1,6 @@
 # Summary
 
-* [Modern Development](README.md)
+* [Modern Development Handbook](README.md)
 
 * [Introduction](intro/README.md)
 
@@ -9,13 +9,15 @@
   - [About this book](basics/about_this.md)
 
 * [Git workflow](git/README.md)
+  - [Main branches](git/main_branches.md)
   - [Feature branches](git/feature_branches.md)
   - [Pull requests](git/pull_requests.md)
-  - [Main branches](git/main_branches.md)
-  - [Why use branches](git/why.md)
+  - [Why we use branches](git/why.md)
+  - [Recap](git/recap.md)
+
+* [Automation](automation/README.md)
   - Continuous integration
   - Automated deployments
-  - [Recap](git/recap.md)
 
 * [Managing timelines](timelines/README.md)
   - Project lifecycle

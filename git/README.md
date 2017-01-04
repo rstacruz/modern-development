@@ -9,4 +9,4 @@ For team collaboration to be sustainable, we need to follow a few rules. Our wor
 
 ---
 
-> __Next:__ Let's get started working by [creating a feature branch](feature_branches.md).
+> **Next:** Learn about the [*develop* and *master* branches](main_branches.md).

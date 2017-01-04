@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="542px" height="132px" viewBox="0 0 542 132" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>develop-timeline-master</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="13" y="35" width="12" height="12" rx="6"></rect>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.757050303   0 0 0 0 0.809629048   0 0 0 0 0.870934311  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <mask id="mask-3" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="12" height="12" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <rect id="path-4" x="77" y="21" width="10" height="10" rx="5"></rect>
+        <mask id="mask-5" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="10" height="10" fill="white">
+            <use xlink:href="#path-4"></use>
+        </mask>
+        <rect id="path-6" x="53" y="21" width="10" height="10" rx="5"></rect>
+        <mask id="mask-7" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="10" height="10" fill="white">
+            <use xlink:href="#path-6"></use>
+        </mask>
+        <rect id="path-8" x="29" y="21" width="10" height="10" rx="5"></rect>
+        <mask id="mask-9" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="10" height="10" fill="white">
+            <use xlink:href="#path-8"></use>
+        </mask>
+        <rect id="path-10" x="96" y="0" width="12" height="12" rx="6"></rect>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-11">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.757050303   0 0 0 0 0.809629048   0 0 0 0 0.870934311  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <mask id="mask-12" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="12" height="12" fill="white">
+            <use xlink:href="#path-10"></use>
+        </mask>
+        <rect id="path-13" x="77" y="21" width="10" height="10" rx="5"></rect>
+        <mask id="mask-14" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="10" height="10" fill="white">
+            <use xlink:href="#path-13"></use>
+        </mask>
+        <rect id="path-15" x="53" y="21" width="10" height="10" rx="5"></rect>
+        <mask id="mask-16" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="10" height="10" fill="white">
+            <use xlink:href="#path-15"></use>
+        </mask>
+        <rect id="path-17" x="29" y="21" width="10" height="10" rx="5"></rect>
+        <mask id="mask-18" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="10" height="10" fill="white">
+            <use xlink:href="#path-17"></use>
+        </mask>
+        <rect id="path-19" x="96" y="0" width="12" height="12" rx="6"></rect>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-20">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.757050303   0 0 0 0 0.809629048   0 0 0 0 0.870934311  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <mask id="mask-21" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="12" height="12" fill="white">
+            <use xlink:href="#path-19"></use>
+        </mask>
+        <rect id="path-22" x="77" y="21" width="10" height="10" rx="5"></rect>
+        <mask id="mask-23" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="10" height="10" fill="white">
+            <use xlink:href="#path-22"></use>
+        </mask>
+        <rect id="path-24" x="53" y="21" width="10" height="10" rx="5"></rect>
+        <mask id="mask-25" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="10" height="10" fill="white">
+            <use xlink:href="#path-24"></use>
+        </mask>
+        <rect id="path-26" x="29" y="21" width="10" height="10" rx="5"></rect>
+        <mask id="mask-27" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="10" height="10" fill="white">
+            <use xlink:href="#path-26"></use>
+        </mask>
+        <rect id="path-28" x="96" y="0" width="12" height="12" rx="6"></rect>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-29">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.757050303   0 0 0 0 0.809629048   0 0 0 0 0.870934311  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <mask id="mask-30" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="12" height="12" fill="white">
+            <use xlink:href="#path-28"></use>
+        </mask>
+        <rect id="path-31" x="360" y="17" width="12" height="12" rx="6"></rect>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-32">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.757050303   0 0 0 0 0.809629048   0 0 0 0 0.870934311  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <mask id="mask-33" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="12" height="12" fill="white">
+            <use xlink:href="#path-31"></use>
+        </mask>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="develop-timeline-master">
+            <text id="develop" font-family="ClearSans-Bold, Clear Sans" font-size="12" font-weight="bold" fill="#37393A">
+                <tspan x="7" y="68">develop</tspan>
+            </text>
+            <text id="master" font-family="ClearSans-Bold, Clear Sans" font-size="12" font-weight="bold" fill="#37393A">
+                <tspan x="7" y="28">master</tspan>
+            </text>
+            <text id="feature/signup" font-family="ClearSans-Italic, Clear Sans" font-size="10" font-style="italic" font-weight="normal" fill="#A1B4D3">
+                <tspan x="141" y="108">feature/signup</tspan>
+            </text>
+            <text id="fix/login" font-family="ClearSans-Italic, Clear Sans" font-size="10" font-style="italic" font-weight="normal" fill="#A1B4D3">
+                <tspan x="264" y="108">fix/login</tspan>
+            </text>
+            <text id="feature/file_upload" font-family="ClearSans-Italic, Clear Sans" font-size="10" font-style="italic" font-weight="normal" fill="#A1B4D3">
+                <tspan x="416" y="108">feature/file_upload</tspan>
+            </text>
+            <g id="Group" transform="translate(73.000000, 23.000000)">
+                <path d="M0.23828125,41.0075088 L458.253426,40.9924912" id="Path" stroke="#CBDAEC" stroke-width="2"></path>
+                <path d="M0.23828125,1.00750885 L458.253426,0.992491154" id="Path-Copy" stroke="#10D368" stroke-width="2"></path>
+                <g id="Rectangle">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use stroke="#FFFFFF" mask="url(#mask-3)" stroke-width="4" fill="#4990E2" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+                <g id="Group-2" transform="translate(38.000000, 36.000000)">
+                    <path d="M40.0262218,66.7337883 C40.0262218,66.7337883 40.9095959,59.4767921 51.3612019,59.3591034 C61.8128079,59.2414147 61.7337794,50.6357985 61.7337794,50.6357985 L61.7337794,-24.1770678 C61.7337794,-30.1688901 56.8687235,-35.0262218 50.8745523,-35.0262218 L50.2226843,-35.0262218" id="Path-2" stroke="#CBDAEC" transform="translate(50.880005, 15.853783) rotate(-270.000000) translate(-50.880005, -15.853783) "></path>
+                    <use id="Rectangle-Copy-2" stroke="#FFFFFF" mask="url(#mask-5)" stroke-width="4" fill="#4990E2" xlink:href="#path-4"></use>
+                    <use id="Rectangle-Copy-3" stroke="#FFFFFF" mask="url(#mask-7)" stroke-width="4" fill="#4990E2" xlink:href="#path-6"></use>
+                    <use id="Rectangle-Copy-4" stroke="#FFFFFF" mask="url(#mask-9)" stroke-width="4" fill="#4990E2" xlink:href="#path-8"></use>
+                    <g id="Rectangle-Copy">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-11)" xlink:href="#path-10"></use>
+                        <use stroke="#FFFFFF" mask="url(#mask-12)" stroke-width="4" fill="#4990E2" fill-rule="evenodd" xlink:href="#path-10"></use>
+                    </g>
+                </g>
+                <g id="Group-2-Copy" transform="translate(160.000000, 36.000000)">
+                    <path d="M40.0262218,66.7337883 C40.0262218,66.7337883 40.9095959,59.4767921 51.3612019,59.3591034 C61.8128079,59.2414147 61.7337794,50.6357985 61.7337794,50.6357985 L61.7337794,-24.1770678 C61.7337794,-30.1688901 56.8687235,-35.0262218 50.8745523,-35.0262218 L50.2226843,-35.0262218" id="Path-2" stroke="#CBDAEC" transform="translate(50.880005, 15.853783) rotate(-270.000000) translate(-50.880005, -15.853783) "></path>
+                    <use id="Rectangle-Copy-2" stroke="#FFFFFF" mask="url(#mask-14)" stroke-width="4" fill="#4990E2" xlink:href="#path-13"></use>
+                    <use id="Rectangle-Copy-3" stroke="#FFFFFF" mask="url(#mask-16)" stroke-width="4" fill="#4990E2" xlink:href="#path-15"></use>
+                    <use id="Rectangle-Copy-4" stroke="#FFFFFF" mask="url(#mask-18)" stroke-width="4" fill="#4990E2" xlink:href="#path-17"></use>
+                    <g id="Rectangle-Copy">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-20)" xlink:href="#path-19"></use>
+                        <use stroke="#FFFFFF" mask="url(#mask-21)" stroke-width="4" fill="#4990E2" fill-rule="evenodd" xlink:href="#path-19"></use>
+                    </g>
+                </g>
+                <g id="Group-2-Copy-2" transform="translate(312.000000, 36.000000)">
+                    <path d="M40.0262218,66.7337883 C40.0262218,66.7337883 40.9095959,59.4767921 51.3612019,59.3591034 C61.8128079,59.2414147 61.7337794,50.6357985 61.7337794,50.6357985 L61.7337794,-24.1770678 C61.7337794,-30.1688901 56.8687235,-35.0262218 50.8745523,-35.0262218 L50.2226843,-35.0262218" id="Path-2" stroke="#CBDAEC" transform="translate(50.880005, 15.853783) rotate(-270.000000) translate(-50.880005, -15.853783) "></path>
+                    <use id="Rectangle-Copy-2" stroke="#FFFFFF" mask="url(#mask-23)" stroke-width="4" fill="#4990E2" xlink:href="#path-22"></use>
+                    <use id="Rectangle-Copy-3" stroke="#FFFFFF" mask="url(#mask-25)" stroke-width="4" fill="#4990E2" xlink:href="#path-24"></use>
+                    <use id="Rectangle-Copy-4" stroke="#FFFFFF" mask="url(#mask-27)" stroke-width="4" fill="#4990E2" xlink:href="#path-26"></use>
+                    <g id="Rectangle-Copy">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-29)" xlink:href="#path-28"></use>
+                        <use stroke="#FFFFFF" mask="url(#mask-30)" stroke-width="4" fill="#4990E2" fill-rule="evenodd" xlink:href="#path-28"></use>
+                    </g>
+                </g>
+            </g>
+            <g id="Rectangle-Copy">
+                <use fill="black" fill-opacity="1" filter="url(#filter-32)" xlink:href="#path-31"></use>
+                <use stroke="#FFFFFF" mask="url(#mask-33)" stroke-width="4" fill="#10D368" fill-rule="evenodd" xlink:href="#path-31"></use>
+            </g>
+            <path d="M344.699399,60.7038817 C344.699399,60.7038817 352.849178,57.4388607 352.849178,42.2300332 C352.849178,27.0212057 359.352026,27.436165 359.352026,27.436165" id="Path-3" stroke="#10D368"></path>
+        </g>
+    </g>
+</svg>

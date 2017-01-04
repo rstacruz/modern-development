@@ -1,9 +1,12 @@
 # Feature branches
 
-To start working on anything, you first create a `feature branch`. These branches can either be a `feature`, a `fix`, or a `chore`.
+To start working on anything, you first create a *feature branch*. These branches can either be a `feature`, a `fix`, or a `chore`.
 
 ```sh
-# Create a branch locally
+# Start from the main branch, `develop`
+git checkout develop
+
+# Create your branch locally
 git branch feature/improve_rating_system
 
 # Work, work...
