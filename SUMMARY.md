@@ -2,6 +2,8 @@
 
 * [Modern Development Handbook](README.md)
 
+---
+
 * [Introduction](intro/README.md)
 
 * [Basic ideas](basics/README.md)
@@ -13,6 +15,7 @@
   - [Feature branches](git/feature_branches.md)
   - [Pull requests](git/pull_requests.md)
   - [Reviewing pull requests](git/reviewing.md)
+  - [Building a release](git/releasing.md)
   - [Emergency fixes](git/hotfix.md)
   - [Why we use branches](git/why.md)
   - [Recap](git/recap.md)
@@ -33,3 +36,8 @@
   - Sprint retrospectives
 
 * [Team management](teams/README.md)
+
+* Miscellaneous
+  - Documentation
+  - Onboarding
+  - Project management tools

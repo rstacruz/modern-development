@@ -22,4 +22,4 @@ A reviewer should be awesome
 
 Lorem ipsum dolor sit amet.
 
-> **Next**: [Emergency fixes](hotfix.md)
+> **Next**: [Building a release](releasing.md)
