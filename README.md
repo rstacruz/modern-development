@@ -1,5 +1,5 @@
 <p align='center'>
-<a href='intro/README.md'><img src='images/cover-shadow.png' width='80%'></a>
+<a href='intro/README.md'><img src='images/cover-shadow.png' width='90%'></a>
 </p>
 
 <br>

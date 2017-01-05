@@ -20,9 +20,9 @@ git branch hotfix/security-fix
 
 ## Merging hotfixes
 
-Pull requests are made for hotfixes too, just like feature branches. Ideally, a colleague will have to review and merge your pull request.
+Pull requests are made for hotfixes too, just like feature branches. A colleague will have to review and merge your pull request, ideally.
 
-The `master` branch will be updated once a pull request is merged in. This shuold trigger your automated deployment process and deploy the hotfix to production servers.
+The `master` branch will be updated once a pull request is merged in. This should trigger your automated deployment process and deploy the hotfix to production servers.
 
 ## Syncing the develop branch
 
@@ -35,9 +35,12 @@ Option A is preferred in most cases, with option B only being used when merging 
 
 ## Self-merging
 
-There are times when fixes are time-sensitive and colleagues won't be available to review and merge your changes. In these cases, create a pull request as usual, but merge it yourself.
+There may be cases when fixes are time-sensitive and colleagues aren't available to review and merge your changes. If this happens:
 
-Be sure to inform your teammates after the fixes are made so they can be up-to-date.
+- Create a pull request as usual.
+- Merge the pull request yourself.
+- Leave a comment in the pull request with the reason for urgency.
+- Inform your teammates afterwards so they can still review your changes.
 
 <details>
 <summary><em>See also...</em></summary>

@@ -1,3 +1,6 @@
 {
-  "title": "Modern Development Handbook"
+  "title": "Modern Development Handbook",
+  "pdf": {
+    "fontSize": 10
+  }
 }

@@ -139,3 +139,11 @@ nav[role="navigation"] > .summary > .chapter > a {
   margin: 3em auto;
   text-align: center;
 }
+
+/*
+ * Stuff not written yet
+ */
+
+.book-summary ul.summary li span {
+  opacity: 0.4;
+}
