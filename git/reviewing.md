@@ -7,7 +7,7 @@ A pull request reviewer has these responsibilities:
 
 A reviewer should do one of these things:
 
-- Approve it (by merging the pull request);
+- Approve it (by merging the pull request); or
 - Reject it (by request for changes); or
 - Ask others to review it as well (by saying "LGTM").
 
