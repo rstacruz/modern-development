@@ -3,8 +3,13 @@
 A pull request reviewer has these responsibilities:
 
 - Understand the original author's changes so that the knowledge is shared across the team.
-- Review any issues the changes may have.
-- Request for changes if necessary.
+- Find any issues the changes may have.
+
+A reviewer should do one of these things:
+
+- Approve it (by merging the pull request);
+- Reject it (by request for changes); or
+- Ask others to review it as well (by saying "LGTM").
 
 ## Who can review
 
@@ -20,7 +25,15 @@ A review will be party responsible for the code's presence in the project. Shoul
 
 A reviewer should also test the pull request, if possible.
 
-## Requesting changes
+## Approving
+
+Merge the pull request to approve it!
+
+If you'd like to offer your review but don't want to merge it yourself, you can leave a comment saying "LGTM." This can either mean "looks good to me" or "let's get this merged." This is useful if you'd rather wait for the input of another colleague.
+
+## Rejecting
+
+A reviewer may request for changes as a way of rejecting a pull request.
 
 - Use GitHub's "request changes" facility to request for changes.
 - Remove the `For review` tag in the pull request.

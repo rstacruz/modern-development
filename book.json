@@ -1,6 +1,13 @@
 {
   "title": "Modern Development Handbook",
   "pdf": {
-    "fontSize": 10
+    "fontSize": 10,
+    "paperSize": "a3",
+    "margin": {
+      "top": 64,
+      "bottom": 64,
+      "left": 64,
+      "right": 64
+    }
   }
 }
