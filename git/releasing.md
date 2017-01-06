@@ -6,7 +6,7 @@ A release is simply a merge commit in `master`. To build a release, you'll need 
 0. Merge `master` back into `develop` (if needed).
 0. Create a release.
 
-## Clean merging into master
+## Merging into a clean master
 
 For clean merges of `develop` into `master`, you can use the GitHub interface. Simply create a pull request from `develop` into `master` and merge it using the GitHub website. This works when `master` is clean and up-to-date with the latest `develop` branch, and has no merge conflicts.
 
@@ -44,6 +44,7 @@ Every deployment should have a version number tag. Simply create a release in Gi
 
 <figure class='-bordered'>
 <img src='../images/github-new-release.png'>
+<figcaption>Creating a new GitHub release.</figcaption>
 </figure>
 
 > **Next**: [Emergency fixes](hotfix.md)

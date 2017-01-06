@@ -21,8 +21,9 @@
   - [Summary](git/summary.md)
 
 * [Automation](automation/README.md)
-  - Continuous integration
-  - Automated deployments
+  - [Continuous integration](automation/ci.md)
+  - [Automated testing](automation/testing.md)
+  - [Automated deployments](automation/deployment.md)
 
 * [Project lifecycle](lifecycle/README.md)
   - Phases of a project

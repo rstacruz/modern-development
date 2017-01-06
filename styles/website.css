@@ -185,6 +185,34 @@ nav[role="navigation"] > .summary > .chapter > a {
   }
 }
 
+.markdown-section figure.-s80 {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.markdown-section figure.-s60 {
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+.markdown-section figure.-shadow img {
+  border-radius: 3px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: inline-block;
+  margin: 0;
+}
+
+.markdown-section figure.-clip {
+  overflow: hidden;
+  border-bottom: solid 1px #eee;
+}
+
+.markdown-section figure.-clip img {
+  margin-bottom: -64px;
+}
+
+
+
 /*
  * Stuff not written yet
  */
