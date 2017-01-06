@@ -18,7 +18,7 @@
   - [Building a release](git/releasing.md)
   - [Emergency fixes](git/hotfix.md)
   - [Why we use branches](git/why.md)
-  - [Recap](git/recap.md)
+  - [Summary](git/summary.md)
 
 * [Automation](automation/README.md)
   - Continuous integration

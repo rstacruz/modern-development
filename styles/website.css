@@ -294,3 +294,33 @@ nav[role="navigation"] > .summary > .chapter > a {
     display: none !important;
   }
 }
+
+/*
+ * Scrollbars
+ */
+
+.book-summary::-webkit-scrollbar {
+  width: 6px;
+}
+
+.book-summary::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.book-summary::-webkit-scrollbar-thumb {
+  border-radius: 3px;
+  background: rgba(0, 0, 0, 0.1);
+}
+
+/*
+ * Updated sidebar paddings
+ */
+
+.book-summary ul.summary li ul {
+    padding-left: 8px;
+}
+
+.book-summary ul.summary li a,
+.book-summary ul.summary li span {
+  padding: 8px 16px;
+}

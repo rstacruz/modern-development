@@ -1,4 +1,6 @@
-# Recap
+# Summary
+
+The branch-based Git workflow helps your team collaborate seamlessly. By making sure that every change is reviewed, you get a useful trail of changes in the form of pull requests and merge commits.
 
 - Everything you do has to be reviewed by someone else.
 - It should be easy to review other people's work.
