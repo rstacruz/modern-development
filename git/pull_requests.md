@@ -24,7 +24,7 @@ Write a short paragraph summarizing your changes. Include these additional detai
 - Note if there's anything missing.
 - Links to relevant issues (in Trello, Pivotal Tracker, and alike).
 
-Here's an example of a short and sweet pull request:
+Here's an example of a simple pull request:
 
 <figure class='-bordered'>
 <img src='../images/github-pr-example.png' alt='GitHub pull request example screenshot'>
