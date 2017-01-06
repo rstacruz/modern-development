@@ -1,4 +1,4 @@
-# Project lifecycle
+<h1 class='chapter-h1'>Project lifecycle</h1>
 
 > To be written; stay tuned.
 

@@ -1,4 +1,4 @@
-# Team management
+<h1 class='chapter-h1'>Team management</h1>
 
 > To be written; stay tuned.
 

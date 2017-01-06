@@ -1,4 +1,4 @@
-# Git workflow
+<h1 class='chapter-h1'>Git workflow</h1>
 
 For team collaboration to be sustainable, we need to follow a few rules. Our workflow is based on these ideas:
 

@@ -1,3 +1,5 @@
+.bookignore
+.gitignore
 _sketch
 NOTES.md
 yarn.lock

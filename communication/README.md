@@ -1,4 +1,4 @@
-# Team communication
+<h1 class='chapter-h1'>Team communication</h1>
 
 > To be written; stay tuned.
 
