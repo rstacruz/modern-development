@@ -5,7 +5,7 @@ Using a Continuous Integration (CI) service to automate your testing and deploym
 #### Using a CI
 
 - Automate your tests.
-- Automate your deployments.
+- Automate your deployments to production and staging.
 
 #### Writing code
 
@@ -20,5 +20,5 @@ Using a Continuous Integration (CI) service to automate your testing and deploym
 #### Automating deployments
 
 - Automate deployments to happen when certain branches pass tests.
-- Make `develop` automatically deploy into a staging server.
-- Make `production` automatically deploy into production servers.
+- Make `develop` automatically deploy into a staging system.
+- Make `production` automatically deploy into the production system.

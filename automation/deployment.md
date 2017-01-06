@@ -1,4 +1,4 @@
-# Automated deployments
+# Deployment automation
 
 Before you can use a CI for continuous delivery, you'll need to set up a deploy automation tool.
 
