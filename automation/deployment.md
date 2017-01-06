@@ -31,4 +31,4 @@ There are many different tools for this for many different programming languages
 
 It doesn't matter which solution you pick, as long as your project's deployments are easy, automated, and reliable.
 
-> **Next:** Use your CI to [automatically update servers](continuous_delivery.md).
+> **Next:** Use your CI to maintain a [staging system](staging.md).

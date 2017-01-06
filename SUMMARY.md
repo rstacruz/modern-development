@@ -27,7 +27,7 @@
   - [Continuous integration](automation/ci.md)
   - [Automated testing](automation/testing.md)
   - [Deployment automation](automation/deployment.md)
-  - [Continuous delivery](automation/continuous_delivery.md)
+  - [The staging system](automation/staging.md)
   - [Coverage reporting](automation/coverage.md)
   - [Summary](automation/summary.md)
 * Coding practices
