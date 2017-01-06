@@ -3,6 +3,7 @@
  */
 
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300');
+@import url('https://fonts.googleapis.com/css?family=Fira+Mono');
 
 /*
  * Fonts
@@ -65,6 +66,11 @@
   .markdown-section h2 {
     font-size: 1.33em; /* 1.1 ^ 3 */
   }
+}
+
+.markdown-section h4 {
+  font-size: 1em;
+  margin: 1em 0;
 }
 
 /*
@@ -144,6 +150,13 @@ nav[role="navigation"] > .summary > .chapter > a {
   text-align: center;
 }
 
+.markdown-section figcaption {
+  font-size: 0.86em;
+  font-style: italic;
+  color: #666;
+  margin-top: 8px;
+}
+
 .markdown-section figure.-bordered {
   border: solid 2px #eee;
   border-radius: 3px;
@@ -152,10 +165,23 @@ nav[role="navigation"] > .summary > .chapter > a {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
 }
 
+.markdown-section figure.-bordered figcaption {
+  background: #fafafa;
+  margin: 8px -16px -16px -16px;
+  padding: 8px;
+  border-top: solid 1px #eee;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+
 @media (min-width: 481px) {
   .markdown-section figure.-bordered {
     padding: 24px;
     max-width: 80%;
+  }
+
+  .markdown-section figure.-bordered figcaption {
+    margin: 16px -24px -24px -24px;
   }
 }
 
@@ -245,7 +271,7 @@ nav[role="navigation"] > .summary > .chapter > a {
 }
 
 .markdown-section code {
-  font-family: 'fira code', menlo, monospace;
+  font-family: 'fira mono', menlo, monospace;
   letter-spacing: -0.03em;
   margin: 0;
   padding: 0;
@@ -257,4 +283,14 @@ nav[role="navigation"] > .summary > .chapter > a {
 .markdown-section pre code {
   margin: 0;
   font-size: 0.85em;
+}
+
+/*
+ * Navigation - it's distracting :(
+ */
+
+@media (min-width: 481px) {
+  .navigation {
+    display: none !important;
+  }
 }

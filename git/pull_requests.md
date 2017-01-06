@@ -4,30 +4,40 @@ GitHub's Pull Request feature is used to ask your team to merge a branch in. Thi
 
 ## Creating pull requests
 
+Create a pull request from your feature branch (eg, `feature/login`) into the main branch (ie, `develop`). This is usually created before, or just around the time, a feature branch is finished.
+
 <figure>
 <img src='../images/github-pr-compare.png' alt='GitHub PR comparison screenshot'>
 </figure>
 
-Create a pull request from your feature branch (eg, `feature/login`) into the main branch (ie, `develop`). This is usually created before, or just around the time, a feature branch is finished.
+## Writing a pull request
 
-<figure>
-<img src='https://dummyimage.com/600x400/fcfcfc/eeeeee.png'>
+Write a short title for your pull request. A good format to follow is:
+
+```
+<Feature>: <changes>
+```
+
+Write a short paragraph summarizing your changes. Include these additional details as well:
+
+- Screenshots. This helps reviewers understand the context of your changes.
+- Note if there's anything missing.
+- Links to relevant issues (in Trello, Pivotal Tracker, and alike).
+
+Here's an example of a short and sweet pull request:
+
+<figure class='-bordered'>
+<img src='../images/github-pr-example.png' alt='GitHub pull request example screenshot'>
+<figcaption>A pull request example with a screenshot.</figcaption>
 </figure>
 
-Make sure these details are in your request:
-
-- A short description of your changes
-- Screenshots, if possible!
-- Note if there's anything missing
-- Links to relevant issues (in Trello, Pivotal Tracker, and alike)
-
 ## Requesting a review
+
+When a feature branch is finished, tag it as *For review* and request for review. It's then your reviewer's job to understand your changes. This way, knowledge is always shared between at least 2 people; there'll be no part of your project that only one person knows about.
 
 <figure>
 <img src='../images/github-request-review.png' alt='GitHub reviewer UI screenshot'>
 </figure>
-
-When a feature branch is finished, tag it as *For review* and request for review. It's then your reviewer's job to understand your changes. This way, knowledge is always shared between at least 2 people; there'll be no part of your project that only one person knows about.
 
 <details>
 <summary>See also...</summary>

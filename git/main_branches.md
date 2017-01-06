@@ -26,7 +26,7 @@ The `master` is maintained to be in a *production-ready* state. While the `devel
 <img src='../images/develop-timeline-master.svg'>
 </figure>
 
-At the end of a [sprint](#), the `develop` branch will be merged into `master`. This effectively promotes the current development version into a production version. From then, automated deployments will take care of deploying it to production. This means whatever's live on production at any moment is always what's the latest on `master`.
+At the end of a sprint, the `develop` branch will be merged into `master`. This effectively promotes the current development version into a production version. From then, automated deployments will take care of deploying it to production. This means whatever's live on production at any moment is always what's the latest on `master`.
 
 <details>
 <summary>See also...</summary>
