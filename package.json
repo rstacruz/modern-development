@@ -9,9 +9,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "gitbook serve",
-    "build": "run-s build:*",
+    "build": "run-s build:* postbuild",
     "build:html": "gitbook build",
     "build:pdf": "gitbook pdf",
+    "postbuild": "cp book.pdf _book",
     "wordcount": "git ls-files '*.md' | xargs cat | wc -w",
     "deploy": "git-update-ghpages rstacruz/modern-development _book"
   },
