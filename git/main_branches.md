@@ -32,7 +32,7 @@ At the end of a [sprint](#), the `develop` branch will be merged into `master`. 
 <summary>See also...</summary>
 
 <ul>
-<li><a href=''>Chapter: Automation</a> describes how you can synchronize your staging servers with the develop branch.</li>
+<li><a href='../automation/README.md'>§ Automation</a> describes how you can synchronize your staging servers with the develop branch.</li>
 </ul>
 </details>
 

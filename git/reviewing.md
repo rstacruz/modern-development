@@ -17,11 +17,10 @@ Anyone on the team can review anyone else's code. Senior members typically do mo
 
 The only person who can't review the code is the original author.
 
-As a pull request reviewer, you will be partly responsible for the pull request's code.
 
 ## Understanding the pull request
 
-A review will be partly responsible for the code's presence in the project. Should anyone have concerns about it in the future, it's going to be the author and the reviewer who should be able to answer these concerns.
+As a pull request reviewer, you will be partly responsible for the pull request's code. If anyone has concerns about it in the future, it's going to be the author and the reviewer who should be able to answer these concerns.
 
 A reviewer should also test the pull request, if possible.
 
