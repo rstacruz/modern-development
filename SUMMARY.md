@@ -5,7 +5,6 @@
 ---
 
 * [Introduction](intro/README.md)
-
 * [Basic ideas](basics/README.md)
   - What you'll learn
   - [Agile development](basics/agile.md)
@@ -24,15 +23,13 @@
   - [Emergency fixes](git/hotfix.md)
   - [Why we use branches](git/why.md)
   - [Summary](git/summary.md)
-
 * [Automation](automation/README.md)
   - [Continuous integration](automation/ci.md)
   - [Automated testing](automation/testing.md)
-  - Coverage reporting
   - [Deployment automation](automation/deployment.md)
-  - Continuous delivery
+  - [Continuous delivery](automation/continuous_delivery.md)
+  - [Coverage reporting](automation/coverage.md)
   - [Summary](automation/summary.md)
-
 * Coding practices
   - Test-driven development
   - Linting
@@ -47,14 +44,11 @@
   - Sprint rhythm
   - Versioning
   - Release notes
-
 * [Communication](communication/README.md)
   - Communicating effectively
   - Sprint kickoffs
   - Sprint retrospectives
-
 * [Team management](teams/README.md)
-
 * Miscellaneous
   - Documentation
   - Onboarding

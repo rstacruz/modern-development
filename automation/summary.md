@@ -12,6 +12,11 @@ Using a Continuous Integration (CI) service to automate your testing and deploym
 - Every pull request needs tests.
 - Tests need to pass before they're merged.
 
+#### Automating tests
+
+- Let your CI run tests for every pull request.
+- Don't merge pull requests that don't pass CI tests.
+
 #### Automating deployments
 
 - Automate deployments to happen when certain branches pass tests.
