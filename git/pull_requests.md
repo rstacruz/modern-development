@@ -11,7 +11,7 @@ GitHub's Pull Request feature is used to ask your team to merge a branch in. Thi
 Create a pull request from your feature branch (eg, `feature/login`) into the main branch (ie, `develop`). This is usually created before, or just around the time, a feature branch is finished.
 
 <figure>
-<img src='https://dummyimage.com/600x400/fafafa/eeeeee.png'>
+<img src='https://dummyimage.com/600x400/fcfcfc/eeeeee.png'>
 </figure>
 
 Make sure these details are in your request:
@@ -24,13 +24,13 @@ Make sure these details are in your request:
 ## Requesting a review
 
 <figure>
-<img src='https://help.github.com/assets/images/help/pull_requests/choose-pull-request-reviewer.png' alt='GitHub reviewer UI screenshot'>
+<img src='../images/github-request-review.png' alt='GitHub reviewer UI screenshot'>
 </figure>
 
 When a feature branch is finished, tag it as *For review* and request for review. It's then your reviewer's job to understand your changes. This way, knowledge is always shared between at least 2 people; there'll be no part of your project that only one person knows about.
 
 <details>
-<summary><em>See also...</em></summary>
+<summary>See also...</summary>
 
 <ul>
 <li><a href='https://help.github.com/articles/about-pull-requests/'>About pull requests</a></li>

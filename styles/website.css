@@ -140,8 +140,22 @@ nav[role="navigation"] > .summary > .chapter > a {
  */
 
 .markdown-section figure {
-  margin: 3em auto;
+  margin: 2em auto;
   text-align: center;
+}
+
+.markdown-section figure.-bordered {
+  border: solid 2px #eee;
+  border-radius: 3px;
+  margin: 2em auto !important;
+  padding: 16px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+@media (min-width: 481px) {
+  .markdown-section figure.-bordered {
+    max-width: 80%;
+  }
 }
 
 /*
@@ -159,6 +173,7 @@ nav[role="navigation"] > .summary > .chapter > a {
 .markdown-section summary {
   margin-bottom: 0.8em;
   cursor: pointer;
+  color: #999;
 }
 
 .markdown-section summary:hover,
@@ -231,4 +246,14 @@ nav[role="navigation"] > .summary > .chapter > a {
 .markdown-section code {
   font-family: 'fira code', menlo, monospace;
   letter-spacing: -0.03em;
+  margin: 0;
+  padding: 0;
+  background: transparent;
+  margin: 0 -0.3em;
+  font-size: 0.9em;
+}
+
+.markdown-section pre code {
+  margin: 0;
+  font-size: 0.85em;
 }

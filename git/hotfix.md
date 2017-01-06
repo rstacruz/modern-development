@@ -43,7 +43,7 @@ There may be cases when fixes are time-sensitive and colleagues aren't available
 - Inform your teammates afterwards so they can still review your changes.
 
 <details>
-<summary><em>See also...</em></summary>
+<summary>See also...</summary>
 
 <ul>
 <li><a href='https://en.wikipedia.org/wiki/Backporting'>Backporting</a> (wikipedia.org)
