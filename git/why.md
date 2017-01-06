@@ -43,4 +43,4 @@ It becomes harder to review changes when they're not contiguous or grouped in an
 
 The Git workflow described in this chapter is a logical evolution brought about by the problems above. By compartmentalizing each piece of work into branches, we make it easier to manage large amounts of work over long periods of time.
 
-> **Next:** Let's [recap what we've learned](recap.md).
+> **Next:** Let's [recap what we've learned](summary.md).
