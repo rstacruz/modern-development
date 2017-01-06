@@ -154,6 +154,7 @@ nav[role="navigation"] > .summary > .chapter > a {
 
 @media (min-width: 481px) {
   .markdown-section figure.-bordered {
+    padding: 24px;
     max-width: 80%;
   }
 }
