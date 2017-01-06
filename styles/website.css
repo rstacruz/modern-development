@@ -272,6 +272,7 @@ nav[role="navigation"] > .summary > .chapter > a {
 
 .markdown-section code {
   font-family: 'fira mono', menlo, monospace;
+  font-feature-settings: "liga" 0;
   letter-spacing: -0.03em;
   margin: 0;
   padding: 0;
