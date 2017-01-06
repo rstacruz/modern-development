@@ -11,7 +11,7 @@ GitHub's Pull Request feature is used to ask your team to merge a branch in. Thi
 Create a pull request from your feature branch (eg, `feature/login`) into the main branch (ie, `develop`). This is usually created before, or just around the time, a feature branch is finished.
 
 <figure>
-<img src='https://dummyimage.com/600x400/eeeeee/aaaaaa.png&text=Screenshot'>
+<img src='https://dummyimage.com/600x400/fafafa/eeeeee.png'>
 </figure>
 
 Make sure these details are in your request:
