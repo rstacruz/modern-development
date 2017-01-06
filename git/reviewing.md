@@ -16,10 +16,24 @@ As a pull request reviewer, you will be partly responsible for the pull request'
 
 ## Understanding the pull request
 
-A reviewer should be awesome
+A review will be party responsible for the code's presence in the project. Should anyone have concerns about it in the future, it's going to be the author and the reviewer who should be able to answer these concerns.
+
+A reviewer should also test the pull request, if possible.
 
 ## Requesting changes
 
-Lorem ipsum dolor sit amet.
+- Use GitHub's "request changes" facility to request for changes.
+- Remove the `For review` tag in the pull request.
+
+When the author's done the changes, it should be tagged back as `For review`.
+
+<details>
+<summary><em>See also...</em></summary>
+
+<ul>
+<li><a href='https://help.github.com/articles/reviewing-proposed-changes-in-a-pull-request/'>Reviewing proposed changes in a pull request</a> (github.com)</li>
+<li><a href='https://help.github.com/articles/about-pull-request-reviews/'>About pull request reviews</a> (github.com)</li>
+</ul>
+</details>
 
 > **Next**: [Building a release](releasing.md)

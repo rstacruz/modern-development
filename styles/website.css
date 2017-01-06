@@ -147,3 +147,22 @@ nav[role="navigation"] > .summary > .chapter > a {
 .book-summary ul.summary li span {
   opacity: 0.4;
 }
+
+/*
+ * Details-summary
+ */
+
+.markdown-section summary {
+  margin-bottom: 0.8em;
+  cursor: pointer;
+}
+
+.markdown-section summary:hover,
+.markdown-section summary:active {
+  color: #25a;
+}
+
+.markdown-section summary,
+.markdown-section summary:focus {
+  outline: 0;
+}
