@@ -21,6 +21,6 @@ There are many CI services available today. Most of them offer free plans for op
 - [Semaphore](http://semaphoreci.com/)
 - [Circle](http://circleci.com/)
 
-It doesn't really matter which CI solution you use. What matters is that you use a CI to automate your testing and deployments. What you choose typically depends on the features you need and your budget.
+It doesn't really matter which CI solution you pick. What's important is that you use a CI to automate your testing and deployments. What you choose typically depends on the features you need and your budget.
 
-> **Next:** Let's [automate our tests](testing.md).
+> **Next:** Let's use a CI to [automate our tests](testing.md).

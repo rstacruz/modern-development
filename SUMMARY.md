@@ -7,8 +7,13 @@
 * [Introduction](intro/README.md)
 
 * [Basic ideas](basics/README.md)
+  - What you'll learn
   - [Agile development](basics/agile.md)
   - [About this book](basics/about_this.md)
+
+---
+
+### Part I: Technical
 
 * [Git workflow](git/README.md)
   - [Main branches](git/main_branches.md)
@@ -23,7 +28,19 @@
 * [Automation](automation/README.md)
   - [Continuous integration](automation/ci.md)
   - [Automated testing](automation/testing.md)
-  - [Automated deployments](automation/deployment.md)
+  - Coverage reporting
+  - [Deployment automation](automation/deployment.md)
+  - Continuous delivery
+  - [Summary](automation/summary.md)
+
+* Coding practices
+  - Test-driven development
+  - Linting
+  - Documentation
+
+---
+
+### Part II: Management
 
 * [Project lifecycle](lifecycle/README.md)
   - Phases of a project
