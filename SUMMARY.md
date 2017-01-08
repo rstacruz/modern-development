@@ -4,10 +4,10 @@
 
 ---
 
-* [Table of contents](intro/README.md)
-* [Basic ideas](basics/README.md)
-  - [About this book](basics/about_this.md)
-  - [Agile development](basics/agile.md)
+* [Table of contents](toc/README.md)
+* [Introduction](intro/README.md)
+  - [About this book](intro/about_this.md)
+  - [Agile development](intro/agile.md)
 
 ---
 

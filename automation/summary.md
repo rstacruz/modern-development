@@ -23,4 +23,4 @@ Using a Continuous Integration (CI) service to automate your testing and deploym
 - Make `develop` automatically deploy into a staging system.
 - Make `production` automatically deploy into the production system.
 
-> **Done!** Go back to the [table of contents](../intro/README.md).
+> **Done!** Go back to the [table of contents](../toc/README.md).

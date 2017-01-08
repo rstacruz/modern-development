@@ -19,7 +19,10 @@
   "author": "Rico Sta. Cruz <rico@ricostacruz.com> (http://ricostacruz.com)",
   "license": "CC-BY-NC-SA-4.0",
   "dependencies": {
+    "collapsible-menu": "1.0.10",
     "gitbook-cli": "^2.3.0",
+    "gitbook-plugin-collapsible-menu": "1.0.2",
+    "gitbook-plugin-toggle-chapters": "0.0.3",
     "svgexport": "0.3.2"
   },
   "devDependencies": {

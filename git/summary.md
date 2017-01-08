@@ -46,4 +46,4 @@ This git workflow is based on [git-flow].
 [git-flow]: http://nvie.com/posts/a-successful-git-branching-model/
 [Git manual]: https://git-scm.com/documentation
 
-> **Done!** Go back to the [table of contents](../intro/README.md).
+> **Done!** Go back to the [table of contents](../toc/README.md).
