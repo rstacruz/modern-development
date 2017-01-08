@@ -6,7 +6,7 @@
 @import url('https://fonts.googleapis.com/css?family=Fira+Mono');
 
 /*
- * Fonts
+ * Base
  */
 
 * {
@@ -15,8 +15,29 @@
 }
 
 .book-summary,
-.book.font-family-1 {
+.book.book {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+}
+
+/*
+ * Dynamic font sizes
+ * (use plugins: ['-fontsettings'])
+ */
+
+.book-body .page-inner section {
+    font-size: 1.6rem;
+}
+
+@media (max-width: 768px) {
+  .book-body .page-inner section {
+      font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 468px) {
+  .book-body .page-inner section {
+      font-size: 1.4rem;
+  }
 }
 
 /*

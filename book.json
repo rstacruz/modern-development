@@ -2,7 +2,8 @@
   "title": "Modern Development Handbook",
   "plugins": [
     "prism",
-    "-highlight"
+    "-highlight",
+    "-fontsettings"
   ],
   "pdf": {
     "fontSize": 10,
@@ -12,6 +13,20 @@
       "bottom": 64,
       "left": 40,
       "right": 40
+    }
+  },
+  "pluginsConfig": {
+    "sharing": {
+      "facebook": false,
+      "twitter": false,
+      "google": false,
+      "weibo": false,
+      "instapaper": false,
+      "vk": false,
+      "all": [
+        "facebook", "google", "twitter",
+        "weibo", "instapaper"
+      ]
     }
   }
 }
