@@ -6,8 +6,9 @@
 
 Test-driven development, or TDD, means writing tests along with your code. It's not about writing tests after you're done, but making testing a habit as part of your development process.
 
-- Tests should be written alongside your implementation.
-- New features need to have new tests for it.
+  - Tests should be written alongside your implementation.
+  - New features need to have new tests for it.
+  - Features can't be merged unless tests pass.
 
 ## What to test
 
