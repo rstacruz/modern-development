@@ -56,17 +56,14 @@ test('OrderCalculator calculating charges', t => {
     type: 'pickup', // or 'deliver'
     items: [
       { product: 'Glazed donut', price: 2.99, qty: 2 },
-      { product: 'Coffee', price: 3.99, qty: 1 }
-    ]
-  }
+      { product: 'Coffee', price: 3.99, qty: 1 } ] }
 
   let charges = OrderCalculator.getCharges(order)
   t.deepEqual(changes, {
     subtotal: 9.97,
     tax: 1.19,
     delivery: 0,
-    total: 11.16
-  })
+    total: 11.16 })
 
   t.end()
 })
