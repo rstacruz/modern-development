@@ -1,3 +1,10 @@
+<div class='_hide'>
+<br>
+<center><strong><a href='http://ricostacruz.com/modern-development/'>Read this book online →</a></strong></center>
+<br>
+<hr>
+</div>
+
 <p align='center'>
 <a href='toc/README.md'><img src='images/cover-shadow.png' style='max-height: 90vh'></a>
 </p>

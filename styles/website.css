@@ -20,6 +20,14 @@
 }
 
 /*
+ * Hide (only show things on GitHub)
+ */
+
+._hide {
+  display: none;
+}
+
+/*
  * Dynamic font sizes
  * (use plugins: ['-fontsettings'])
  */

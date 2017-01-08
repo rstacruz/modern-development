@@ -68,3 +68,12 @@
   background: transparent !important;
   padding: 0;
 }
+
+/*
+ * Hide (only show things on GitHub)
+ */
+
+._hide {
+  display: none;
+}
+
