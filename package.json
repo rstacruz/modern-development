@@ -13,7 +13,7 @@
     "build:html": "gitbook build",
     "build:pdf": "gitbook pdf ./ _book/modern-development.pdf",
     "wordcount": "git ls-files '*.md' | xargs cat | wc -w",
-    "deploy": "git-update-ghpages rstacruz/modern-development _book"
+    "deploy": "git-update-ghpages --force rstacruz/modern-development _book"
   },
   "keywords": [],
   "author": "Rico Sta. Cruz <rico@ricostacruz.com> (http://ricostacruz.com)",
