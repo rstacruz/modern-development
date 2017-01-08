@@ -178,13 +178,14 @@ nav[role="navigation"] > .summary > .chapter > a {
 
 .markdown-section figure img {
   display: block;
+  margin: 0 auto;
 }
 
 .markdown-section figcaption {
   font-size: 0.86em;
   font-style: italic;
   color: #666;
-  margin-top: 8px;
+  margin-top: 16px;
 }
 
 .markdown-section figure.-bordered {
@@ -197,7 +198,7 @@ nav[role="navigation"] > .summary > .chapter > a {
 
 .markdown-section figure.-bordered figcaption {
   background: #fafafa;
-  margin: 8px -16px -16px -16px;
+  margin: 16px -16px -16px -16px;
   padding: 8px;
   border-top: solid 1px #eee;
   border-bottom-left-radius: 4px;
