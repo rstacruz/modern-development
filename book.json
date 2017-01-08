@@ -1,6 +1,7 @@
 {
   "title": "Modern Development Handbook",
   "plugins": [
+    "ga",
     "prism",
     "-highlight",
     "-fontsettings"
@@ -16,6 +17,9 @@
     }
   },
   "pluginsConfig": {
+    "ga": {
+      "token": "UA-20473929-1"
+    },
     "sharing": {
       "facebook": false,
       "twitter": false,
@@ -24,8 +28,11 @@
       "instapaper": false,
       "vk": false,
       "all": [
-        "facebook", "google", "twitter",
-        "weibo", "instapaper"
+        "facebook",
+        "google",
+        "twitter",
+        "weibo",
+        "instapaper"
       ]
     }
   }

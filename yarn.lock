@@ -642,6 +642,10 @@ gitbook-cli@^2.3.0:
     tmp "0.0.28"
     user-home "2.0.0"
 
+gitbook-plugin-ga@1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/gitbook-plugin-ga/-/gitbook-plugin-ga-1.0.1.tgz#c85d7b8c01640c4bb3dc3b231ab9fe74aa6e521b"
+
 gitbook-plugin-prism@2.0.1:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/gitbook-plugin-prism/-/gitbook-plugin-prism-2.0.1.tgz#cfe54b6ac1b31dbb7e019672fa6a2f01c6db32b3"
