@@ -50,6 +50,8 @@
   - Summary
 * Collaboration tools
   - Project management tools
+  - Writing stories
+  - [Submitting bug reports](collaboration/bug_reports.md)
 * [Communication](communication/README.md)
   - Communicating effectively
   - [Using Slack](communication/using_slack.md)

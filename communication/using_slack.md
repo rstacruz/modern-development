@@ -31,7 +31,7 @@ Have a channel where only developers are present, without any stakeholders. This
 > *Marketer:* We need a new landing page<br>
 > *Fred:* We're on it. What do you need?
 
-Create new channels for discussion threads, and archive them when you're done. We usually name these with an underscore, such as `#_feature`. This lets certain discussions happen separately from everyday banter, keeping its logs clean. It also prevents overwhelming people by leaving out those who may not be involved.
+Create new channels for discussion threads, and archive them when you're done. We usually name these with an underscore, such as `#_feature`. This lets certain discussions happen separately from everyday banter, keeping logs clean. It also prevents overwhelming people by leaving out those who may not be involved.
 
 ## Project tracker channel
 
@@ -48,4 +48,5 @@ Also consider adding notifications for other services. This largely depends on t
 
 - `#analytics` for website analytics (eg, Google Analytics)
 - `#support` for customer support tickets (eg, Intercom)
+- `#code` for GitHub activity
 - `#ding` for sales notifications
