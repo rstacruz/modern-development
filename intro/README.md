@@ -1,28 +1,26 @@
-<h1 class='chapter-h1'>Table of contents</h1>
+<h1 class='chapter-h1'>Introduction</h1>
 
-- **[Basic ideas](../basics/README.md)**<br>
-  What is "Agile" software development, and how it can help you build software in a sustainable, frictionless, and quality-driven way.
+This book is about processes and workflows in building web and mobile applications. You'll learn about:
 
-## Part I: Technical
+- Setting up a team-oriented web development workflow using Git, CI, and others
+- Managing a project timeline using milestones and sprints
+- How to manage a team of developers
 
-- **[Git workflow](../git/README.md)**<br>
-  How to use Git to your advantage with branch-driven development.
+What's not in this book:
 
-- **[Automation](../automation/README.md)**<br>
-  Using Continuous Integration tools to automate your testing and deployments.
+- Technical details of how to use Git or how to code JavaScript
 
-- **[Coding practices](../coding/README.md)**<br>
-  How to code without losing your soul.
+## Playbook
 
-## Part II: Management
+This handbook is a culmination of lessons we've learned in working as a team in building modern web applications. It documents our practices in [Proudcloud] and [Mashupgarage], web development consultancy companies that I'm involved with.
+Our practices evolved organically from the [Agile software development] ideas we're rooted in.
 
-- **[Project lifecycle](../lifecycle/README.md)**<br>
-  Be wise and be smart.
+## Standard practices
 
-- **[Communication](../communication/README.md)**<br>
-  Collaborate with your team and stakeholders effectively.
+There are no new ideas on this book. Many the points described here are standard practices in teams across the world. All this book does is compile these practices into one book.
 
-- **[Team management](../teams/README.md)**<br>
-  How to manage your team.
+[Proudcloud]: http://www.proudcloud.net/
+[Mashupgarage]: http://www.mashupgarage.com/
+[Agile software development]: https://en.wikipedia.org/wiki/Agile_software_development
 
-> **Next:** What should we look for in [building software](../basics/README.md)?
+> **Next:** What's [the ideal process](ideal_process.md)?

@@ -6,7 +6,7 @@
 
 * [Table of contents](toc/README.md)
 * [Introduction](intro/README.md)
-  - [About this book](intro/about_this.md)
+  - [An ideal process](intro/ideal_process.md)
   - [Agile development](intro/agile.md)
 
 ---
@@ -33,7 +33,9 @@
   - [Test-driven development](coding/tests.md)
   - [Why we test](coding/why_test.md)
   - Linting
-  - Documentation
+  - Readme files
+  - Inline documentation
+  - Summary
 
 ---
 
@@ -41,14 +43,24 @@
 
 * [Project lifecycle](lifecycle/README.md)
   - [Phases of a project](lifecycle/phases.md)
-  - Sprint rhythm
+  - [The "launch" myth](lifecycle/launch_myth.md)
+  - Sprints and milestones
   - Versioning
   - Release notes
+  - Summary
+* Collaboration tools
+  - Project management tools
+  - Communication tools
 * [Communication](communication/README.md)
   - Communicating effectively
   - Sprint kickoffs
   - Sprint retrospectives
+  - Summary
 * [Team management](teams/README.md)
+  - Team composition
+  - Subteams
+  - The scrum-master
+  - Summary
 * Miscellaneous
   - Documentation
   - Onboarding
