@@ -1,6 +1,6 @@
 # Phases of a project
 
-> This article is a stub. You can help by expanding it. <!-- TODO -->
+<blockquote class='stub-quote'>This article is a stub. You can help by expanding it. <!-- TODO --></blockquote>
 
 There are two phases to a project:
 

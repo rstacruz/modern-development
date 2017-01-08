@@ -498,7 +498,11 @@ nav[role="navigation"] > .summary > .chapter > a {
   margin-top: 0;
 }
 
-.book .markdown-section h1 + blockquote {
+/*
+ * This article is a stub
+ */
+
+.book .markdown-section .stub-quote {
   background: transparent;
   width: 100%;
   border: 0;
@@ -514,9 +518,10 @@ nav[role="navigation"] > .summary > .chapter > a {
  * Examples
  */
 
-blockquote .bad-example,
-blockquote .good-example {
+.markdown-section .bad-example,
+.markdown-section .good-example {
   color: rgba(0, 0, 0, 0.3);
   font-size: 0.86em;
   margin-left: 0.1em;
+  font-style: normal;
 }
