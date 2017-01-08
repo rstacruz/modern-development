@@ -13,7 +13,7 @@ For websites hosted on [Heroku](https://www.heroku.com/), their platform already
 git push heroku master
 ```
 
-In other cases, you'd have to use other tools to take care of this for you. For Ruby projects, [Capistrano](http://capistranorb.com/) is a popular utility exactly for this purpose. A typical Ruby/Capistrano project would be deployed like so:
+In other cases, you'd have to use other tools. For Ruby projects, [Capistrano](http://capistranorb.com/) is a popular choice. A typical Ruby/Capistrano project would be deployed like so:
 
 ```sh
 # Deploy your app using Capistrano

@@ -4,11 +4,11 @@
 <img src='../images/travis-ci-example.png' alt='Travis CI screenshot'>
 </figure>
 
-A modern development pipeline will need a continuous integration (CI) service. A CI service lets you run tasks whenever your project gets updated. These are usually used to automatically run tests in your project. CI services are often used to automate:
+A modern development pipeline will need a continuous integration (CI) service. A CI service lets you run tasks whenever your project gets updated. These are usually used to automatically run tests in your project. CI services are used to automate:
 
-- Unit and integration testing
-- Deployments
-- Builds (eg, mobile and desktop apps)
+- Running unit and integration tests
+- Deploying to websites
+- Generating builds (eg, mobile and desktop apps)
 
 ## Popular CI services
 
