@@ -31,6 +31,7 @@
   - [Summary](automation/summary.md)
 * [Coding practices](coding/README.md)
   - [Test-driven development](coding/tests.md)
+  - [Types of tests](coding/test_types.md)
   - [Why we test](coding/why_test.md)
   - [Linting](coding/linting.md)
   - Readme files
