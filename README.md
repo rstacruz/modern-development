@@ -1,7 +1,5 @@
 <div class='_hide'>
-<br>
-<center><strong><a href='http://ricostacruz.com/modern-development/'>Read this book online →</a></strong></center>
-<br>
+<h3 align='center'><a href='http://ricostacruz.com/modern-development/'>Read this book online →</a><br><br></h3>
 <hr>
 </div>
 
