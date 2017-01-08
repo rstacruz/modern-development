@@ -1,8 +1,5 @@
 {
   "title": "Modern Development Handbook",
-  "plugins": [
-    "collapsible-menu"
-  ],
   "pdf": {
     "fontSize": 10,
     "paperSize": "a5",

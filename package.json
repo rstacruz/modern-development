@@ -21,8 +21,6 @@
   "dependencies": {
     "collapsible-menu": "1.0.10",
     "gitbook-cli": "^2.3.0",
-    "gitbook-plugin-collapsible-menu": "1.0.2",
-    "gitbook-plugin-toggle-chapters": "0.0.3",
     "svgexport": "0.3.2"
   },
   "devDependencies": {
