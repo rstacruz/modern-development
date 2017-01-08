@@ -125,18 +125,18 @@ nav[role="navigation"] > .summary > .chapter > a {
  */
 
 .markdown-section > blockquote:last-child {
-  margin: 0;
+  margin: 4em 0 0 0 !important;
   padding: 0;
   border: 0;
   box-shadow: none;
   background: transparent;
   border-top: solid 1px #f0f0f0;
-  margin-top: 4em;
   padding-top: 16px;
   position: relative;
   color: #333;
   width: 100%;
   max-width: 100%;
+  min-height: 3em;
 }
 
 .markdown-section > blockquote:last-child > p > strong:first-child {
@@ -146,6 +146,7 @@ nav[role="navigation"] > .summary > .chapter > a {
 @media (max-width: 480px) {
   .markdown-section > blockquote:last-child {
     margin-top: 1.5em;
+    min-height: 0;
   }
 }
 

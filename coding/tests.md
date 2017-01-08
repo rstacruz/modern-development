@@ -28,8 +28,7 @@ In our Git workflow that relies on branching and merging, automated tests are pa
 Tests will commonly be either a *unit test* that tests one thing, or an *integration test* that tests many things. Here's the same behavior tested in two different ways:
 
 ```rb
-# Unit test example:
-# Tests the model
+# Unit test example: tests the model
 test 'Article publishing' do
   article.publish!
   expect(article.published_at).to eq Time.now
@@ -37,8 +36,8 @@ end
 ```
 
 ```rb
-# Integration test example:
-# Tests your router, controller, and model all at once
+# Integration test example: tests your router,
+# controller, view, and model all at once
 test 'Article publishing' do
   post '/articles/my-draft-article/publish'
   expect(article.published_at).to eq Time.now
