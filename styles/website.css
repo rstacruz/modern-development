@@ -127,6 +127,8 @@ nav[role="navigation"] > .summary > .chapter > a {
   padding-top: 16px;
   position: relative;
   color: #333;
+  width: 100%;
+  max-width: 100%;
 }
 
 .markdown-section > blockquote:last-child > p > strong:first-child {
