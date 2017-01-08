@@ -53,6 +53,6 @@ This example also includes steps, actual result, and expected result details. Wh
 > Expected: The email will be sent.<br>
 > Actual: A JavaScript error appears when "send" is clicked.
 
-_
+<br>
 
 > **Next:** [...](../toc/README.md)
