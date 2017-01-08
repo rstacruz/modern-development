@@ -1,5 +1,5 @@
 <p align='center'>
-<a href='toc/README.md'><img src='images/cover-shadow.png' style='height: 90vh'></a>
+<a href='toc/README.md'><img src='images/cover-shadow.png' style='max-height: 90vh'></a>
 </p>
 
 <br>
