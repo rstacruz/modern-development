@@ -10,13 +10,13 @@ The `develop` branch is what we consider the main branch. Feature branches merge
 <img src='../images/develop-timeline.png' alt='Develop branch illustration'>
 </figure>
 
-Nobody should push commits directly into this branch. Instead, work starts by creating feature branches from `develop`. They'll be merged back in when finished. In practice, the `develop` branch often only has merge commits from feature branches.
+Nobody should push commits directly into this branch. Instead, work starts by creating feature branches from `develop`. They'll be merged back in when finished. In practice, the `develop` branch only has merge commits from feature branches.
 
 <figure class='-bordered'>
 <img src='../images/merge-commits.svg' alt='Merge commits illustration'>
 </figure>
 
-The `develop` branch is always in a "ready to test" state. All automated tests should always be passing in this branch. A staging server is often available with the latest `develop` version ready to test (see [automated deployments](automated_deployments.md)).
+The `develop` branch is always in a "ready to test" state. All automated tests should always be passing in this branch. You should also set up a staging server to sync with the latest `develop` version for testing (see [automated deployments](automated_deployments.md)).
 
 ## The master branch
 

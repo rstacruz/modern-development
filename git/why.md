@@ -37,6 +37,10 @@ git revert 75a6c2a0 -m 1
 
 ## Problem: reviewing is difficult
 
+<figure class='-bordered'>
+<img src='../images/commit-reviewing.png' alt='Commit reviewing message screenshot'>
+</figure>
+
 It becomes harder to review changes when they're not contiguous or grouped in any way. By grouping them together, you can create a GitHub pull request where your peers can browse through your changes easily.
 
 ## The solution

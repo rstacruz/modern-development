@@ -9,4 +9,4 @@ The processes you'll learn in this book are all made to achieve a common goal. T
 
 These ideas are not new or unique to our team. In fact, there are established principles that share these goals. One of such is [Agile development](agile.md), which everything in this book is rooted on.
 
-> **Next:** What is [Agile development](agile.md)?
+> **Next:** [About this book](about_this.md)

@@ -6,9 +6,8 @@
 
 * [Table of contents](intro/README.md)
 * [Basic ideas](basics/README.md)
-  - [What you'll learn](basics/what_youll_learn.md)
-  - [Agile development](basics/agile.md)
   - [About this book](basics/about_this.md)
+  - [Agile development](basics/agile.md)
 
 ---
 
