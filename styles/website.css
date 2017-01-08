@@ -176,6 +176,10 @@ nav[role="navigation"] > .summary > .chapter > a {
   text-align: center;
 }
 
+.markdown-section figure img {
+  display: block;
+}
+
 .markdown-section figcaption {
   font-size: 0.86em;
   font-style: italic;
