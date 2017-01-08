@@ -185,6 +185,25 @@ nav[role="navigation"] > .summary > .chapter > a {
   }
 }
 
+.markdown-section figure.-w40 {
+  max-width: 60%;
+}
+
+@media (min-width: 481px) {
+  .markdown-section figure.-w60 {
+    max-width: 60%;
+  }
+
+  .markdown-section figure.-w40 {
+    max-width: 40%;
+  }
+}
+
+.markdown-section figure.-s60 {
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
 .markdown-section figure.-s80 {
   padding-left: 10%;
   padding-right: 10%;
