@@ -4,14 +4,21 @@
 
 There are two phases to a project:
 
-- **Planning** - Research and planning
-- **Iteration** - Where the actual work happens
+  - **Planning** - Research and planning
+  - **Iteration** - Where the actual work happens
 
 ## Planning
 
 This is where you do your research and design
 
-- Market research
-- Product design
-- Visual design (UI/UX)
-- Planning the next 2-4 sprints
+  - Market research
+  - Product design
+  - Visual design (UI/UX)
+  - Planning the next 2-4 sprints
+
+## Iteration
+
+  - Plan
+  - Build
+  - Test
+  - Release

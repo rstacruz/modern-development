@@ -1,8 +1,8 @@
 <h1 class='chapter-h1'>Introduction</h1>
 
-This book is about processes and workflows in building web and mobile applications. You'll learn about:
+This book is about processes and workflows in building web and mobile applications. You'll learn:
 
-- Setting up a team-oriented web development workflow using Git, CI, and others
+- Setting up a team-oriented web development workflow using Git, CI, and other tools
 - Managing a project timeline using milestones and sprints
 - How to manage a team of developers
 

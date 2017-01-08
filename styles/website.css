@@ -185,7 +185,7 @@ nav[role="navigation"] > .summary > .chapter > a {
 
 .markdown-section figure.-bordered {
   border: solid 2px #eee;
-  border-radius: 3px;
+  border-radius: 2px;
   margin: 2em auto !important;
   padding: 16px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
@@ -212,19 +212,32 @@ nav[role="navigation"] > .summary > .chapter > a {
 }
 
 .markdown-section figure.-w40 {
+  max-width: 40%;
+}
+
+.markdown-section figure.-w60 {
   max-width: 60%;
 }
 
-@media (min-width: 481px) {
-  .markdown-section figure.-w60 {
+.markdown-section figure.-w80 {
+  max-width: 80%;
+}
+
+@media (max-width: 480px) {
+  .markdown-section figure.-w40 {
     max-width: 60%;
   }
 
-  .markdown-section figure.-w40 {
-    max-width: 40%;
+  .markdown-section figure.-w60 {
+    max-width: 80%;
+  }
+
+  .markdown-section figure.-w80 {
+    max-width: 100%;
   }
 }
 
+/* Don't use */
 .markdown-section figure.-s60 {
   padding-left: 20%;
   padding-right: 20%;

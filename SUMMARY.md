@@ -32,7 +32,7 @@
 * [Coding practices](coding/README.md)
   - [Test-driven development](coding/tests.md)
   - [Why we test](coding/why_test.md)
-  - Linting
+  - [Linting](coding/linting.md)
   - Readme files
   - Inline documentation
   - Summary

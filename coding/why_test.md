@@ -42,9 +42,7 @@ By writing tests, you'll be alerted of breakages when updating your project's de
 
 ## Refactoring mercilessly
 
-Tests aren't only for upgrading 3rd-party dependencies. Even updating one part in your project can result in breaking another part.
-
-A good refactoring process starts with writing tests. When changing code, it helps to know what it can break.
+Tests aren't only for upgrading 3rd-party dependencies. Even updating one part in your project can result in breaking another part. A good refactoring process starts with writing tests. When changing code, it helps to know what it can break.
 
 ## Tests as documentation
 
