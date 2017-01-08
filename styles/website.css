@@ -121,10 +121,12 @@ nav[role="navigation"] > .summary > .chapter > a {
   padding: 0;
   border: 0;
   box-shadow: none;
+  background: transparent;
   border-top: solid 1px #f0f0f0;
   margin-top: 4em;
   padding-top: 16px;
   position: relative;
+  color: #333;
 }
 
 .markdown-section > blockquote:last-child > p > strong:first-child {
@@ -318,9 +320,9 @@ nav[role="navigation"] > .summary > .chapter > a {
  * Pre
  */
 
-.markdown-section pre {
+.markdown-section pre,
+.markdown-section blockquote {
   background: #fcfcfc;
-  line-height: 1.4;
   padding: 16px;
   margin: 2em auto !important;
   border: solid 1px #eee;
@@ -329,12 +331,30 @@ nav[role="navigation"] > .summary > .chapter > a {
   color: #333;
 }
 
+.markdown-section blockquote {
+  color: #666;
+  padding: 16px 24px;
+}
+
+.markdown-section blockquote > :first-child {
+  margin-top: 0;
+}
+
+.markdown-section blockquote > :last-child {
+  margin-bottom: 0;
+}
+
+.markdown-section pre {
+  line-height: 1.4;
+}
+
 .markdown-section pre + pre {
   margin-top: -1.5em;
 }
 
 @media (min-width: 481px) {
-  .markdown-section pre {
+  .markdown-section pre,
+  .markdown-section blockquote {
     max-width: 90%;
   }
 }
@@ -428,4 +448,52 @@ nav[role="navigation"] > .summary > .chapter > a {
 .book-summary ul.summary li.header {
   border-top: solid 1px rgba(0, 0, 0, 0.07);
   margin-top: 12px;
+}
+
+/*
+ * Dim body with sidebar open in mobile
+ */
+
+@media (max-width: 480px) {
+  .book .page-wrapper {
+    -webkit-transition: opacity 100ms linear;
+    -moz-transition: opacity 100ms linear;
+    transition: opacity 100ms linear;
+  }
+
+  .book.with-summary .page-wrapper {
+    opacity: 0.1;
+  }
+
+  .book-header > .btn:first-child {
+    height: 100vh;
+    position: absolute;
+    z-index: 100;
+    color: #444;
+  }
+}
+
+/*
+ * Blockquote heading for the Slack example
+ */
+
+.book .quote-heading {
+  border-bottom: solid 1px rgba(0, 0, 0, 0.07);
+  padding-bottom: 0.4em;
+  margin-bottom: 0.6em;
+  color: #888;
+  font-weight: normal;
+  font-size: 0.86em;
+}
+
+.book .markdown-section h1 + blockquote {
+  background: transparent;
+  width: 100%;
+  border: 0;
+  box-shadow: none;
+  margin: -1em 0 1em 0 !important;
+  padding: 0 0 0 16px;
+  max-width: 100%;
+  color: #ccc;
+  border-left: solid 4px #eee;
 }

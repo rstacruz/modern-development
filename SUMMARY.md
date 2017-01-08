@@ -50,9 +50,9 @@
   - Summary
 * Collaboration tools
   - Project management tools
-  - Communication tools
 * [Communication](communication/README.md)
   - Communicating effectively
+  - [Using Slack](communication/using_slack.md)
   - Sprint kickoffs
   - Sprint retrospectives
   - Summary
