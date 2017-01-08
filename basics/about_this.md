@@ -11,4 +11,4 @@ There are no new ideas on this book. Many the points described here are standard
 [Mashupgarage]: http://www.mashupgarage.com/
 [Agile software development]: https://en.wikipedia.org/wiki/Agile_software_development
 
-> **Next:** Let's [use Git to our advantage](../git/README.md).
+> **Done!** Go back to the [table of contents](../intro/README.md).

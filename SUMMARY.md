@@ -4,7 +4,7 @@
 
 ---
 
-* [Introduction](intro/README.md)
+* [Table of contents](intro/README.md)
 * [Basic ideas](basics/README.md)
   - [What you'll learn](basics/what_youll_learn.md)
   - [Agile development](basics/agile.md)
@@ -30,8 +30,9 @@
   - [The staging system](automation/staging.md)
   - [Coverage reporting](automation/coverage.md)
   - [Summary](automation/summary.md)
-* Coding practices
-  - Test-driven development
+* [Coding practices](coding/README.md)
+  - [Test-driven development](coding/tests.md)
+  - [Why we test](coding/why_test.md)
   - Linting
   - Documentation
 

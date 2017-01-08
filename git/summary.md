@@ -6,6 +6,7 @@ The branch-based Git workflow helps your team collaborate seamlessly. By making 
 - It should be easy to review other people's work.
 - All work happens in feature branches and have pull requests.
 - Nobody should ever commit directly into `develop` or `master`.
+- Set up a staging system to test the latest version.
 
 #### The main branches
 
@@ -29,6 +30,11 @@ The branch-based Git workflow helps your team collaborate seamlessly. By making 
 - Send a pull request for this branch into `master`.
 - Merge `master` back to `develop` if necessary.
 
+#### Staging system
+
+- Create a staging system that looks like your production system.
+- Set up CI to auto-deploy to staging whenever tests pass.
+
 ## See also
 
 This git workflow is based on [git-flow].
@@ -39,3 +45,5 @@ This git workflow is based on [git-flow].
 
 [git-flow]: http://nvie.com/posts/a-successful-git-branching-model/
 [Git manual]: https://git-scm.com/documentation
+
+> **Done!** Go back to the [table of contents](../intro/README.md).
