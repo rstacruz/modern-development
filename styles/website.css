@@ -77,7 +77,7 @@
  * Bold chapters
  */
 
-nav[role="navigation"] > .summary > .chapter.active > a {
+nav[role="navigation"] > .summary > .chapter > a {
   font-weight: bold;
   color: #333;
 }
@@ -317,8 +317,11 @@ nav[role="navigation"] > .summary > .chapter.active > a {
   }
 }
 
-.book.book.book.book.book.book .hljs-comment {
+.book.book.book.book.book.book .token.comment {
   color: #4b5;
+}
+.lang-bash .token.function {
+  color: inherit;
 }
 
 .markdown-section code {

@@ -8,14 +8,14 @@ A modern project needs to have a simple set of commands to magically update your
 
 For websites hosted on [Heroku](https://www.heroku.com/), their platform already takes care of deploy automation for you. To update a Heroku website, you simply need to do a `git push`:
 
-```sh
+```bash
 # Deploy your app into Heroku's hosting platform
 git push heroku master
 ```
 
 In other cases, you'd have to use other tools. For Ruby projects, [Capistrano](http://capistranorb.com/) is a popular choice. A typical Ruby/Capistrano project would be deployed like so:
 
-```sh
+```bash
 # Deploy your app using Capistrano
 bundle exec cap production deploy
 ```

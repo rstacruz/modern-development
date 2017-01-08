@@ -19,7 +19,7 @@ If two people are working on 2 features, their commits may end up being interlea
 
 To revert a feature that spans multiple commits, all those commits have to be reverted individually.
 
-```sh
+```bash
 # Single-branch workflow: reverting each commit individually
 git revert 1a84c2b9
 git revert 9bf3cb70
@@ -29,7 +29,7 @@ git revert 215c3820
 
 Git solves this by grouping multiple commits together into a single *merge commit.* This is what happens when a pull request is merged. This merge commit can then be reverted, and doing so will revert all commits that it groups together.
 
-```sh
+```bash
 # Feature branch workflow: only one commit to revert
 # (Assuming 75a6c2a0 is a merge commit)
 git revert 75a6c2a0 -m 1

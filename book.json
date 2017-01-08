@@ -1,5 +1,9 @@
 {
   "title": "Modern Development Handbook",
+  "plugins": [
+    "prism",
+    "-highlight"
+  ],
   "pdf": {
     "fontSize": 10,
     "paperSize": "a5",

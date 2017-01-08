@@ -38,7 +38,7 @@ The data in a staging system is completely different from your production system
 
 To do this, you'll make a seed script in your project invoked by a certain command. In Rails projects, that's:
 
-```sh
+```bash
 # Invokes db/seeds.rb
 bundle exec rails db:seed
 ```

@@ -6,7 +6,7 @@ Writing tests make you work faster. This seems like a backward thought at first,
 
 Let's consider the alternative to TDD. Development in the console usually involves a REPL shell that lets you invoke some code in your project. Here's an example in a typical Rails project:
 
-```sh
+```bash
 $ bundle exec rails console
 Loading development environment (Rails 5.0.0.1)
 

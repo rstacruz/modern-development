@@ -1,6 +1,6 @@
 <h1 class='chapter-h1'>Team management</h1>
 
-> To be written; stay tuned.
+> This article is a stub. You can help by expanding it. <!-- TODO -->
 
 * Have a shot-caller (aka scrum master)
 * Work in sub-teams if possible

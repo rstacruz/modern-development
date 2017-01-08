@@ -1,6 +1,6 @@
 <h1 class='chapter-h1'>Project lifecycle</h1>
 
-> To be written; stay tuned.
+> This article is a stub. You can help by expanding it. <!-- TODO -->
 
 - Break your effort into milestones and sprints.
 - Ideal sprint period is 2 weeks.

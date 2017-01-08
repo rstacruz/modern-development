@@ -14,7 +14,7 @@ For clean merges of `develop` into `master`, you can use the GitHub interface. S
 
 If `master` has changes that are out-of-sync with `develop`, you may run into merge conflicts. The only way to resolve this is by using the command line. This is the only time pushing directly into `master` is acceptable.
 
-```sh
+```bash
 # Switch to the master branch
 git checkout master
 

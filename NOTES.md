@@ -2,7 +2,7 @@
 
 To install dependencies:
 
-```sh
+```bash
 git clone http://github.com/rstacruz/modern-development.git
 cd modern-development
 
@@ -11,12 +11,12 @@ yarn
 
 Start a development server:
 
-```sh
+```bash
 yarn start
 ```
 
 Or build html/pdf:
 
-```sh
+```bash
 yarn build
 ```

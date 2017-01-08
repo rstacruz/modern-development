@@ -1,12 +1,28 @@
-<h1 class='chapter-h1'>The ideal process</h1>
+<h1 class='chapter-h1'>Table of contents</h1>
 
-The processes you'll learn in this book are all made to achieve a common goal. That goal is to make web development:
+- **[Basic ideas](../basics/README.md)**<br>
+  What is "Agile" software development, and how it can help you build software in a sustainable, frictionless, and quality-driven way.
 
-- __Sustainable__ - A development team needs a process that it can sustain for months and years.
-- __Frictionless__ - Any barriers to getting work done should be minimized, if not removed.
-- __Quality-oriented__ - Our process tries to maximize the available talents in each team.
-- __Resilient__ - Changes are inevitable and an ideal process should account for that.
+## Part I: Technical
 
-These ideas are not new or unique to our team. In fact, there are established principles that share these goals. One of such is [Agile development](agile.md), which everything in this book is rooted on.
+- **[Git workflow](../git/README.md)**<br>
+  How to use Git to your advantage with branch-driven development.
 
-> **Next:** [About this book](about_this.md)
+- **[Automation](../automation/README.md)**<br>
+  Using Continuous Integration tools to automate your testing and deployments.
+
+- **[Coding practices](../coding/README.md)**<br>
+  How to code without losing your soul.
+
+## Part II: Management
+
+- **[Project lifecycle](../lifecycle/README.md)**<br>
+  Be wise and be smart.
+
+- **[Communication](../communication/README.md)**<br>
+  Collaborate with your team and stakeholders effectively.
+
+- **[Team management](../teams/README.md)**<br>
+  How to manage your team.
+
+> **Next:** What should we look for in [building software](../basics/README.md)?

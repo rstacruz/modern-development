@@ -9,7 +9,7 @@ Having a CI test your code automatically is critical in a branch-based Git workf
 
 Set up your CI to run tests on every Git push. The steps for this varies for every CI service, so consult your CI manual for details. Typically, this means listing a set of commands that your CI will run when it detects changes. Here's a contrived example:
 
-```sh
+```bash
 # Example CI script for Node.js and Ruby
 npm install
 bundle install --path=vendor/bundle

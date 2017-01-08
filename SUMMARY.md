@@ -40,7 +40,7 @@
 ### Part II: Management
 
 * [Project lifecycle](lifecycle/README.md)
-  - Phases of a project
+  - [Phases of a project](lifecycle/phases.md)
   - Sprint rhythm
   - Versioning
   - Release notes

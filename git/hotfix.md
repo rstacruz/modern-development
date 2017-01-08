@@ -8,7 +8,7 @@ The main branches (`develop` and `master`) are never to be pushed directly to, a
 
 Hotfixes branches are just like feature branches. They're worked on in the same way: pull requests, review, merge. The only difference is that they're branched from `master` instead of `develop`.
 
-```sh
+```bash
 # Switch to the master branch
 git checkout master
 
