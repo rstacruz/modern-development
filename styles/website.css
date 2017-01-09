@@ -439,7 +439,7 @@ nav[role="navigation"] > .summary > .chapter > a {
  * Navigation - it's distracting :(
  */
 
-@media (min-width: 481px) {
+@media (min-width: 769px) {
   .navigation {
     display: none !important;
   }

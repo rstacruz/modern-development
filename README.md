@@ -3,6 +3,10 @@
 <hr>
 </div>
 
+<div class='_hide'>
+<a href='https://travis-ci.org/rstacruz/modern-development'><img src='https://travis-ci.org/rstacruz/modern-development.svg?branch=master'></a>
+</div>
+
 <p align='center'>
 <a href='toc/README.md'><img src='images/cover-shadow.png' style='max-height: 90vh'></a>
 </p>
