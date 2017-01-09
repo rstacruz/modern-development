@@ -21,7 +21,7 @@ Linting should be part of your automated test suite. This lets you catch style v
 ```yaml
 # Example .travis.yml configuration to run CS
 # and JavaScript linting
-scripts:
+script:
   - npm test
   - npm run stylelint
   - npm run eslint
