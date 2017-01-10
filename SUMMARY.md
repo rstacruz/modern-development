@@ -34,7 +34,7 @@
   - [Types of tests](coding/test_types.md)
   - [Why we test](coding/why_test.md)
   - [Linting](coding/linting.md)
-  - Readme files
+  - [Readme files](coding/readme_files.md)
   - Inline documentation
   - Summary
 
@@ -44,8 +44,8 @@
 
 * [Project lifecycle](lifecycle/README.md)
   - [Phases of a project](lifecycle/phases.md)
-  - [The "launch" myth](lifecycle/launch_myth.md)
   - Sprints and milestones
+  - [The "launch" myth](lifecycle/launch_myth.md)
   - Versioning
   - Release notes
   - Summary
