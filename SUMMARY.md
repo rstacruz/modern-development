@@ -35,7 +35,7 @@
   - [Why we test](coding/why_test.md)
   - [Linting](coding/linting.md)
   - [Readme files](coding/readme_files.md)
-  - Inline documentation
+  - [Inline documentation](coding/inline_docs.md)
   - Summary
 
 ---
