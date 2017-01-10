@@ -640,6 +640,7 @@ nav[role="navigation"] > .summary > .chapter > a {
     display: flex;
     flex-direction: row;
     align-items: center;
+    min-height: 90vh;
   }
 
   .cover-section > .cover {
