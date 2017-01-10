@@ -1,7 +1,7 @@
 <h1 class='chapter-h1'>Table of contents</h1>
 
 - **[Introduction](../intro/README.md)**<br>
-  What is "Agile" software development, and how it can help you build software in a sustainable, frictionless, and quality-driven way.
+  What is Agile software development and how it can help you build software in a sustainable, frictionless, and quality-driven way.
 
 ## Part I: Technical
 
