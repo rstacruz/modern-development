@@ -68,3 +68,5 @@ test('OrderCalculator calculating charges', t => {
 ```
 
 Another developer would easily know at a glance what `OrderCalculator` does, what input it takes, and what results it yields.
+
+> **Next:** Enforce code style guidelines through [linting](linting.md).

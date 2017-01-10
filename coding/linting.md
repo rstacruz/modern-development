@@ -49,3 +49,5 @@ There are many established styleguides and linter presets. Pick one and customiz
 - [Eslint](http://eslint.org/) for JavaScript
 - [Rubocop](https://github.com/bbatsov/rubocop) for Ruby
 - [Credo](https://github.com/rrrene/credo) for Elixir
+
+> **Next:** Make sure your project has a [Readme file](readme_files.md).
