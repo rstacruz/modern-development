@@ -12,7 +12,7 @@
   Using Continuous Integration tools to automate your testing and deployments.
 
 - **[Coding practices](../coding/README.md)**<br>
-  How to code without losing your soul.
+  Writing tests and documentation and how it can help us work faster.
 
 ## Part II: Management
 
