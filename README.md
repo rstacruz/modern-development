@@ -7,9 +7,16 @@
 <a href='https://travis-ci.org/rstacruz/modern-development'><img src='https://travis-ci.org/rstacruz/modern-development.svg?branch=master'></a>
 </div>
 
-<p align='center'>
-<a href='toc/README.md'><img src='images/cover-shadow.png' style='max-height: 90vh'></a>
-</p>
+<div class='cover-section'>
+<div class='cover'>
+<a href='toc/README.md'><img src='images/cover-shadow.png'></a>
+</div>
+<div class='text'>
+<p><strong>Modern Development Handbook</strong><br>This book is a work-in-progress draft.</p>
+
+<p class='actions'><a href='toc/README.md' class='cta-button'>Start reading</a></p>
+</div>
+</div>
 
 <br>
 

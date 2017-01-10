@@ -616,3 +616,57 @@ nav[role="navigation"] > .summary > .chapter > a {
   clear: both;
   zoom: 1;
 }
+
+/*
+ * Cover section
+ */
+
+.cover-section > .cover {
+  flex: 1 1 auto;
+  text-align: center;
+}
+
+.cover-section > .cover > a > img {
+  max-height: 90vh;
+}
+
+.cover-section > .text {
+  flex: 1 1 auto;
+  text-align: center;
+}
+
+@media (min-width: 769px) {
+  .cover-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .cover-section > .cover {
+    flex: 1 1 60%;
+    padding-right: 16px;
+  }
+
+  .cover-section > .text {
+    flex: 1 1 40%;
+  }
+
+  .cover-section > .actions {
+    margin-top: 2em;
+  }
+}
+
+.markdown-section .cta-button {
+  display: inline-block;
+  background: #10D368;
+  color: white;
+  padding: 8px 24px;
+  font-size: 1.2em;
+  border-radius: 3px;
+}
+
+.markdown-section .cta-button:hover,
+.markdown-section .cta-button:active {
+  text-decoration: none;
+  background: rgb(54, 218, 128);
+}
