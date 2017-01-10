@@ -80,4 +80,4 @@ This is a bare example that manages to cram everything in the list above in just
 
 <br>
 
-> **Next:** [Go back](../toc/README.md)
+> **Next:** Help teammates understand your work with [documentation](inline_docs.md).

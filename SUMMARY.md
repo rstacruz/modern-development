@@ -36,7 +36,7 @@
   - [Linting](coding/linting.md)
   - [Readme files](coding/readme_files.md)
   - [Inline documentation](coding/inline_docs.md)
-  - Summary
+  - [Summary](coding/summary.md)
 
 ---
 
