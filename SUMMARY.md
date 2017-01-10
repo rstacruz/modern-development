@@ -44,7 +44,9 @@
 
 * [Project lifecycle](lifecycle/README.md)
   - [Phases of a project](lifecycle/phases.md)
+  - [Project planning](lifecycle/planning.md)
   - Sprints and milestones
+  - [Sprint zero](lifecycle/sprint_zero.md)
   - [The "launch" myth](lifecycle/launch_myth.md)
   - Versioning
   - Release notes
