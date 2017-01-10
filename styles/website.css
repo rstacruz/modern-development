@@ -553,3 +553,42 @@ nav[role="navigation"] > .summary > .chapter > a {
   margin-left: 0.1em;
   font-style: normal;
 }
+
+/*
+ * Callouts
+ */
+
+.markdown-section .note-callout {
+  margin: 1.5em auto;
+  max-width: 100%;
+  width: auto;
+  box-shadow: none;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  padding-left: 40px;
+  color: #666;
+}
+
+.markdown-section .note-callout::before {
+  font-family: FontAwesome;
+  line-height: 1em;
+  font-weight: normal;
+  font-size: normal;
+  display: inline-block;
+  vertical-align; middle;
+
+  content: "\f05a";
+  font-size: 24px;
+  float: left;
+  margin-left: -40px;
+  margin-top: 8px;
+  color: #25a;
+}
+
+.markdown-section .note-callout::after {
+  content: '';
+  display: table;
+  clear: both;
+  zoom: 1;
+}

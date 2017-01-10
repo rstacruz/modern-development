@@ -48,4 +48,8 @@ class Article < ActiveRecord::Base
 end
 ```
 
+<blockquote class='note-callout -info'>
+Note: this section mostly applies to private projects. Different ettiquette applies to documentation in open source projects.
+</blockquote>
+
 > **Next:** Let's [recap what we've learned](summary.md).

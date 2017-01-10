@@ -78,6 +78,8 @@ This is a bare example that manages to cram everything in the list above in just
 > * [Trello board](#) for stories and bug reports
 > * [SemaphoreCI](#) for tests and deployments
 
-<br>
+<blockquote class='note-callout -info'>
+Note: this section mostly applies to private projects. Different ettiquette applies to Readme files in open source projects.
+</blockquote>
 
 > **Next:** Help teammates understand your work with [documentation](inline_docs.md).
