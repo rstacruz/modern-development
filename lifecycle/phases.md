@@ -19,11 +19,11 @@ Planning is the phase that happens before any code is written. This phase sets t
   - Market research
   - Product design
   - Visual design (UI/UX)
-  - Planning the next 2-4 sprints
+  - Planning the next milestone (2-4 sprints)
 
 ## Iteration
 
-A project's work is divided into 2-week cycles called *sprints*. There are also longer units for time called *milestones*, which group together multiple sprints.
+A project's work is divided into 2-week cycles called *sprints*. There are also longer units called *milestones*, which group multiple sprints together. Every sprint has:
 
   - Plan
   - Build

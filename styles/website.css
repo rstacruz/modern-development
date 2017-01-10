@@ -441,8 +441,32 @@ nav[role="navigation"] > .summary > .chapter > a {
  */
 
 @media (min-width: 769px) {
+  /* .navigation {
+    opacity: 0;
+    -webkit-transition: 100ms opacity linear;
+    -moz-transition: 100ms opacity linear;
+    transition: 100ms opacity linear;
+  }
+
+  .navigation:hover {
+    opacity: 1;
+  } */
+
   .navigation {
-    display: none !important;
+    justify-content: flex-end;
+  }
+
+  .navigation > .fa {
+    font-size: 32px;
+    margin: 16px 24px;
+  }
+
+  .navigation > .fa-angle-left {
+    text-align: left;
+  }
+
+  .navigation > .fa-angle-right {
+    text-align: right;
   }
 }
 

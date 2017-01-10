@@ -10,8 +10,10 @@ However, it's important that they don't over-extend the work here with assumptio
 
 An example of a sprint zero may look like this:
 
-- Set up the Git repositories and CI.
-- Start with a new project boilerplate (eg, `rails new`).
-- Set up a staging server in Heroku.
+- Set up the code repositories (eg, GitHub) and automated testing.
+- Start with a new project template (eg, `rails new`).
+- Implement basic features like user signup.
+- Spin up a staging server (eg, Heroku).
+- Set up the project tracker (eg, Trello).
 - Set up Slack with the needed channels and integrations.
 - Set up any other needed resources.
