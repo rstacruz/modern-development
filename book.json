@@ -1,7 +1,9 @@
 {
   "title": "Modern Development Handbook",
   "plugins": [
+    "edit-link",
     "ga",
+    "github",
     "prism",
     "-highlight",
     "-fontsettings"
@@ -17,8 +19,15 @@
     }
   },
   "pluginsConfig": {
+    "edit-link": {
+      "base": "https://github.com/rstacruz/modern-development/edit/master",
+      "label": "Edit"
+    },
     "ga": {
       "token": "UA-20473929-1"
+    },
+    "github": {
+      "url": "https://github.com/rstacruz/modern-development/"
     },
     "sharing": {
       "facebook": false,
