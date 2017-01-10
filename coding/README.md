@@ -1,7 +1,11 @@
 <h1 class='chapter-h1'>Coding practices</h1>
 
-<blockquote class='stub-quote'>This article is a stub. You can help by expanding it. <!-- TODO --></blockquote>
+In this chapter, we'll discuss what we can do to make developers work faster without losing their sanity. We'll learn about:
 
-* Write tests.
-* Set up linting.
-* Make a README.
+* **Writing tests** - use the test-driven development method to write tests as you write your code.
+
+* **Linting** - automatically enforce guidelines to keep code style consistent.
+
+* **Documentation** - writing an effective `README.md` file to help new developers in your project.
+
+> **Next:** What is [test-driven development](tests.md)?
