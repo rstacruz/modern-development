@@ -525,9 +525,6 @@ nav[role="navigation"] > .summary > .chapter > a {
   }
 
   .book-header > .btn:first-child {
-    height: 100vh;
-    position: absolute;
-    z-index: 100;
     color: #444;
   }
 }
