@@ -26,12 +26,14 @@ Have a channel where only developers are present, without any stakeholders. This
 
 ## Temporary channels
 
-> <h4 class='quote-heading'>#_facebook-campaign</h4>
+> <h4 class='quote-heading'>#_facebook_campaign</h4>
 >
 > *Marketer:* We need a new landing page<br>
 > *Fred:* We're on it. What do you need?
 
 Create new channels for discussion threads, and archive them when you're done. This lets certain discussions happen separately from everyday chatter, keeping logs clean. It also prevents overwhelming people by leaving out those who may not be involved. A good practice is to these with an underscore, such as `#_feature`. 
+
+When archiving temporary channels, rename them with a date stamp first (eg, `#1701_facebook_campaign`). This frees up the name so that it can be used again.
 
 ## Project tracker channel
 
