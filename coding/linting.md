@@ -38,10 +38,11 @@ Linting helps reviewers by catching style violations in automated tests so they 
 
 ## Choose a coding style
 
-There are many established styleguides and linter presets. Pick one and customize it if preferred. It doesn't matter which you choose, what's important is that your team has an authoritative set of rules that are enforced by a linter. This prevents petty "bikeshedding" arguments within your team.
+There are many established styleguides and linter presets. Pick one and customize it if preferred. It doesn't matter which you choose, what's important is that your team has an authoritative set of rules that are enforced by a linter. This prevents petty "bikeshedding" arguments within your team. Here are some popular examples:
 
 - JavaScript: [Standard](http://standardjs.com/), [XO](https://www.npmjs.com/package/xo)
 - CSS: [Config standard](https://www.npmjs.com/package/stylelint-config-standard)
+- Ruby: [Ruby Style Guide](https://github.com/bbatsov/ruby-style-guide) (via Rubocop)
 
 ## Linter examples
 
