@@ -45,13 +45,15 @@
 * [Project lifecycle](lifecycle/README.md)
   - [Phases of a project](lifecycle/phases.md)
   - [Project planning](lifecycle/planning.md)
-  - Sprints and milestones
+  - [Sprints](lifecycle/sprints.md)
+  - [Sprint planning](lifecycle/sprint_planning.md)
+  - [Milestones](lifecycle/milestones.md)
   - [Sprint zero](lifecycle/sprint_zero.md)
-  - [The "launch" myth](lifecycle/launch_myth.md)
   - Versioning
   - Release notes
+  - [The "launch" myth](lifecycle/launch_myth.md)
   - Summary
-* Collaboration tools
+* Project tracking
   - Project management tools
   - Writing stories
   - [Submitting bug reports](collaboration/bug_reports.md)
