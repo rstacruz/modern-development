@@ -24,7 +24,9 @@ The iteration phase is divided into short periods called *sprints*. A sprint is 
 
 It's recommended to start sprints on Wednesday. It can be any day, as long as it's not Monday or Friday.
 
-A sprint can't end on a Friday. If something goes wrong on the final release deployment on a Friday, no developers would be around to fix things on the weekend. Fridays are not a good time to start a sprint, either—people may be too tired to be effective at planning.
+- A sprint can't end on a Friday. If something goes wrong on the final release deployment on a Friday, no developers would be around to fix things on the weekend.
+- Fridays are not a good time to start a sprint, either. People may be too tired to be effective at planning.
+- Holidays often fall on Mondays or Fridays, so scheduling releases on Tuesdays helps make things consistent despite holiday schedules.
 
 ## The final deliverable
 
