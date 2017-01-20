@@ -49,7 +49,7 @@
   - [Sprint planning](lifecycle/sprint_planning.md)
   - [Milestones](lifecycle/milestones.md)
   - [Sprint zero](lifecycle/sprint_zero.md)
-  - [Versioning](lifecycle/versioning.md)
+  - [Version numbers](lifecycle/versioning.md)
   - [Release notes](lifecycle/release_notes.md)
   - [The "launch" myth](lifecycle/launch_myth.md)
   - [Summary](lifecycle/summary.md)
