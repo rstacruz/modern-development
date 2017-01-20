@@ -21,7 +21,7 @@ git checkout master
 # Merge develop into master; do a fetch first
 # to ensure we have the latest origin/develop
 get fetch
-git merge origin/develop
+git merge origin/develop --no-ff
 
 # Resolve any conflicts and commit the result
 git mergetool
