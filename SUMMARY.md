@@ -72,3 +72,4 @@
   - Documentation
   - Onboarding
   - Project management tools
+  - [Checklist](misc/checklist.md)
