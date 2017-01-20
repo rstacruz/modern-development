@@ -1,4 +1,4 @@
-# Modern development checklist
+# Checklist
 
 Is your project following the guidelines in this book? Use this checklist to find out.
 
@@ -37,7 +37,7 @@ Is your project following the guidelines in this book? Use this checklist to fin
 #### Release etiquette
 
 - <input type='checkbox'> Schedule releases at the end of a sprint [•](../lifecycle/sprints.md)
-- <input type='checkbox'> Use version numbers [•](../lifecycle/versioning.md)
+- <input type='checkbox'> Use version numbers for sprints and releases (eg, `v0.4.0`) [•](../lifecycle/versioning.md)
 - <input type='checkbox'> Write release notes [•](../lifecycle/release_notes.md)
 
 #### Planning
