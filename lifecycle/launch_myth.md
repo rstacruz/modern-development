@@ -17,3 +17,5 @@ A project ends when the stakeholders decide it to end, and these shouldn't be an
 ## Iteration is the key
 
 To sum it up, our model focuses on an iteration cycle divided into milestones and sprints. Each sprint is essentially a mini-project that starts and ends.
+
+> **Next:** Let's [recap what we've learned](summary.md).

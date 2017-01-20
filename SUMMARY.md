@@ -49,8 +49,8 @@
   - [Sprint planning](lifecycle/sprint_planning.md)
   - [Milestones](lifecycle/milestones.md)
   - [Sprint zero](lifecycle/sprint_zero.md)
-  - Versioning
-  - Release notes
+  - [Versioning](lifecycle/versioning.md)
+  - [Release notes](lifecycle/release_notes.md)
   - [The "launch" myth](lifecycle/launch_myth.md)
   - Summary
 * Project tracking
