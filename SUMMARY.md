@@ -11,6 +11,10 @@
 
 ---
 
+- [The checklist](misc/checklist.md)
+
+---
+
 ### Part I: Technical
 
 * [Git workflow](git/README.md)
