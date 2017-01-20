@@ -4,7 +4,7 @@ Is your project following the guidelines in this book? Use this checklist to fin
 
 ## Technical practices
 
-#### Git
+#### Git workflow
 
 - <input type='checkbox'> Maintain `develop` and `master` branches [•](../git/main_branches.md)
 - <input type='checkbox'> Use pull requests for peer reviewing [•](../git/pull_requests.md)
