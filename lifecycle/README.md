@@ -7,3 +7,5 @@
 - Maintain good release hygiene.
 - Use three-point versioning (semantic-style).
 - Publish release notes.
+
+> **Next:** [Phases of a project](phases.md)

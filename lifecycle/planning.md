@@ -19,4 +19,4 @@ It's the development team's duty to educate the stakeholders on their workflow a
 
 What exactly are we building, and what features does it have. `<!-- TODO -->`
 
-> **Next:** [Sprints](sprints.md)
+> **Next:** Let's start with the first [sprint](sprints.md).

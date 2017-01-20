@@ -49,4 +49,4 @@ For most projects, the first milestone is the minimum viable product, or the MVP
 </ul>
 </details>
 
-> **Next:** [Sprint zero](sprint_zero.md)
+> **Next:** Kick off development work with [sprint zero](sprint_zero.md).

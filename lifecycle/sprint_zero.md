@@ -18,4 +18,4 @@ An example of a sprint zero may look like this:
 - Set up Slack with the needed channels and integrations.
 - Set up any other needed resources.
 
-> **Next:** [Versioning](versioning.md)
+> **Next:** Name sprints with [version numbers](versioning.md).
