@@ -52,11 +52,11 @@
   - [Versioning](lifecycle/versioning.md)
   - [Release notes](lifecycle/release_notes.md)
   - [The "launch" myth](lifecycle/launch_myth.md)
-  - Summary
+  - [Summary](lifecycle/summary.md)
 * Project tracking
   - Project management tools
   - Writing stories
-  - [Submitting bug reports](collaboration/bug_reports.md)
+  - [Submitting bug reports](tracking/bug_reports.md)
 * [Communication](communication/README.md)
   - Communicating effectively
   - [Using Slack](communication/using_slack.md)
