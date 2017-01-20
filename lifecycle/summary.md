@@ -7,3 +7,5 @@
 - Maintain good release hygiene.
 - Use three-point versioning (semantic-style).
 - Publish release notes.
+
+> **Done!** Go back to the [table of contents](../toc/README.md).
