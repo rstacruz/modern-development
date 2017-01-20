@@ -17,7 +17,7 @@
 ## Part II: Management
 
 - **[Project lifecycle](../lifecycle/README.md)**<br>
-  Be wise and be smart.
+  Manage your timeline with sprints and milestones, use version numbers to track releases.
 
 - **[Communication](../communication/README.md)**<br>
   Collaborate with your team and stakeholders effectively.
