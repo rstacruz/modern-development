@@ -14,7 +14,7 @@ Is your project following the guidelines in this book? Use this checklist to fin
 
 #### Automation
 
-- <input type='checkbox'> Use a CI for tests [•](../automation/testing.md)
+- <input type='checkbox'> Use a CI to automate running tests [•](../automation/testing.md)
 - <input type='checkbox'> Set up a staging environment [•](../automation/staging.md)
 - <input type='checkbox'> Automate deployments to staging and production [•](../automation/deployment.md)
 - <input type='checkbox'> Keep track of code coverage [•](../automation/coverage.md)
