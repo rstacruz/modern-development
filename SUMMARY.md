@@ -57,6 +57,12 @@
   - [Release notes](lifecycle/release_notes.md)
   - [The "launch" myth](lifecycle/launch_myth.md)
   - [Summary](lifecycle/summary.md)
+* [Team management](teams/README.md)
+  - [Team composition](teams/composition.md)
+  - Subteams
+  - The team leader
+  - The stakeholders
+  - Summary
 * Project tracking
   - Project management tools
   - Writing stories
@@ -66,11 +72,6 @@
   - [Using Slack](communication/using_slack.md)
   - Sprint kickoffs
   - Sprint retrospectives
-  - Summary
-* [Team management](teams/README.md)
-  - Team composition
-  - Subteams
-  - The scrum-master
   - Summary
 * Miscellaneous
   - Documentation
