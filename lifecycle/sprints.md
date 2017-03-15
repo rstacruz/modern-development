@@ -11,14 +11,16 @@ The iteration phase is divided into short periods called *sprints*. A sprint is 
 - **Day 1: Sprint planning** _(Wednesday)_<br>
   This is a meeting between the whole team where the stakeholders and leads decide on what features to build for the sprint.
 
-- **Day 6 to 10: QA pass**<br>
+- **Day 7 to 10: QA pass**<br>
   This is when the QA team starts testing finished features.
 
-- **Day 8 to 10: Feature freeze**<br>
+- **Day 9 to 10: Feature freeze**<br>
   This is the bug fixing period. Developers stop working on _new_ features and focus on fixing bugs that were reported by QA, new or old.
 
 - **Day 11: Release** _(Wednesday)_<br>
   The first official release happens after a sprint finishes. For web projects, this means deploying your project to production. This coincides with next sprint's day 1.
+
+This is just a sample template; other projects may have longer or shorter QA and feature-freeze days than this, or may not have either at all (not recommended).
 
 ## Never Monday or Friday
 

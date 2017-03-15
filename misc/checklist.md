@@ -37,6 +37,7 @@ Work in an iterative cycle of sprints and milestones. See [Project lifecycle](..
 > - <input type='checkbox'> Work in 2-week sprints [•](../lifecycle/sprints.md)
 > - <input type='checkbox'> Start sprints on a Wednesday [•](../lifecycle/sprints.md)
 > - <input type='checkbox'> Start with a sprint planning meeting [•](../lifecycle/sprint_planning.md)
+> - <input type='checkbox'> Designate days for QA testing [•](../lifecycle/sprints.md)
 > 
 > #### Release etiquette
 > 
