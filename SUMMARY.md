@@ -63,10 +63,13 @@
   - The team leader
   - The stakeholders
   - Summary
-* Project tracking
-  - Project management tools
-  - Writing stories
+* [Project tracking](tracking/README.md)
+  - [Project management tools](tracking/tools.md)
+  - [Writing items](tracking/items.md)
+  - [Meta-items](tracking/meta.md)
+  - [Design and UX](tracking/design.md)
   - [Submitting bug reports](tracking/bug_reports.md)
+  - [Summary](tracking/summary.md)
 * [Communication](communication/README.md)
   - Communicating effectively
   - [Using Slack](communication/using_slack.md)
