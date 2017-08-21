@@ -18,5 +18,12 @@ yarn start
 Or build html/pdf:
 
 ```bash
-yarn build
+yarn run build
+```
+
+Deploy:
+
+```bash
+yarn run build
+yarn run delpoy
 ```
