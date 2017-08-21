@@ -21,9 +21,6 @@ Or build html/pdf:
 yarn run build
 ```
 
-Deploy:
+### Deployment
 
-```bash
-yarn run build
-yarn run delpoy
-```
+Travis will auto-deploy for you.

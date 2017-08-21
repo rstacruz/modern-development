@@ -12,8 +12,8 @@
     "build": "run-s build:*",
     "build:html": "gitbook build",
     "build:pdf": "gitbook pdf ./ _book/modern-development.pdf",
-    "wordcount": "git ls-files '*.md' | xargs cat | wc -w",
-    "deploy": "echo effectivedevelopment.org > _book/CNAME; git-update-ghpages --force rstacruz/modern-development _book"
+    "predeploy": "echo effectivedevelopment.org > _book/CNAME",
+    "wordcount": "git ls-files '*.md' | xargs cat | wc -w"
   },
   "keywords": [],
   "author": "Rico Sta. Cruz <rico@ricostacruz.com> (http://ricostacruz.com)",
