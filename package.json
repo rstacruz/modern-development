@@ -1,0 +1,33 @@
+{
+  "name": "playbook",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "gitbook serve",
+    "build": "run-s build:*",
+    "build:html": "gitbook build",
+    "build:pdf": "gitbook pdf ./ _book/modern-development.pdf",
+    "wordcount": "git ls-files '*.md' | xargs cat | wc -w",
+    "deploy": "echo effectivedevelopment.org > _book/CNAME; git-update-ghpages --force rstacruz/modern-development _book"
+  },
+  "keywords": [],
+  "author": "Rico Sta. Cruz <rico@ricostacruz.com> (http://ricostacruz.com)",
+  "license": "CC-BY-NC-SA-4.0",
+  "dependencies": {
+    "gitbook-cli": "2.3.0",
+    "gitbook-plugin-edit-link": "2.0.2",
+    "gitbook-plugin-ga": "1.0.1",
+    "gitbook-plugin-github": "2.0.0",
+    "gitbook-plugin-prism": "2.0.1",
+    "svgexport": "0.3.2"
+  },
+  "devDependencies": {
+    "git-update-ghpages": "1.3.0",
+    "npm-run-all": "4.0.0"
+  }
+}

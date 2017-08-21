@@ -1,0 +1,1135 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <title>Reviewing pull requests · Modern Development Handbook</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.0">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-prism/prism.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+        
+
+    
+
+    
+        
+        <link rel="stylesheet" href="../styles/website.css">
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="releasing.html" />
+    
+    
+    <link rel="prev" href="pull_requests.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Modern Development Handbook
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="divider"></li>
+        
+        
+    
+        <li class="chapter " data-level="2.1" data-path="../toc/">
+            
+                <a href="../toc/">
+            
+                    
+                    Table of contents
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" data-path="../intro/">
+            
+                <a href="../intro/">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.2.1" data-path="../intro/ideal_process.html">
+            
+                <a href="../intro/ideal_process.html">
+            
+                    
+                    An ideal process
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.2" data-path="../intro/agile.html">
+            
+                <a href="../intro/agile.html">
+            
+                    
+                    Agile development
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+        
+        <li class="divider"></li>
+        
+        
+    
+        <li class="chapter " data-level="3.1" data-path="../misc/checklist.html">
+            
+                <a href="../misc/checklist.html">
+            
+                    
+                    The checklist
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Part I: Technical</li>
+        
+        
+    
+        <li class="chapter " data-level="4.1" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    Git workflow
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="4.1.1" data-path="main_branches.html">
+            
+                <a href="main_branches.html">
+            
+                    
+                    Main branches
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.2" data-path="feature_branches.html">
+            
+                <a href="feature_branches.html">
+            
+                    
+                    Feature branches
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.3" data-path="pull_requests.html">
+            
+                <a href="pull_requests.html">
+            
+                    
+                    Pull requests
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="4.1.4" data-path="reviewing.html">
+            
+                <a href="reviewing.html">
+            
+                    
+                    Reviewing pull requests
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.5" data-path="releasing.html">
+            
+                <a href="releasing.html">
+            
+                    
+                    Building a release
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.6" data-path="hotfix.html">
+            
+                <a href="hotfix.html">
+            
+                    
+                    Emergency fixes
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.7" data-path="why.html">
+            
+                <a href="why.html">
+            
+                    
+                    Why we use branches
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.8" data-path="summary.html">
+            
+                <a href="summary.html">
+            
+                    
+                    Summary
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="4.2" data-path="../automation/">
+            
+                <a href="../automation/">
+            
+                    
+                    Automation
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="4.2.1" data-path="../automation/ci.html">
+            
+                <a href="../automation/ci.html">
+            
+                    
+                    Continuous integration
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.2.2" data-path="../automation/testing.html">
+            
+                <a href="../automation/testing.html">
+            
+                    
+                    Automated testing
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.2.3" data-path="../automation/deployment.html">
+            
+                <a href="../automation/deployment.html">
+            
+                    
+                    Deployment automation
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.2.4" data-path="../automation/staging.html">
+            
+                <a href="../automation/staging.html">
+            
+                    
+                    The staging system
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.2.5" data-path="../automation/coverage.html">
+            
+                <a href="../automation/coverage.html">
+            
+                    
+                    Coverage reporting
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.2.6" data-path="../automation/summary.html">
+            
+                <a href="../automation/summary.html">
+            
+                    
+                    Summary
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="4.3" data-path="../coding/">
+            
+                <a href="../coding/">
+            
+                    
+                    Coding practices
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="4.3.1" data-path="../coding/tests.html">
+            
+                <a href="../coding/tests.html">
+            
+                    
+                    Test-driven development
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.3.2" data-path="../coding/test_types.html">
+            
+                <a href="../coding/test_types.html">
+            
+                    
+                    Types of tests
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.3.3" data-path="../coding/why_test.html">
+            
+                <a href="../coding/why_test.html">
+            
+                    
+                    Why we test
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.3.4" data-path="../coding/linting.html">
+            
+                <a href="../coding/linting.html">
+            
+                    
+                    Linting
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.3.5" data-path="../coding/readme_files.html">
+            
+                <a href="../coding/readme_files.html">
+            
+                    
+                    Readme files
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.3.6" data-path="../coding/inline_docs.html">
+            
+                <a href="../coding/inline_docs.html">
+            
+                    
+                    Inline documentation
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.3.7" data-path="../coding/summary.html">
+            
+                <a href="../coding/summary.html">
+            
+                    
+                    Summary
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Part II: Management</li>
+        
+        
+    
+        <li class="chapter " data-level="5.1" data-path="../lifecycle/">
+            
+                <a href="../lifecycle/">
+            
+                    
+                    Project lifecycle
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="5.1.1" data-path="../lifecycle/phases.html">
+            
+                <a href="../lifecycle/phases.html">
+            
+                    
+                    Phases of a project
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.2" data-path="../lifecycle/planning.html">
+            
+                <a href="../lifecycle/planning.html">
+            
+                    
+                    Project planning
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.3" data-path="../lifecycle/sprints.html">
+            
+                <a href="../lifecycle/sprints.html">
+            
+                    
+                    Sprints
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.4" data-path="../lifecycle/sprint_planning.html">
+            
+                <a href="../lifecycle/sprint_planning.html">
+            
+                    
+                    Sprint planning
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.5" data-path="../lifecycle/milestones.html">
+            
+                <a href="../lifecycle/milestones.html">
+            
+                    
+                    Milestones
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.6" data-path="../lifecycle/sprint_zero.html">
+            
+                <a href="../lifecycle/sprint_zero.html">
+            
+                    
+                    Sprint zero
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.7" data-path="../lifecycle/versioning.html">
+            
+                <a href="../lifecycle/versioning.html">
+            
+                    
+                    Version numbers
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.8" data-path="../lifecycle/release_notes.html">
+            
+                <a href="../lifecycle/release_notes.html">
+            
+                    
+                    Release notes
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.9" data-path="../lifecycle/launch_myth.html">
+            
+                <a href="../lifecycle/launch_myth.html">
+            
+                    
+                    The "launch" myth
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.10" data-path="../lifecycle/summary.html">
+            
+                <a href="../lifecycle/summary.html">
+            
+                    
+                    Summary
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="5.2" data-path="../teams/">
+            
+                <a href="../teams/">
+            
+                    
+                    Team management
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="5.2.1" data-path="../teams/composition.html">
+            
+                <a href="../teams/composition.html">
+            
+                    
+                    Team composition
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.2.2" >
+            
+                <span>
+            
+                    
+                    Subteams
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.2.3" >
+            
+                <span>
+            
+                    
+                    The team leader
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.2.4" >
+            
+                <span>
+            
+                    
+                    The stakeholders
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.2.5" >
+            
+                <span>
+            
+                    
+                    Summary
+            
+                </span>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="5.3" >
+            
+                <span>
+            
+                    
+                    Project tracking
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="5.3.1" >
+            
+                <span>
+            
+                    
+                    Project management tools
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.3.2" >
+            
+                <span>
+            
+                    
+                    Writing stories
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.3.3" data-path="../tracking/bug_reports.html">
+            
+                <a href="../tracking/bug_reports.html">
+            
+                    
+                    Submitting bug reports
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="5.4" data-path="../communication/">
+            
+                <a href="../communication/">
+            
+                    
+                    Communication
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="5.4.1" >
+            
+                <span>
+            
+                    
+                    Communicating effectively
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.4.2" data-path="../communication/using_slack.html">
+            
+                <a href="../communication/using_slack.html">
+            
+                    
+                    Using Slack
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.4.3" >
+            
+                <span>
+            
+                    
+                    Sprint kickoffs
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.4.4" >
+            
+                <span>
+            
+                    
+                    Sprint retrospectives
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.4.5" >
+            
+                <span>
+            
+                    
+                    Summary
+            
+                </span>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="5.5" >
+            
+                <span>
+            
+                    
+                    Miscellaneous
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="5.5.1" >
+            
+                <span>
+            
+                    
+                    Documentation
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.5.2" >
+            
+                <span>
+            
+                    
+                    Onboarding
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.5.3" >
+            
+                <span>
+            
+                    
+                    Project management tools
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.5.4" data-path="../misc/checklist.html">
+            
+                <a href="../misc/checklist.html">
+            
+                    
+                    Checklist
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >Reviewing pull requests</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="reviewing-pull-requests">Reviewing pull requests</h1><p>A pull request reviewer has these responsibilities:</p><ul><li>Understand the original author&apos;s changes so that the knowledge is shared across the team.
+</li>
+<li>Find any issues the changes may have.
+</li></ul>
+<p>A reviewer should do one of these things:</p><ul><li>Approve it (by merging the pull request); or
+</li>
+<li>Reject it (by request for changes); or
+</li>
+<li>Ask others to review it as well (by saying &quot;LGTM&quot;).
+</li></ul>
+<h2 id="who-can-review">Who can review</h2><p>Anyone on the team can review anyone else&apos;s code. Senior members typically do most the reviews in practice, but any member of the team can review pull requests as long as they can satisfy the responsibilities listed above.</p><p>The only person who can&apos;t review the code is the original author.</p><h2 id="understanding-the-pull-request">Understanding the pull request</h2><p>As a pull request reviewer, you will be partly responsible for the pull request&apos;s code. If anyone has concerns about it in the future, it&apos;s going to be the author and the reviewer who should be able to answer these concerns.</p><p>A reviewer should also test the pull request, if possible.</p><h2 id="approving">Approving</h2><p>Simple. Merge the pull request to approve it!</p><p>If you&apos;d like to offer your review but don&apos;t want to merge it yourself, you can leave a comment saying &quot;LGTM.&quot; This can either mean &quot;looks good to me&quot; or &quot;let&apos;s get this merged.&quot; This is useful if you&apos;d rather wait for the input of another colleague.</p><h2 id="rejecting">Rejecting</h2><p>A reviewer may request for changes as a way of rejecting a pull request.</p><ul><li>Use GitHub&apos;s &quot;request changes&quot; facility to request for changes.
+</li>
+<li>Remove the <code>For review</code> tag in the pull request.
+</li></ul>
+<p>When the author&apos;s done the changes, it should be tagged back as <code>For review</code>.</p><details>
+<summary>See also...</summary>
+
+<ul>
+<li><a href="https://help.github.com/articles/reviewing-proposed-changes-in-a-pull-request/" target="_blank">Reviewing proposed changes in a pull request</a> (github.com)</li>
+<li><a href="https://help.github.com/articles/about-pull-request-reviews/" target="_blank">About pull request reviews</a> (github.com)</li>
+</ul>
+</details>
+
+
+
+<blockquote><p><strong>Next</strong>: <a href="releasing.html">Building a release</a></p></blockquote>
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="pull_requests.html" class="navigation navigation-prev " aria-label="Previous page: Pull requests">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="releasing.html" class="navigation navigation-next " aria-label="Next page: Building a release">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Reviewing pull requests","level":"4.1.4","depth":2,"next":{"title":"Building a release","level":"4.1.5","depth":2,"path":"git/releasing.md","ref":"git/releasing.md","articles":[]},"previous":{"title":"Pull requests","level":"4.1.3","depth":2,"path":"git/pull_requests.md","ref":"git/pull_requests.md","articles":[]},"dir":"ltr"},"config":{"plugins":["edit-link","ga","github","prism","-highlight","-fontsettings"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"edit-link":{"label":"Edit","base":"https://github.com/rstacruz/modern-development/edit/master"},"ga":{"configuration":"auto","token":"UA-20473929-1"},"github":{"url":"https://github.com/rstacruz/modern-development/"},"sharing":{"facebook":false,"twitter":false,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"prism":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":10,"fontFamily":"Arial","paperSize":"a5","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":40,"left":40,"top":64,"bottom":64}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Modern Development Handbook","gitbook":"*"},"file":{"path":"git/reviewing.md","mtime":"2017-01-08T10:41:47.000Z","type":"markdown"},"gitbook":{"version":"3.2.0","time":"2017-08-21T17:25:19.566Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-edit-link/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-ga/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-github/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+
+    </body>
+</html>
+

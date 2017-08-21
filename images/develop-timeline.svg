@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="640px" height="96px" viewBox="0 0 640 96" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>develop-timeline</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="19.1044776" height="19.1044776" rx="9.55223881"></rect>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.757050303   0 0 0 0 0.809629048   0 0 0 0 0.870934311  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <mask id="mask-3" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="19.1044776" height="19.1044776" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <rect id="path-4" x="0" y="0" width="19.1044776" height="19.1044776" rx="9.55223881"></rect>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-5">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.757050303   0 0 0 0 0.809629048   0 0 0 0 0.870934311  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <mask id="mask-6" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="19.1044776" height="19.1044776" fill="white">
+            <use xlink:href="#path-4"></use>
+        </mask>
+        <rect id="path-7" x="0" y="0" width="19.1044776" height="19.1044776" rx="9.55223881"></rect>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-8">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.757050303   0 0 0 0 0.809629048   0 0 0 0 0.870934311  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <mask id="mask-9" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="19.1044776" height="19.1044776" fill="white">
+            <use xlink:href="#path-7"></use>
+        </mask>
+        <rect id="path-10" x="1" y="21" width="10" height="10" rx="5"></rect>
+        <mask id="mask-11" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="10" height="10" fill="white">
+            <use xlink:href="#path-10"></use>
+        </mask>
+        <rect id="path-12" x="1" y="21" width="10" height="10" rx="5"></rect>
+        <mask id="mask-13" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="10" height="10" fill="white">
+            <use xlink:href="#path-12"></use>
+        </mask>
+        <rect id="path-14" x="1" y="21" width="10" height="10" rx="5"></rect>
+        <mask id="mask-15" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="10" height="10" fill="white">
+            <use xlink:href="#path-14"></use>
+        </mask>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="develop-timeline">
+            <text id="develop" font-family="ClearSans-Bold, Clear Sans" font-size="19.1044776" font-weight="bold" fill="#37393A">
+                <tspan x="3.1840796" y="24.1840796">develop</tspan>
+            </text>
+            <text id="feature/signup" font-family="ClearSans-Italic, Clear Sans" font-size="15.920398" font-style="italic" font-weight="normal" fill="#A1B4D3">
+                <tspan x="19.1044776" y="87.0497512">feature/signup</tspan>
+            </text>
+            <text id="fix/login" font-family="ClearSans-Italic, Clear Sans" font-size="15.920398" font-style="italic" font-weight="normal" fill="#A1B4D3">
+                <tspan x="232.437811" y="88.641791">fix/login</tspan>
+            </text>
+            <text id="feature/file_upload" font-family="ClearSans-Italic, Clear Sans" font-size="15.920398" font-style="italic" font-weight="normal" fill="#A1B4D3">
+                <tspan x="402.78607" y="87.0497512">feature/file_upload</tspan>
+            </text>
+            <g id="Group" transform="translate(98.706468, 7.960199)">
+                <path d="M1.58992001,9.63833472 L536.517413,9.63833472" id="Path" stroke="#CBDAEC" stroke-width="3.1840796"></path>
+                <g id="Group-2" transform="translate(82.786070, 0.000000)">
+                    <g id="Rectangle-Copy">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                        <use stroke="#FFFFFF" mask="url(#mask-3)" stroke-width="6.3681592" fill="#4990E2" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    </g>
+                </g>
+                <g id="Group-2-Copy" transform="translate(249.950249, 0.000000)">
+                    <g id="Rectangle-Copy">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-5)" xlink:href="#path-4"></use>
+                        <use stroke="#FFFFFF" mask="url(#mask-6)" stroke-width="6.3681592" fill="#4990E2" fill-rule="evenodd" xlink:href="#path-4"></use>
+                    </g>
+                </g>
+                <g id="Group-2-Copy-2" transform="translate(493.532338, 0.000000)">
+                    <g id="Rectangle-Copy">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-8)" xlink:href="#path-7"></use>
+                        <use stroke="#FFFFFF" mask="url(#mask-9)" stroke-width="6.3681592" fill="#4990E2" fill-rule="evenodd" xlink:href="#path-7"></use>
+                    </g>
+                </g>
+            </g>
+            <g id="Arrow" transform="translate(135.323383, 42.985075)" stroke="#4990E2">
+                <g stroke-width="1" transform="translate(10.000000, -1.000000)">
+                    <path d="M0.588222648,26.7414728 L15.7799545,26.7414728 C17.9889923,26.7414728 20.0578677,24.9775284 20.4025754,22.7910739 L23.7797712,1.36978085" id="Path-4" stroke-dasharray="2,1"></path>
+                    <polyline id="Path-5" transform="translate(23.648013, 3.101827) rotate(9.000000) translate(-23.648013, -3.101827) " points="19.9608401 4.99159757 23.7403812 1.21205644 27.3351863 4.80686145"></polyline>
+                </g>
+                <use id="Rectangle-Copy" mask="url(#mask-11)" stroke-width="4" fill="#FFFFFF" xlink:href="#path-10"></use>
+            </g>
+            <g id="Arrow" transform="translate(302.487562, 42.985075)" stroke="#4990E2">
+                <g stroke-width="1" transform="translate(10.000000, -1.000000)">
+                    <path d="M0.588222648,26.7414728 L15.7799545,26.7414728 C17.9889923,26.7414728 20.0578677,24.9775284 20.4025754,22.7910739 L23.7797712,1.36978085" id="Path-4" stroke-dasharray="2,1"></path>
+                    <polyline id="Path-5" transform="translate(23.648013, 3.101827) rotate(9.000000) translate(-23.648013, -3.101827) " points="19.9608401 4.99159757 23.7403812 1.21205644 27.3351863 4.80686145"></polyline>
+                </g>
+                <use id="Rectangle-Copy" mask="url(#mask-13)" stroke-width="4" fill="#FFFFFF" xlink:href="#path-12"></use>
+            </g>
+            <g id="Arrow" transform="translate(547.661692, 42.985075)" stroke="#4990E2">
+                <g stroke-width="1" transform="translate(10.000000, -1.000000)">
+                    <path d="M0.588222648,26.7414728 L15.7799545,26.7414728 C17.9889923,26.7414728 20.0578677,24.9775284 20.4025754,22.7910739 L23.7797712,1.36978085" id="Path-4" stroke-dasharray="2,1"></path>
+                    <polyline id="Path-5" transform="translate(23.648013, 3.101827) rotate(9.000000) translate(-23.648013, -3.101827) " points="19.9608401 4.99159757 23.7403812 1.21205644 27.3351863 4.80686145"></polyline>
+                </g>
+                <use id="Rectangle-Copy" mask="url(#mask-15)" stroke-width="4" fill="#FFFFFF" xlink:href="#path-14"></use>
+            </g>
+            <polyline id="Path-4" stroke="#CBDAEC" stroke-width="3.1840796" points="628.855721 7.960199 637.707583 17.4545064 628.855721 25.663922"></polyline>
+        </g>
+    </g>
+</svg>

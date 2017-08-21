@@ -1,0 +1,675 @@
+/*
+ * See: https://github.com/GitbookIO/theme-default/tree/master/src/less/website
+ */
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300');
+@import url('https://fonts.googleapis.com/css?family=Fira+Mono');
+
+/*
+ * Base
+ */
+
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.book-summary,
+.book.book,
+.book-header {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+}
+
+/*
+ * Hide (only show things on GitHub)
+ */
+
+._hide {
+  display: none;
+}
+
+/*
+ * Dynamic font sizes
+ * (use plugins: ['-fontsettings'])
+ */
+
+.book-body .page-inner section {
+    font-size: 1.6rem;
+}
+
+@media (max-width: 768px) {
+  .book-body .page-inner section {
+      font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 468px) {
+  .book-body .page-inner section {
+      font-size: 1.4rem;
+  }
+}
+
+/*
+ * Headings
+ */
+
+.markdown-section h1,
+.markdown-section h2 {
+  font-family: 'open sans', -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+}
+
+.markdown-section h1 {
+  font-weight: 300;
+  font-size: 2.48em; /* 1.2 ^ 5 */
+  color: #25a;
+  border-bottom: solid 1px #f0f0f0;
+  padding-bottom: 0.4em;
+}
+
+@media (max-width: 768px) {
+  .markdown-section h1 {
+    font-size: 2.01em; /* 1.15 ^ 5 */
+  }
+}
+
+@media (max-width: 480px) {
+  .markdown-section h1 {
+    font-size: 1.61em; /* 1.1 ^ 5 */
+  }
+}
+
+.markdown-section h2 {
+  font-weight: 300;
+  font-size: 1.73em; /* 1.2 ^ 3 */
+  color: #25a;
+  border-bottom: solid 1px #f0f0f0;
+  padding-bottom: 0.2em;
+}
+
+@media (max-width: 768px) {
+  .markdown-section h2 {
+    font-size: 1.52em; /* 1.15 ^ 3 */
+  }
+}
+
+@media (max-width: 480px) {
+  .markdown-section h2 {
+    font-size: 1.33em; /* 1.1 ^ 3 */
+  }
+}
+
+.markdown-section h4 {
+  font-size: 1em;
+  margin: 1em 0;
+}
+
+/*
+ * Bold chapters
+ */
+
+nav[role="navigation"] > .summary > .chapter > span,
+nav[role="navigation"] > .summary > .chapter > a {
+  font-weight: bold;
+  color: #333;
+}
+
+/*
+ * Different accent color
+ */
+
+/* .book-summary ul.summary li.active > a {
+  color: #10D368;
+} */
+
+/*
+ * Next page
+ */
+
+.markdown-section > blockquote:last-child {
+  margin: 4em 0 0 0 !important;
+  padding: 0;
+  border: 0;
+  box-shadow: none;
+  background: transparent;
+  border-top: solid 1px #f0f0f0;
+  padding-top: 16px;
+  position: relative;
+  color: #333;
+  width: 100%;
+  max-width: 100%;
+  min-height: 3em;
+}
+
+.markdown-section > blockquote:last-child > p > strong:first-child {
+  color: #111;
+}
+
+@media (max-width: 480px) {
+  .markdown-section > blockquote:last-child {
+    margin-top: 1.5em;
+    min-height: 0;
+  }
+}
+
+@media (min-width: 481px) {
+  .markdown-section > blockquote:last-child {
+    padding-right: 96px;
+  }
+
+  .markdown-section > blockquote:last-child a::before {
+    content: 'Next';
+    position: absolute;
+    top: 12px;
+    right: 0;
+    font-weight: bold;
+    border: solid 1px rgba(16, 211, 104, 0.1);
+    background: #fcfcfc;
+    border-radius: 3px;
+    padding: 4px 16px;
+    font-size: .86em;
+  }
+
+  .markdown-section > blockquote:last-child a:hover::before,
+  .markdown-section > blockquote:last-child a:active::before {
+    background: #10D368;
+    color: white;
+    border-color: transparent;
+  }
+}
+
+/*
+ * Figures
+ */
+
+.markdown-section figure {
+  margin: 2em auto;
+  text-align: center;
+}
+
+.markdown-section figure img {
+  display: block;
+  margin: 0 auto;
+}
+
+.markdown-section figcaption {
+  font-size: 0.86em;
+  font-style: italic;
+  color: #666;
+  margin-top: 16px;
+}
+
+.markdown-section figure.-bordered {
+  border: solid 2px #eee;
+  border-radius: 2px;
+  margin: 2em auto !important;
+  padding: 16px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.markdown-section figure.-bordered figcaption {
+  background: #fafafa;
+  margin: 16px -16px -16px -16px;
+  padding: 8px;
+  border-top: solid 1px #eee;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+
+@media (min-width: 481px) {
+  .markdown-section figure.-bordered {
+    padding: 24px;
+    max-width: 80%;
+  }
+
+  .markdown-section figure.-bordered figcaption {
+    margin: 16px -24px -24px -24px;
+  }
+}
+
+.markdown-section figure.-w40 {
+  max-width: 40%;
+}
+
+.markdown-section figure.-w60 {
+  max-width: 60%;
+}
+
+.markdown-section figure.-w80 {
+  max-width: 80%;
+}
+
+.markdown-section figure.-w100 {
+  max-width: 100%;
+}
+
+@media (max-width: 480px) {
+  .markdown-section figure.-w40 {
+    max-width: 60%;
+  }
+
+  .markdown-section figure.-w60 {
+    max-width: 80%;
+  }
+
+  .markdown-section figure.-w80,
+  .markdown-section figure.-w100 {
+    max-width: 100%;
+  }
+}
+
+/* Don't use */
+.markdown-section figure.-s60 {
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+.markdown-section figure.-s80 {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.markdown-section figure.-s60 {
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+.markdown-section figure.-shadow img {
+  border-radius: 3px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: inline-block;
+  margin: 0;
+}
+
+.markdown-section figure.-clip {
+  overflow: hidden;
+  border-bottom: solid 1px #eee;
+}
+
+.markdown-section figure.-clip img {
+  margin-bottom: -64px;
+}
+
+
+
+/*
+ * Stuff not written yet
+ */
+
+.book-summary ul.summary li span {
+  opacity: 0.4;
+}
+
+/*
+ * Details-summary
+ */
+
+.markdown-section summary {
+  margin-bottom: 0.8em;
+  cursor: pointer;
+  color: #999;
+}
+
+.markdown-section summary:hover,
+.markdown-section summary:active {
+  color: #25a;
+}
+
+.markdown-section summary,
+.markdown-section summary:focus {
+  outline: 0;
+}
+
+/*
+ * Chapter heading
+ */
+.markdown-section .chapter-h1 {
+    color: #10D368;
+    margin-top: 1em !important;
+    font-size: 2.98em; /* 1.2 ^ 6 */
+}
+
+@media (max-width: 768px) {
+  .markdown-section .chapter-h1 {
+    font-size: 2.31em; /* 1.15 ^ 6 */
+  }
+}
+
+@media (max-width: 480px) {
+  .markdown-section .chapter-h1 {
+    font-size: 1.77em; /* 1.1 ^ 6 */
+  }
+}
+
+.markdown-section .chapter-h1::before {
+    content: 'Modern Development';
+    display: block;
+    font-size: 1.4rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: #aaa;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+}
+
+/*
+ * Pre
+ */
+
+.markdown-section pre,
+.markdown-section blockquote {
+  background: #fcfcfc;
+  padding: 16px;
+  margin: 2em auto !important;
+  border: solid 1px #eee;
+  border-radius: 2px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  color: #333;
+}
+
+.markdown-section blockquote {
+  color: #666;
+  padding: 16px 24px;
+}
+
+.markdown-section blockquote > :first-child {
+  margin-top: 0;
+}
+
+.markdown-section blockquote > :last-child {
+  margin-bottom: 0;
+}
+
+.markdown-section blockquote h1,
+.markdown-section blockquote h2 {
+  color: #666;
+}
+
+.markdown-section pre {
+  line-height: 1.4;
+}
+
+.markdown-section pre + pre {
+  margin-top: -1.5em;
+}
+
+@media (min-width: 481px) {
+  .markdown-section pre,
+  .markdown-section blockquote {
+    max-width: 90%;
+  }
+}
+
+.book.book.book.book.book.book .token.comment {
+  color: #4b5;
+}
+.lang-bash .token.function {
+  color: inherit;
+}
+
+.markdown-section code {
+  font-family: 'fira mono', menlo, monospace;
+  font-feature-settings: "liga" 0;
+  letter-spacing: -0.03em;
+  margin: 0;
+  padding: 0;
+  background: transparent;
+  margin: 0 -0.3em;
+  font-size: 0.9em;
+}
+
+.markdown-section pre code {
+  margin: 0;
+  font-size: 0.85em;
+}
+
+/*
+ * Keyboard keys
+ */
+
+.markdown-section kbd {
+  font-family: 'fira mono', menlo, monospace;
+  font-feature-settings: "liga" 0;
+  letter-spacing: -0.03em;
+  margin: 0 0.05em;
+  padding: 0 3px;
+  background: transparent;
+  font-size: 0.7em;
+  background: #fafafa;
+  border: solid 1px #ddd;
+  border-bottom-width: 2px;
+  border-radius: 4px;
+  margin-top: -0.05em;
+}
+
+/*
+ * Navigation - it's distracting :(
+ */
+
+@media (min-width: 769px) {
+  /* .navigation {
+    opacity: 0;
+    -webkit-transition: 100ms opacity linear;
+    -moz-transition: 100ms opacity linear;
+    transition: 100ms opacity linear;
+  }
+
+  .navigation:hover {
+    opacity: 1;
+  } */
+
+  .navigation {
+    justify-content: flex-end;
+  }
+
+  .navigation > .fa {
+    font-size: 32px;
+    margin: 16px 24px;
+  }
+
+  .navigation > .fa-angle-left {
+    text-align: left;
+  }
+
+  .navigation > .fa-angle-right {
+    text-align: right;
+  }
+}
+
+/*
+ * Scrollbars
+ */
+
+.book-summary::-webkit-scrollbar {
+  width: 6px;
+}
+
+.book-summary::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.book-summary::-webkit-scrollbar-thumb {
+  border-radius: 3px;
+  background: rgba(0, 0, 0, 0.1);
+}
+
+/*
+ * Updated sidebar paddings
+ */
+
+.book-summary ul.summary li ul {
+    padding-left: 8px;
+}
+
+.book-summary ul.summary li a,
+.book-summary ul.summary li span {
+  padding: 8px 16px;
+}
+
+/*
+ * Line above the part divisions in the sidebar
+ */
+
+.book-summary ul.summary li.header {
+  border-top: solid 1px rgba(0, 0, 0, 0.07);
+  margin-top: 12px;
+}
+
+/*
+ * Dim body with sidebar open in mobile
+ */
+
+@media (max-width: 480px) {
+  .book .page-wrapper {
+    -webkit-transition: opacity 100ms linear;
+    -moz-transition: opacity 100ms linear;
+    transition: opacity 100ms linear;
+  }
+
+  .book.with-summary .page-wrapper {
+    opacity: 0.1;
+  }
+
+  .book-header > .btn:first-child {
+    color: #444;
+  }
+}
+
+/*
+ * Blockquote heading for the Slack example
+ */
+
+.book.book .quote-heading {
+  border-bottom: solid 1px rgba(0, 0, 0, 0.07);
+  margin: -16px -24px 16px -24px;
+  padding: 8px 24px;
+  color: #888;
+  font-weight: normal;
+  font-size: 0.86em;
+  background: rgba(255, 255, 255, 0.75);
+}
+
+.book .quote-heading + * {
+  margin-top: 0;
+}
+
+/*
+ * This article is a stub
+ */
+
+.book .markdown-section .stub-quote {
+  background: transparent;
+  width: 100%;
+  border: 0;
+  box-shadow: none;
+  margin: -1em 0 1em 0 !important;
+  padding: 0 0 0 16px;
+  max-width: 100%;
+  color: #ccc;
+  border-left: solid 4px #eee;
+}
+
+/*
+ * Examples
+ */
+
+.markdown-section .bad-example,
+.markdown-section .good-example {
+  color: rgba(0, 0, 0, 0.3);
+  font-size: 0.86em;
+  margin-left: 0.1em;
+  font-style: normal;
+}
+
+/*
+ * Callouts
+ */
+
+.markdown-section .note-callout {
+  margin: 1.5em auto;
+  max-width: 100%;
+  width: auto;
+  box-shadow: none;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  padding-left: 40px;
+  color: #666;
+}
+
+.markdown-section .note-callout::before {
+  font-family: FontAwesome;
+  line-height: 1em;
+  font-weight: normal;
+  font-size: normal;
+  display: inline-block;
+  vertical-align; middle;
+
+  content: "\f05a";
+  font-size: 24px;
+  float: left;
+  margin-left: -40px;
+  margin-top: 8px;
+  color: #25a;
+}
+
+.markdown-section .note-callout::after {
+  content: '';
+  display: table;
+  clear: both;
+  zoom: 1;
+}
+
+/*
+ * Cover section
+ */
+
+.cover-section > .cover {
+  flex: 1 1 auto;
+  text-align: center;
+}
+
+.cover-section > .cover > a > img {
+  max-height: 90vh;
+}
+
+.cover-section > .text {
+  flex: 1 1 auto;
+  text-align: center;
+}
+
+@media (min-width: 769px) {
+  .cover-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    min-height: 90vh;
+  }
+
+  .cover-section > .cover {
+    flex: 1 1 60%;
+    padding-right: 16px;
+  }
+
+  .cover-section > .text {
+    flex: 1 1 40%;
+  }
+
+  .cover-section > .actions {
+    margin-top: 2em;
+  }
+}
+
+.markdown-section .cta-button {
+  display: inline-block;
+  background: #10D368;
+  color: white;
+  padding: 8px 24px;
+  font-size: 1.2em;
+  border-radius: 3px;
+}
+
+.markdown-section .cta-button:hover,
+.markdown-section .cta-button:active {
+  text-decoration: none;
+  background: rgb(54, 218, 128);
+}
