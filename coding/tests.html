@@ -2,12 +2,12 @@
 <!DOCTYPE HTML>
 <html lang="" >
     <head>
-        <title>Test-driven development · Modern Development Handbook</title>
         <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Test-driven development · Modern Development Handbook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
-        <meta name="generator" content="GitBook 3.2.0">
+        <meta name="generator" content="GitBook 3.2.3">
         
         
         
@@ -1020,25 +1020,31 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="test-driven-development">Test-driven development</h1><figure class="-bordered -p80">
+                                <h1 id="test-driven-development">Test-driven development</h1>
+<figure class="-bordered -p80">
 <img src="../images/tdd-flowchart.png" alt="TDD flowchart">
 </figure>
 
+<p>Test-driven development, or TDD, means writing tests along with your code. It&apos;s not about writing tests after you&apos;re done, but making testing a habit as part of your development process.</p>
+<ul>
+<li>Tests should be written alongside your implementation.</li>
+<li>New features need to have new tests for it.</li>
+<li>Features can&apos;t be merged unless tests pass.</li>
+</ul>
+<h2 id="what-to-test">What to test</h2>
+<p>A healthy code base has tests written in this priority (most important to least):</p>
+<ol>
+<li>Unit tests</li>
+<li>Smoke tests</li>
+<li>Integration tests</li>
+</ol>
+<p>Units tests are easy to make and are a natural part of the process of writing models. Smoke tests are small and also easy to make. Integration tests are larger and harder to maintain, so it&apos;s often more economical to prioritize writing smaller unit tests.</p>
+<h2 id="in-the-git-workflow">In the Git workflow</h2>
+<p>The main branches <code>master</code> and <code>develop</code> must always be in a working state. Pull requests can&apos;t be merged until their tests pass.</p>
+<blockquote>
+<p><strong>Next:</strong> What are <a href="test_types.html">unit, integration, and smoke tests</a>?</p>
+</blockquote>
 
-
-<p>Test-driven development, or TDD, means writing tests along with your code. It&apos;s not about writing tests after you&apos;re done, but making testing a habit as part of your development process.</p><ul><li>Tests should be written alongside your implementation.
-</li>
-<li>New features need to have new tests for it.
-</li>
-<li>Features can&apos;t be merged unless tests pass.
-</li></ul>
-<h2 id="what-to-test">What to test</h2><p>A healthy code base has tests written in this priority (most important to least):</p><ol><li>Unit tests
-</li>
-<li>Smoke tests
-</li>
-<li>Integration tests
-</li></ol>
-<p>Units tests are easy to make and are a natural part of the process of writing models. Smoke tests are small and also easy to make. Integration tests are larger and harder to maintain, so it&apos;s often more economical to prioritize writing smaller unit tests.</p><h2 id="in-the-git-workflow">In the Git workflow</h2><p>The main branches <code>master</code> and <code>develop</code> must always be in a working state. Pull requests can&apos;t be merged until their tests pass.</p><blockquote><p><strong>Next:</strong> What are <a href="test_types.html">unit, integration, and smoke tests</a>?</p></blockquote>
                                 
                                 </section>
                             
@@ -1081,7 +1087,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Test-driven development","level":"4.3.1","depth":2,"next":{"title":"Types of tests","level":"4.3.2","depth":2,"path":"coding/test_types.md","ref":"coding/test_types.md","articles":[]},"previous":{"title":"Coding practices","level":"4.3","depth":1,"path":"coding/README.md","ref":"coding/README.md","articles":[{"title":"Test-driven development","level":"4.3.1","depth":2,"path":"coding/tests.md","ref":"coding/tests.md","articles":[]},{"title":"Types of tests","level":"4.3.2","depth":2,"path":"coding/test_types.md","ref":"coding/test_types.md","articles":[]},{"title":"Why we test","level":"4.3.3","depth":2,"path":"coding/why_test.md","ref":"coding/why_test.md","articles":[]},{"title":"Linting","level":"4.3.4","depth":2,"path":"coding/linting.md","ref":"coding/linting.md","articles":[]},{"title":"Readme files","level":"4.3.5","depth":2,"path":"coding/readme_files.md","ref":"coding/readme_files.md","articles":[]},{"title":"Inline documentation","level":"4.3.6","depth":2,"path":"coding/inline_docs.md","ref":"coding/inline_docs.md","articles":[]},{"title":"Summary","level":"4.3.7","depth":2,"path":"coding/summary.md","ref":"coding/summary.md","articles":[]}]},"dir":"ltr"},"config":{"plugins":["edit-link","ga","github","prism","-highlight","-fontsettings"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"edit-link":{"label":"Edit","base":"https://github.com/rstacruz/modern-development/edit/master"},"ga":{"configuration":"auto","token":"UA-20473929-1"},"github":{"url":"https://github.com/rstacruz/modern-development/"},"sharing":{"facebook":false,"twitter":false,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"prism":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":10,"fontFamily":"Arial","paperSize":"a5","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":40,"left":40,"top":64,"bottom":64}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Modern Development Handbook","gitbook":"*"},"file":{"path":"coding/tests.md","mtime":"2017-01-08T18:31:32.000Z","type":"markdown"},"gitbook":{"version":"3.2.0","time":"2017-08-21T17:25:19.566Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Test-driven development","level":"4.3.1","depth":2,"next":{"title":"Types of tests","level":"4.3.2","depth":2,"path":"coding/test_types.md","ref":"coding/test_types.md","articles":[]},"previous":{"title":"Coding practices","level":"4.3","depth":1,"path":"coding/README.md","ref":"coding/README.md","articles":[{"title":"Test-driven development","level":"4.3.1","depth":2,"path":"coding/tests.md","ref":"coding/tests.md","articles":[]},{"title":"Types of tests","level":"4.3.2","depth":2,"path":"coding/test_types.md","ref":"coding/test_types.md","articles":[]},{"title":"Why we test","level":"4.3.3","depth":2,"path":"coding/why_test.md","ref":"coding/why_test.md","articles":[]},{"title":"Linting","level":"4.3.4","depth":2,"path":"coding/linting.md","ref":"coding/linting.md","articles":[]},{"title":"Readme files","level":"4.3.5","depth":2,"path":"coding/readme_files.md","ref":"coding/readme_files.md","articles":[]},{"title":"Inline documentation","level":"4.3.6","depth":2,"path":"coding/inline_docs.md","ref":"coding/inline_docs.md","articles":[]},{"title":"Summary","level":"4.3.7","depth":2,"path":"coding/summary.md","ref":"coding/summary.md","articles":[]}]},"dir":"ltr"},"config":{"plugins":["edit-link","ga","github","prism","-highlight","-fontsettings"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"edit-link":{"label":"Edit","base":"https://github.com/rstacruz/modern-development/edit/master"},"ga":{"configuration":"auto","token":"UA-20473929-1"},"github":{"url":"https://github.com/rstacruz/modern-development/"},"sharing":{"facebook":false,"twitter":false,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"prism":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":10,"fontFamily":"Arial","paperSize":"a5","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":40,"left":40,"top":64,"bottom":64}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Modern Development Handbook","gitbook":"*"},"file":{"path":"coding/tests.md","mtime":"2017-08-21T17:24:55.783Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2017-08-21T17:26:02.687Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>

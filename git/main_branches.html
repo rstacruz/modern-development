@@ -2,12 +2,12 @@
 <!DOCTYPE HTML>
 <html lang="" >
     <head>
-        <title>Main branches · Modern Development Handbook</title>
         <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Main branches · Modern Development Handbook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
-        <meta name="generator" content="GitBook 3.2.0">
+        <meta name="generator" content="GitBook 3.2.3">
         
         
         
@@ -1020,25 +1020,28 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="main-branches">Main branches</h1><p>There are two main branches to be maintained: <code>master</code> and <code>develop</code>.</p><h2 id="the-develop-branch">The develop branch</h2><p>The <code>develop</code> branch is what we consider the main branch. Feature branches merge into this branch.</p><figure class="-bordered">
+                                <h1 id="main-branches">Main branches</h1>
+<p>There are two main branches to be maintained: <code>master</code> and <code>develop</code>.</p>
+<h2 id="the-develop-branch">The develop branch</h2>
+<p>The <code>develop</code> branch is what we consider the main branch. Feature branches merge into this branch.</p>
+<figure class="-bordered">
 <img src="../images/develop-timeline.png" alt="Develop branch illustration">
 </figure>
 
-
-
-<p>Nobody should push commits directly into this branch. Instead, work starts by creating feature branches from <code>develop</code>. They&apos;ll be merged back in when finished. In practice, the <code>develop</code> branch only has merge commits from feature branches.</p><figure class="-bordered">
+<p>Nobody should push commits directly into this branch. Instead, work starts by creating feature branches from <code>develop</code>. They&apos;ll be merged back in when finished. In practice, the <code>develop</code> branch only has merge commits from feature branches.</p>
+<figure class="-bordered">
 <img src="../images/merge-commits.svg" alt="Merge commits illustration">
 </figure>
 
-
-
-<p>The <code>develop</code> branch is always in a &quot;ready to test&quot; state. All automated tests should always be passing in this branch. You should also set up a staging server to sync with the latest <code>develop</code> version for testing (see <a href="automated_deployments.md">automated deployments</a>).</p><h2 id="the-master-branch">The master branch</h2><p>The <code>master</code> is maintained to be in a <em>production-ready</em> state. While the <code>develop</code> branch is ready for developers and testers, the <code>master</code> branch is ready for users.</p><figure class="-bordered">
+<p>The <code>develop</code> branch is always in a &quot;ready to test&quot; state. All automated tests should always be passing in this branch. You should also set up a staging server to sync with the latest <code>develop</code> version for testing (see <a href="automated_deployments.md">automated deployments</a>).</p>
+<h2 id="the-master-branch">The master branch</h2>
+<p>The <code>master</code> is maintained to be in a <em>production-ready</em> state. While the <code>develop</code> branch is ready for developers and testers, the <code>master</code> branch is ready for users.</p>
+<figure class="-bordered">
 <img src="../images/develop-timeline-master.svg">
 </figure>
 
-
-
-<p>At the end of a sprint, the <code>develop</code> branch will be merged into <code>master</code>. This effectively promotes the current development version into a production version. From then, automated deployments will take care of deploying it to production. This means whatever&apos;s live on production at any moment is always what&apos;s the latest on <code>master</code>.</p><details>
+<p>At the end of a sprint, the <code>develop</code> branch will be merged into <code>master</code>. This effectively promotes the current development version into a production version. From then, automated deployments will take care of deploying it to production. This means whatever&apos;s live on production at any moment is always what&apos;s the latest on <code>master</code>.</p>
+<details>
 <summary>See also...</summary>
 
 <ul>
@@ -1046,9 +1049,10 @@
 </ul>
 </details>
 
+<blockquote>
+<p><strong>Next:</strong> Let&apos;s start working by <a href="feature_branches.html">creating a feature branch</a>.</p>
+</blockquote>
 
-
-<blockquote><p><strong>Next:</strong> Let&apos;s start working by <a href="feature_branches.html">creating a feature branch</a>.</p></blockquote>
                                 
                                 </section>
                             
@@ -1091,7 +1095,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Main branches","level":"4.1.1","depth":2,"next":{"title":"Feature branches","level":"4.1.2","depth":2,"path":"git/feature_branches.md","ref":"git/feature_branches.md","articles":[]},"previous":{"title":"Git workflow","level":"4.1","depth":1,"path":"git/README.md","ref":"git/README.md","articles":[{"title":"Main branches","level":"4.1.1","depth":2,"path":"git/main_branches.md","ref":"git/main_branches.md","articles":[]},{"title":"Feature branches","level":"4.1.2","depth":2,"path":"git/feature_branches.md","ref":"git/feature_branches.md","articles":[]},{"title":"Pull requests","level":"4.1.3","depth":2,"path":"git/pull_requests.md","ref":"git/pull_requests.md","articles":[]},{"title":"Reviewing pull requests","level":"4.1.4","depth":2,"path":"git/reviewing.md","ref":"git/reviewing.md","articles":[]},{"title":"Building a release","level":"4.1.5","depth":2,"path":"git/releasing.md","ref":"git/releasing.md","articles":[]},{"title":"Emergency fixes","level":"4.1.6","depth":2,"path":"git/hotfix.md","ref":"git/hotfix.md","articles":[]},{"title":"Why we use branches","level":"4.1.7","depth":2,"path":"git/why.md","ref":"git/why.md","articles":[]},{"title":"Summary","level":"4.1.8","depth":2,"path":"git/summary.md","ref":"git/summary.md","articles":[]}]},"dir":"ltr"},"config":{"plugins":["edit-link","ga","github","prism","-highlight","-fontsettings"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"edit-link":{"label":"Edit","base":"https://github.com/rstacruz/modern-development/edit/master"},"ga":{"configuration":"auto","token":"UA-20473929-1"},"github":{"url":"https://github.com/rstacruz/modern-development/"},"sharing":{"facebook":false,"twitter":false,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"prism":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":10,"fontFamily":"Arial","paperSize":"a5","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":40,"left":40,"top":64,"bottom":64}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Modern Development Handbook","gitbook":"*"},"file":{"path":"git/main_branches.md","mtime":"2017-01-08T10:53:12.000Z","type":"markdown"},"gitbook":{"version":"3.2.0","time":"2017-08-21T17:25:19.566Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Main branches","level":"4.1.1","depth":2,"next":{"title":"Feature branches","level":"4.1.2","depth":2,"path":"git/feature_branches.md","ref":"git/feature_branches.md","articles":[]},"previous":{"title":"Git workflow","level":"4.1","depth":1,"path":"git/README.md","ref":"git/README.md","articles":[{"title":"Main branches","level":"4.1.1","depth":2,"path":"git/main_branches.md","ref":"git/main_branches.md","articles":[]},{"title":"Feature branches","level":"4.1.2","depth":2,"path":"git/feature_branches.md","ref":"git/feature_branches.md","articles":[]},{"title":"Pull requests","level":"4.1.3","depth":2,"path":"git/pull_requests.md","ref":"git/pull_requests.md","articles":[]},{"title":"Reviewing pull requests","level":"4.1.4","depth":2,"path":"git/reviewing.md","ref":"git/reviewing.md","articles":[]},{"title":"Building a release","level":"4.1.5","depth":2,"path":"git/releasing.md","ref":"git/releasing.md","articles":[]},{"title":"Emergency fixes","level":"4.1.6","depth":2,"path":"git/hotfix.md","ref":"git/hotfix.md","articles":[]},{"title":"Why we use branches","level":"4.1.7","depth":2,"path":"git/why.md","ref":"git/why.md","articles":[]},{"title":"Summary","level":"4.1.8","depth":2,"path":"git/summary.md","ref":"git/summary.md","articles":[]}]},"dir":"ltr"},"config":{"plugins":["edit-link","ga","github","prism","-highlight","-fontsettings"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"edit-link":{"label":"Edit","base":"https://github.com/rstacruz/modern-development/edit/master"},"ga":{"configuration":"auto","token":"UA-20473929-1"},"github":{"url":"https://github.com/rstacruz/modern-development/"},"sharing":{"facebook":false,"twitter":false,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"prism":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":10,"fontFamily":"Arial","paperSize":"a5","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":40,"left":40,"top":64,"bottom":64}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Modern Development Handbook","gitbook":"*"},"file":{"path":"git/main_branches.md","mtime":"2017-08-21T17:24:55.783Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2017-08-21T17:26:02.687Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>

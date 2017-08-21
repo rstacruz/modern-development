@@ -2,12 +2,12 @@
 <!DOCTYPE HTML>
 <html lang="" >
     <head>
-        <title>Automated testing · Modern Development Handbook</title>
         <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Automated testing · Modern Development Handbook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
-        <meta name="generator" content="GitBook 3.2.0">
+        <meta name="generator" content="GitBook 3.2.3">
         
         
         
@@ -1020,22 +1020,28 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="automated-testing">Automated testing</h1><p>Having a CI test your code automatically is critical in a branch-based Git workflow. At the very least, you should have a CI service configured for your project to:</p><ul><li>Run tests in every <code>git push</code> to your repository.
-</li>
-<li>Display test results in GitHub and Slack.
-</li></ul>
-<h2 id="setting-up-automated-testing">Setting up automated testing</h2><p>Set up your CI to run tests on every Git push. The steps for this varies for every CI service, so consult your CI manual for details. Typically, this means listing a set of commands that your CI will run when it detects changes. Here&apos;s a contrived example:</p><pre class="language-"><code class="lang-bash"><span class="token comment" spellcheck="true"># Example CI script for Node.js and Ruby</span>
+                                <h1 id="automated-testing">Automated testing</h1>
+<p>Having a CI test your code automatically is critical in a branch-based Git workflow. At the very least, you should have a CI service configured for your project to:</p>
+<ul>
+<li>Run tests in every <code>git push</code> to your repository.</li>
+<li>Display test results in GitHub and Slack.</li>
+</ul>
+<h2 id="setting-up-automated-testing">Setting up automated testing</h2>
+<p>Set up your CI to run tests on every Git push. The steps for this varies for every CI service, so consult your CI manual for details. Typically, this means listing a set of commands that your CI will run when it detects changes. Here&apos;s a contrived example:</p>
+<pre class="language-"><code class="lang-bash"><span class="token comment" spellcheck="true"># Example CI script for Node.js and Ruby</span>
 npm <span class="token function">install</span>
 bundle <span class="token function">install</span> --path<span class="token operator">=</span>vendor/bundle
 npm <span class="token function">test</span>
-bundle <span class="token function">exec</span> rspec</code></pre>
-<h2 id="github-integration">GitHub integration</h2><figure class="-s80">
+bundle <span class="token function">exec</span> rspec
+</code></pre>
+<h2 id="github-integration">GitHub integration</h2>
+<figure class="-s80">
 <img src="../images/github-pr-status-example.png">
 </figure>
 
-
-
-<p>When reviewing pull requests, you&apos;ll need to ensure that the tests are adequate and passing. A CI service can automate running tests for you and display those results on GitHub.</p><p>Most CI services integrate with GitHub and other Git hosting platforms. This helps enforce good pull request hygiene: every code change needs tests, and they all need to pass before merging.</p><details>
+<p>When reviewing pull requests, you&apos;ll need to ensure that the tests are adequate and passing. A CI service can automate running tests for you and display those results on GitHub.</p>
+<p>Most CI services integrate with GitHub and other Git hosting platforms. This helps enforce good pull request hygiene: every code change needs tests, and they all need to pass before merging.</p>
+<details>
 <summary>See also...</summary>
 
 <ul>
@@ -1049,9 +1055,10 @@ bundle <span class="token function">exec</span> rspec</code></pre>
 </ul>
 </details>
 
+<blockquote>
+<p><strong>Next:</strong> Let&apos;s <a href="deployment.html">automate deployments</a>.</p>
+</blockquote>
 
-
-<blockquote><p><strong>Next:</strong> Let&apos;s <a href="deployment.html">automate deployments</a>.</p></blockquote>
                                 
                                 </section>
                             
@@ -1094,7 +1101,7 @@ bundle <span class="token function">exec</span> rspec</code></pre>
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Automated testing","level":"4.2.2","depth":2,"next":{"title":"Deployment automation","level":"4.2.3","depth":2,"path":"automation/deployment.md","ref":"automation/deployment.md","articles":[]},"previous":{"title":"Continuous integration","level":"4.2.1","depth":2,"path":"automation/ci.md","ref":"automation/ci.md","articles":[]},"dir":"ltr"},"config":{"plugins":["edit-link","ga","github","prism","-highlight","-fontsettings"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"edit-link":{"label":"Edit","base":"https://github.com/rstacruz/modern-development/edit/master"},"ga":{"configuration":"auto","token":"UA-20473929-1"},"github":{"url":"https://github.com/rstacruz/modern-development/"},"sharing":{"facebook":false,"twitter":false,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"prism":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":10,"fontFamily":"Arial","paperSize":"a5","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":40,"left":40,"top":64,"bottom":64}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Modern Development Handbook","gitbook":"*"},"file":{"path":"automation/testing.md","mtime":"2017-01-08T10:53:12.000Z","type":"markdown"},"gitbook":{"version":"3.2.0","time":"2017-08-21T17:25:19.566Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Automated testing","level":"4.2.2","depth":2,"next":{"title":"Deployment automation","level":"4.2.3","depth":2,"path":"automation/deployment.md","ref":"automation/deployment.md","articles":[]},"previous":{"title":"Continuous integration","level":"4.2.1","depth":2,"path":"automation/ci.md","ref":"automation/ci.md","articles":[]},"dir":"ltr"},"config":{"plugins":["edit-link","ga","github","prism","-highlight","-fontsettings"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"edit-link":{"label":"Edit","base":"https://github.com/rstacruz/modern-development/edit/master"},"ga":{"configuration":"auto","token":"UA-20473929-1"},"github":{"url":"https://github.com/rstacruz/modern-development/"},"sharing":{"facebook":false,"twitter":false,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"prism":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":10,"fontFamily":"Arial","paperSize":"a5","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":40,"left":40,"top":64,"bottom":64}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Modern Development Handbook","gitbook":"*"},"file":{"path":"automation/testing.md","mtime":"2017-08-21T17:24:55.779Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2017-08-21T17:26:02.687Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>

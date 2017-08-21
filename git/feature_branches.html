@@ -2,12 +2,12 @@
 <!DOCTYPE HTML>
 <html lang="" >
     <head>
-        <title>Feature branches · Modern Development Handbook</title>
         <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Feature branches · Modern Development Handbook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
-        <meta name="generator" content="GitBook 3.2.0">
+        <meta name="generator" content="GitBook 3.2.3">
         
         
         
@@ -1020,7 +1020,9 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="feature-branches">Feature branches</h1><p>To start working on anything, you first create a <em>feature branch</em>. These branches can either be a <code>feature</code>, a <code>fix</code>, or a <code>chore</code>.</p><pre class="language-"><code class="lang-bash"><span class="token comment" spellcheck="true"># Start from the main branch, `develop`</span>
+                                <h1 id="feature-branches">Feature branches</h1>
+<p>To start working on anything, you first create a <em>feature branch</em>. These branches can either be a <code>feature</code>, a <code>fix</code>, or a <code>chore</code>.</p>
+<pre class="language-"><code class="lang-bash"><span class="token comment" spellcheck="true"># Start from the main branch, `develop`</span>
 <span class="token function">git</span> checkout develop
 
 <span class="token comment" spellcheck="true"># Create your branch locally</span>
@@ -1031,12 +1033,17 @@
 <span class="token function">git</span> commit -m <span class="token string">&quot;Allow users to click on stars&quot;</span>
 
 <span class="token comment" spellcheck="true"># Push your branch as often as possible</span>
-<span class="token function">git</span> push --set-upstream origin feature/improve_rating_system</code></pre>
-<p>All work start as a feature branch. Nobody should directly push commits to the main branches (<em>master</em> and <em>develop</em>). Working this way brings us a lot of benefits:</p><ul><li>Your work can easily be reviewed later through <a href="pull_requests.html">pull requests</a>.
-</li>
-<li>It can be reverted later on as one branch, if need be.
-</li></ul>
-<blockquote><p><strong>Next:</strong> Once you&apos;re done with your work, <a href="pull_requests.html">create a pull request</a>.</p></blockquote>
+<span class="token function">git</span> push --set-upstream origin feature/improve_rating_system
+</code></pre>
+<p>All work start as a feature branch. Nobody should directly push commits to the main branches (<em>master</em> and <em>develop</em>). Working this way brings us a lot of benefits:</p>
+<ul>
+<li>Your work can easily be reviewed later through <a href="pull_requests.html">pull requests</a>.</li>
+<li>It can be reverted later on as one branch, if need be.</li>
+</ul>
+<blockquote>
+<p><strong>Next:</strong> Once you&apos;re done with your work, <a href="pull_requests.html">create a pull request</a>.</p>
+</blockquote>
+
                                 
                                 </section>
                             
@@ -1079,7 +1086,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Feature branches","level":"4.1.2","depth":2,"next":{"title":"Pull requests","level":"4.1.3","depth":2,"path":"git/pull_requests.md","ref":"git/pull_requests.md","articles":[]},"previous":{"title":"Main branches","level":"4.1.1","depth":2,"path":"git/main_branches.md","ref":"git/main_branches.md","articles":[]},"dir":"ltr"},"config":{"plugins":["edit-link","ga","github","prism","-highlight","-fontsettings"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"edit-link":{"label":"Edit","base":"https://github.com/rstacruz/modern-development/edit/master"},"ga":{"configuration":"auto","token":"UA-20473929-1"},"github":{"url":"https://github.com/rstacruz/modern-development/"},"sharing":{"facebook":false,"twitter":false,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"prism":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":10,"fontFamily":"Arial","paperSize":"a5","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":40,"left":40,"top":64,"bottom":64}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Modern Development Handbook","gitbook":"*"},"file":{"path":"git/feature_branches.md","mtime":"2017-01-08T10:53:12.000Z","type":"markdown"},"gitbook":{"version":"3.2.0","time":"2017-08-21T17:25:19.566Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Feature branches","level":"4.1.2","depth":2,"next":{"title":"Pull requests","level":"4.1.3","depth":2,"path":"git/pull_requests.md","ref":"git/pull_requests.md","articles":[]},"previous":{"title":"Main branches","level":"4.1.1","depth":2,"path":"git/main_branches.md","ref":"git/main_branches.md","articles":[]},"dir":"ltr"},"config":{"plugins":["edit-link","ga","github","prism","-highlight","-fontsettings"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"edit-link":{"label":"Edit","base":"https://github.com/rstacruz/modern-development/edit/master"},"ga":{"configuration":"auto","token":"UA-20473929-1"},"github":{"url":"https://github.com/rstacruz/modern-development/"},"sharing":{"facebook":false,"twitter":false,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"prism":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":10,"fontFamily":"Arial","paperSize":"a5","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":40,"left":40,"top":64,"bottom":64}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Modern Development Handbook","gitbook":"*"},"file":{"path":"git/feature_branches.md","mtime":"2017-08-21T17:24:55.783Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2017-08-21T17:26:02.687Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>

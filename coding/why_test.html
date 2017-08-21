@@ -2,12 +2,12 @@
 <!DOCTYPE HTML>
 <html lang="" >
     <head>
-        <title>Why we test · Modern Development Handbook</title>
         <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Why we test · Modern Development Handbook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
-        <meta name="generator" content="GitBook 3.2.0">
+        <meta name="generator" content="GitBook 3.2.3">
         
         
         
@@ -1020,25 +1020,40 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="why-we-test">Why we test</h1><p>Writing tests make you work faster. This seems like a backward thought at first, since writing tests take time. In practice, these tests are automating parts of your workflow, and automation always makes you faster in the long run.</p><h2 id="f5-driven-development">F5-driven development</h2><p>Let&apos;s consider the alternative to TDD. Development in the console usually involves a REPL shell that lets you invoke some code in your project. Here&apos;s an example in a typical Rails project:</p><pre class="language-"><code class="lang-bash">$ bundle <span class="token function">exec</span> rails console
+                                <h1 id="why-we-test">Why we test</h1>
+<p>Writing tests make you work faster. This seems like a backward thought at first, since writing tests take time. In practice, these tests are automating parts of your workflow, and automation always makes you faster in the long run.</p>
+<h2 id="f5-driven-development">F5-driven development</h2>
+<p>Let&apos;s consider the alternative to TDD. Development in the console usually involves a REPL shell that lets you invoke some code in your project. Here&apos;s an example in a typical Rails project:</p>
+<pre class="language-"><code class="lang-bash">$ bundle <span class="token function">exec</span> rails console
 Loading development environment <span class="token punctuation">(</span>Rails 5.0.0.1<span class="token punctuation">)</span>
 
 irb<span class="token operator">&gt;</span> User.new<span class="token punctuation">(</span>first_name: <span class="token string">&apos;John&apos;</span>, last_name: <span class="token string">&apos;Smith&apos;</span><span class="token punctuation">)</span>.full_name
-<span class="token string">&quot;John Smith&quot;</span></code></pre>
-<p>People often abuse REPL consoles as part of their coding process. A common anti-pattern is to use a REPL to test changes as you make them. A typical REPL workflow looks like this:</p><ul><li>Make some more changes.
-</li>
-<li>Press <kbd>Alt</kbd><kbd>Tab</kbd> to switch to a terminal.
-</li>
-<li>Press <kbd>Up</kbd> then <kbd>Enter</kbd> to retry the last command.
-</li></ul>
-<p>In the case of web development, switching to a browser and hitting <kbd>Ctrl</kbd><kbd>R</kbd> or <kbd>F5</kbd> to reload is also very common. Wouldn&apos;t it be easier to automate this process for you?</p><pre class="language-"><code class="lang-rb">test <span class="token string">&apos;Builds a full name do&apos;</span> <span class="token keyword">do</span>
+<span class="token string">&quot;John Smith&quot;</span>
+</code></pre>
+<p>People often abuse REPL consoles as part of their coding process. A common anti-pattern is to use a REPL to test changes as you make them. A typical REPL workflow looks like this:</p>
+<ul>
+<li>Make some more changes.</li>
+<li>Press <kbd>Alt</kbd><kbd>Tab</kbd> to switch to a terminal.</li>
+<li>Press <kbd>Up</kbd> then <kbd>Enter</kbd> to retry the last command.</li>
+</ul>
+<p>In the case of web development, switching to a browser and hitting <kbd>Ctrl</kbd><kbd>R</kbd> or <kbd>F5</kbd> to reload is also very common. Wouldn&apos;t it be easier to automate this process for you?</p>
+<pre class="language-"><code class="lang-rb">test <span class="token string">&apos;Builds a full name do&apos;</span> <span class="token keyword">do</span>
   user <span class="token operator">=</span> <span class="token constant">User</span><span class="token punctuation">.</span><span class="token keyword">new</span><span class="token punctuation">(</span>
     first_name<span class="token punctuation">:</span> <span class="token string">&apos;John&apos;</span><span class="token punctuation">,</span>
     last_name<span class="token punctuation">:</span> <span class="token string">&apos;Smith&apos;</span><span class="token punctuation">)</span>
 
   <span class="token function">expect</span><span class="token punctuation">(</span>user<span class="token punctuation">.</span>full_name<span class="token punctuation">)</span><span class="token punctuation">.</span>to eq <span class="token string">&apos;John Smith&apos;</span>
-<span class="token keyword">end</span></code></pre>
-<p>By writing those same REPL commands as a test, you can now re-run it using <code>ruby test/user_test.rb</code>. In fact, you can run all the tests you&apos;ve ever written!</p><h2 id="tests-as-insurance">Tests as insurance</h2><p>Tests let you update code mercilessly. Have you ever been in a project that uses very old versions of 3rd-party libraries such as Rails or jQuery? These projects are too afraid to upgrade knowing it may break things.</p><p>By writing tests, you&apos;ll be alerted of breakages when updating your project&apos;s dependencies. Changing the jQuery version may make some tests fail. You&apos;d know then where to fix things.</p><h2 id="refactoring-mercilessly">Refactoring mercilessly</h2><p>Tests aren&apos;t only for upgrading 3rd-party dependencies. Even updating one part in your project can result in breaking another part. A good refactoring process starts with writing tests. When changing code, it helps to know what it can break.</p><h2 id="tests-as-documentation">Tests as documentation</h2><p>While tests are no substitute for formal documentation, it can provide a quick reference for other developers. Consider this test:</p><pre class="language-"><code class="lang-js"><span class="token function">test</span><span class="token punctuation">(</span><span class="token string">&apos;OrderCalculator calculating charges&apos;</span><span class="token punctuation">,</span> t <span class="token operator">=</span><span class="token operator">&gt;</span> <span class="token punctuation">{</span>
+<span class="token keyword">end</span>
+</code></pre>
+<p>By writing those same REPL commands as a test, you can now re-run it using <code>ruby test/user_test.rb</code>. In fact, you can run all the tests you&apos;ve ever written!</p>
+<h2 id="tests-as-insurance">Tests as insurance</h2>
+<p>Tests let you update code mercilessly. Have you ever been in a project that uses very old versions of 3rd-party libraries such as Rails or jQuery? These projects are too afraid to upgrade knowing it may break things.</p>
+<p>By writing tests, you&apos;ll be alerted of breakages when updating your project&apos;s dependencies. Changing the jQuery version may make some tests fail. You&apos;d know then where to fix things.</p>
+<h2 id="refactoring-mercilessly">Refactoring mercilessly</h2>
+<p>Tests aren&apos;t only for upgrading 3rd-party dependencies. Even updating one part in your project can result in breaking another part. A good refactoring process starts with writing tests. When changing code, it helps to know what it can break.</p>
+<h2 id="tests-as-documentation">Tests as documentation</h2>
+<p>While tests are no substitute for formal documentation, it can provide a quick reference for other developers. Consider this test:</p>
+<pre class="language-"><code class="lang-js"><span class="token function">test</span><span class="token punctuation">(</span><span class="token string">&apos;OrderCalculator calculating charges&apos;</span><span class="token punctuation">,</span> t <span class="token operator">=</span><span class="token operator">&gt;</span> <span class="token punctuation">{</span>
   <span class="token keyword">let</span> order <span class="token operator">=</span> <span class="token punctuation">{</span>
     type<span class="token punctuation">:</span> <span class="token string">&apos;pickup&apos;</span><span class="token punctuation">,</span> <span class="token comment" spellcheck="true">// or &apos;deliver&apos;</span>
     items<span class="token punctuation">:</span> <span class="token punctuation">[</span>
@@ -1053,8 +1068,13 @@ irb<span class="token operator">&gt;</span> User.new<span class="token punctuati
     total<span class="token punctuation">:</span> <span class="token number">11.16</span> <span class="token punctuation">}</span><span class="token punctuation">)</span>
 
   t<span class="token punctuation">.</span><span class="token function">end</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
-<span class="token punctuation">}</span><span class="token punctuation">)</span></code></pre>
-<p>Another developer would easily know at a glance what <code>OrderCalculator</code> does, what input it takes, and what results it yields.</p><blockquote><p><strong>Next:</strong> Enforce code style guidelines through <a href="linting.html">linting</a>.</p></blockquote>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+</code></pre>
+<p>Another developer would easily know at a glance what <code>OrderCalculator</code> does, what input it takes, and what results it yields.</p>
+<blockquote>
+<p><strong>Next:</strong> Enforce code style guidelines through <a href="linting.html">linting</a>.</p>
+</blockquote>
+
                                 
                                 </section>
                             
@@ -1097,7 +1117,7 @@ irb<span class="token operator">&gt;</span> User.new<span class="token punctuati
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Why we test","level":"4.3.3","depth":2,"next":{"title":"Linting","level":"4.3.4","depth":2,"path":"coding/linting.md","ref":"coding/linting.md","articles":[]},"previous":{"title":"Types of tests","level":"4.3.2","depth":2,"path":"coding/test_types.md","ref":"coding/test_types.md","articles":[]},"dir":"ltr"},"config":{"plugins":["edit-link","ga","github","prism","-highlight","-fontsettings"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"edit-link":{"label":"Edit","base":"https://github.com/rstacruz/modern-development/edit/master"},"ga":{"configuration":"auto","token":"UA-20473929-1"},"github":{"url":"https://github.com/rstacruz/modern-development/"},"sharing":{"facebook":false,"twitter":false,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"prism":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":10,"fontFamily":"Arial","paperSize":"a5","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":40,"left":40,"top":64,"bottom":64}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Modern Development Handbook","gitbook":"*"},"file":{"path":"coding/why_test.md","mtime":"2017-01-10T14:50:38.000Z","type":"markdown"},"gitbook":{"version":"3.2.0","time":"2017-08-21T17:25:19.566Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Why we test","level":"4.3.3","depth":2,"next":{"title":"Linting","level":"4.3.4","depth":2,"path":"coding/linting.md","ref":"coding/linting.md","articles":[]},"previous":{"title":"Types of tests","level":"4.3.2","depth":2,"path":"coding/test_types.md","ref":"coding/test_types.md","articles":[]},"dir":"ltr"},"config":{"plugins":["edit-link","ga","github","prism","-highlight","-fontsettings"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"edit-link":{"label":"Edit","base":"https://github.com/rstacruz/modern-development/edit/master"},"ga":{"configuration":"auto","token":"UA-20473929-1"},"github":{"url":"https://github.com/rstacruz/modern-development/"},"sharing":{"facebook":false,"twitter":false,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"prism":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":10,"fontFamily":"Arial","paperSize":"a5","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":40,"left":40,"top":64,"bottom":64}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Modern Development Handbook","gitbook":"*"},"file":{"path":"coding/why_test.md","mtime":"2017-08-21T17:24:55.783Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2017-08-21T17:26:02.687Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>

@@ -2,12 +2,12 @@
 <!DOCTYPE HTML>
 <html lang="" >
     <head>
-        <title>Types of tests · Modern Development Handbook</title>
         <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Types of tests · Modern Development Handbook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
-        <meta name="generator" content="GitBook 3.2.0">
+        <meta name="generator" content="GitBook 3.2.3">
         
         
         
@@ -1020,27 +1020,35 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="types-of-tests">Types of tests</h1><p>Tests will commonly be either a <em>unit test</em> that tests one thing, or an <em>integration test</em> that tests many things. Here&apos;s the same behavior tested in two different ways:</p><pre class="language-"><code class="lang-rb"><span class="token comment" spellcheck="true"># Unit test example: tests the model</span>
+                                <h1 id="types-of-tests">Types of tests</h1>
+<p>Tests will commonly be either a <em>unit test</em> that tests one thing, or an <em>integration test</em> that tests many things. Here&apos;s the same behavior tested in two different ways:</p>
+<pre class="language-"><code class="lang-rb"><span class="token comment" spellcheck="true"># Unit test example: tests the model</span>
 test <span class="token string">&apos;Article publishing&apos;</span> <span class="token keyword">do</span>
   article<span class="token punctuation">.</span>publish<span class="token operator">!</span>
   <span class="token function">expect</span><span class="token punctuation">(</span>article<span class="token punctuation">.</span>published_at<span class="token punctuation">)</span><span class="token punctuation">.</span>to eq <span class="token builtin">Time</span><span class="token punctuation">.</span>now
-<span class="token keyword">end</span></code></pre>
+<span class="token keyword">end</span>
+</code></pre>
 <pre class="language-"><code class="lang-rb"><span class="token comment" spellcheck="true"># Integration test example: tests your router,</span>
 <span class="token comment" spellcheck="true"># controller, view, and model all at once</span>
 test <span class="token string">&apos;Article publishing&apos;</span> <span class="token keyword">do</span>
   post <span class="token string">&apos;/articles/my-draft-article/publish&apos;</span>
   <span class="token function">expect</span><span class="token punctuation">(</span>article<span class="token punctuation">.</span>published_at<span class="token punctuation">)</span><span class="token punctuation">.</span>to eq <span class="token builtin">Time</span><span class="token punctuation">.</span>now
-<span class="token keyword">end</span></code></pre>
-<p>In web development, unit tests are often written for models and services, while integration tests are for controllers.</p><h2 id="smoke-tests">Smoke tests</h2><p>A smoke test is a very shallow integration test. It usually just tries something and expects no errors to happen. The name comes from testing electronics to check if turning a device on produces smoke. In web development, it usually means just visiting a path and checking for errors.</p><pre class="language-"><code class="lang-rb">test <span class="token string">&apos;No fires happen&apos;</span> <span class="token keyword">do</span>
+<span class="token keyword">end</span>
+</code></pre>
+<p>In web development, unit tests are often written for models and services, while integration tests are for controllers.</p>
+<h2 id="smoke-tests">Smoke tests</h2>
+<p>A smoke test is a very shallow integration test. It usually just tries something and expects no errors to happen. The name comes from testing electronics to check if turning a device on produces smoke. In web development, it usually means just visiting a path and checking for errors.</p>
+<pre class="language-"><code class="lang-rb">test <span class="token string">&apos;No fires happen&apos;</span> <span class="token keyword">do</span>
   visit <span class="token string">&apos;/article/my-article&apos;</span>
   <span class="token function">expect</span><span class="token punctuation">(</span>response<span class="token punctuation">.</span>code<span class="token punctuation">)</span><span class="token punctuation">.</span>to eq <span class="token number">200</span>
-<span class="token keyword">end</span></code></pre>
-<p>The simple test above will already check for a lot of things:</p><ul><li>Any errors in the view templates
-</li>
-<li>Any model or controller errors
-</li>
-<li>Middleware in the app server
-</li></ul>
+<span class="token keyword">end</span>
+</code></pre>
+<p>The simple test above will already check for a lot of things:</p>
+<ul>
+<li>Any errors in the view templates</li>
+<li>Any model or controller errors</li>
+<li>Middleware in the app server</li>
+</ul>
 <details>
 <summary>See also...</summary>
 
@@ -1049,9 +1057,10 @@ test <span class="token string">&apos;Article publishing&apos;</span> <span clas
 </ul>
 </details>
 
+<blockquote>
+<p><strong>Next:</strong> <a href="why_test.html">Why do we write tests?</a></p>
+</blockquote>
 
-
-<blockquote><p><strong>Next:</strong> <a href="why_test.html">Why do we write tests?</a></p></blockquote>
                                 
                                 </section>
                             
@@ -1094,7 +1103,7 @@ test <span class="token string">&apos;Article publishing&apos;</span> <span clas
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Types of tests","level":"4.3.2","depth":2,"next":{"title":"Why we test","level":"4.3.3","depth":2,"path":"coding/why_test.md","ref":"coding/why_test.md","articles":[]},"previous":{"title":"Test-driven development","level":"4.3.1","depth":2,"path":"coding/tests.md","ref":"coding/tests.md","articles":[]},"dir":"ltr"},"config":{"plugins":["edit-link","ga","github","prism","-highlight","-fontsettings"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"edit-link":{"label":"Edit","base":"https://github.com/rstacruz/modern-development/edit/master"},"ga":{"configuration":"auto","token":"UA-20473929-1"},"github":{"url":"https://github.com/rstacruz/modern-development/"},"sharing":{"facebook":false,"twitter":false,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"prism":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":10,"fontFamily":"Arial","paperSize":"a5","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":40,"left":40,"top":64,"bottom":64}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Modern Development Handbook","gitbook":"*"},"file":{"path":"coding/test_types.md","mtime":"2017-01-08T18:27:49.000Z","type":"markdown"},"gitbook":{"version":"3.2.0","time":"2017-08-21T17:25:19.566Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Types of tests","level":"4.3.2","depth":2,"next":{"title":"Why we test","level":"4.3.3","depth":2,"path":"coding/why_test.md","ref":"coding/why_test.md","articles":[]},"previous":{"title":"Test-driven development","level":"4.3.1","depth":2,"path":"coding/tests.md","ref":"coding/tests.md","articles":[]},"dir":"ltr"},"config":{"plugins":["edit-link","ga","github","prism","-highlight","-fontsettings"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"edit-link":{"label":"Edit","base":"https://github.com/rstacruz/modern-development/edit/master"},"ga":{"configuration":"auto","token":"UA-20473929-1"},"github":{"url":"https://github.com/rstacruz/modern-development/"},"sharing":{"facebook":false,"twitter":false,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"prism":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":10,"fontFamily":"Arial","paperSize":"a5","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":40,"left":40,"top":64,"bottom":64}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Modern Development Handbook","gitbook":"*"},"file":{"path":"coding/test_types.md","mtime":"2017-08-21T17:24:55.783Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2017-08-21T17:26:02.687Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>

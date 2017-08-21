@@ -2,12 +2,12 @@
 <!DOCTYPE HTML>
 <html lang="" >
     <head>
-        <title>Why we use branches · Modern Development Handbook</title>
         <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Why we use branches · Modern Development Handbook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
-        <meta name="generator" content="GitBook 3.2.0">
+        <meta name="generator" content="GitBook 3.2.3">
         
         
         
@@ -1020,25 +1020,40 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="why-we-use-branches">Why we use branches</h1><p>We&apos;ve been describing a git workflow that relies heavily on branches. This isn&apos;t the only way to use Git. In fact, the most obvious way to use Git is how the Git manual first tells us to: push all commits to a single <code>master</code> branch.</p><p>This works for solo developers, but it breaks down once you have two or more on the team. Let&apos;s go through the problems that would come up in a single-branch model.</p><h2 id="problem-changes-arent-contiguous">Problem: changes aren&apos;t contiguous</h2><pre class="language-"><code>    X - X - O - O - X - O                  X - X - X - O - O - O
+                                <h1 id="why-we-use-branches">Why we use branches</h1>
+<p>We&apos;ve been describing a git workflow that relies heavily on branches. This isn&apos;t the only way to use Git. In fact, the most obvious way to use Git is how the Git manual first tells us to: push all commits to a single <code>master</code> branch.</p>
+<p>This works for solo developers, but it breaks down once you have two or more on the team. Let&apos;s go through the problems that would come up in a single-branch model.</p>
+<h2 id="problem-changes-arent-contiguous">Problem: changes aren&apos;t contiguous</h2>
+<pre class="language-"><code>    X - X - O - O - X - O                  X - X - X - O - O - O
 
     Working on a single branch             Working using feature branches
-    (interleaved)                          (contiguous)</code></pre>
-<p>If two people are working on 2 features, their commits may end up being interleaved. That is, for features <code>X</code> and <code>O</code>, the commits for either feature may not show up next to each other. This makes reviewing changes more difficult.</p><h2 id="problem-changes-cant-be-reverted">Problem: changes can&apos;t be reverted</h2><p>To revert a feature that spans multiple commits, all those commits have to be reverted individually.</p><pre class="language-"><code class="lang-bash"><span class="token comment" spellcheck="true"># Single-branch workflow: reverting each commit individually</span>
+    (interleaved)                          (contiguous)
+</code></pre><p>If two people are working on 2 features, their commits may end up being interleaved. That is, for features <code>X</code> and <code>O</code>, the commits for either feature may not show up next to each other. This makes reviewing changes more difficult.</p>
+<h2 id="problem-changes-cant-be-reverted">Problem: changes can&apos;t be reverted</h2>
+<p>To revert a feature that spans multiple commits, all those commits have to be reverted individually.</p>
+<pre class="language-"><code class="lang-bash"><span class="token comment" spellcheck="true"># Single-branch workflow: reverting each commit individually</span>
 <span class="token function">git</span> revert 1a84c2b9
 <span class="token function">git</span> revert 9bf3cb70
 <span class="token function">git</span> revert 6b9c5cb4
-<span class="token function">git</span> revert 215c3820</code></pre>
-<p>Git solves this by grouping multiple commits together into a single <em>merge commit.</em> This is what happens when a pull request is merged. This merge commit can then be reverted, and doing so will revert all commits that it groups together.</p><pre class="language-"><code class="lang-bash"><span class="token comment" spellcheck="true"># Feature branch workflow: only one commit to revert</span>
+<span class="token function">git</span> revert 215c3820
+</code></pre>
+<p>Git solves this by grouping multiple commits together into a single <em>merge commit.</em> This is what happens when a pull request is merged. This merge commit can then be reverted, and doing so will revert all commits that it groups together.</p>
+<pre class="language-"><code class="lang-bash"><span class="token comment" spellcheck="true"># Feature branch workflow: only one commit to revert</span>
 <span class="token comment" spellcheck="true"># (Assuming 75a6c2a0 is a merge commit)</span>
-<span class="token function">git</span> revert 75a6c2a0 -m 1</code></pre>
-<h2 id="problem-reviewing-is-difficult">Problem: reviewing is difficult</h2><figure class="-bordered">
+<span class="token function">git</span> revert 75a6c2a0 -m 1
+</code></pre>
+<h2 id="problem-reviewing-is-difficult">Problem: reviewing is difficult</h2>
+<figure class="-bordered">
 <img src="../images/commit-reviewing.png" alt="Commit reviewing message screenshot">
 </figure>
 
+<p>It becomes harder to review changes when they&apos;re not contiguous or grouped in any way. By grouping them together, you can create a GitHub pull request where your peers can browse through your changes easily.</p>
+<h2 id="the-solution">The solution</h2>
+<p>The Git workflow described in this chapter is a logical evolution brought about by the problems above. By compartmentalizing each piece of work into branches, we make it easier to manage large amounts of work over long periods of time.</p>
+<blockquote>
+<p><strong>Next:</strong> Let&apos;s <a href="summary.html">recap what we&apos;ve learned</a>.</p>
+</blockquote>
 
-
-<p>It becomes harder to review changes when they&apos;re not contiguous or grouped in any way. By grouping them together, you can create a GitHub pull request where your peers can browse through your changes easily.</p><h2 id="the-solution">The solution</h2><p>The Git workflow described in this chapter is a logical evolution brought about by the problems above. By compartmentalizing each piece of work into branches, we make it easier to manage large amounts of work over long periods of time.</p><blockquote><p><strong>Next:</strong> Let&apos;s <a href="summary.html">recap what we&apos;ve learned</a>.</p></blockquote>
                                 
                                 </section>
                             
@@ -1081,7 +1096,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Why we use branches","level":"4.1.7","depth":2,"next":{"title":"Summary","level":"4.1.8","depth":2,"path":"git/summary.md","ref":"git/summary.md","articles":[]},"previous":{"title":"Emergency fixes","level":"4.1.6","depth":2,"path":"git/hotfix.md","ref":"git/hotfix.md","articles":[]},"dir":"ltr"},"config":{"plugins":["edit-link","ga","github","prism","-highlight","-fontsettings"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"edit-link":{"label":"Edit","base":"https://github.com/rstacruz/modern-development/edit/master"},"ga":{"configuration":"auto","token":"UA-20473929-1"},"github":{"url":"https://github.com/rstacruz/modern-development/"},"sharing":{"facebook":false,"twitter":false,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"prism":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":10,"fontFamily":"Arial","paperSize":"a5","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":40,"left":40,"top":64,"bottom":64}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Modern Development Handbook","gitbook":"*"},"file":{"path":"git/why.md","mtime":"2017-01-08T10:53:12.000Z","type":"markdown"},"gitbook":{"version":"3.2.0","time":"2017-08-21T17:25:19.566Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Why we use branches","level":"4.1.7","depth":2,"next":{"title":"Summary","level":"4.1.8","depth":2,"path":"git/summary.md","ref":"git/summary.md","articles":[]},"previous":{"title":"Emergency fixes","level":"4.1.6","depth":2,"path":"git/hotfix.md","ref":"git/hotfix.md","articles":[]},"dir":"ltr"},"config":{"plugins":["edit-link","ga","github","prism","-highlight","-fontsettings"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"edit-link":{"label":"Edit","base":"https://github.com/rstacruz/modern-development/edit/master"},"ga":{"configuration":"auto","token":"UA-20473929-1"},"github":{"url":"https://github.com/rstacruz/modern-development/"},"sharing":{"facebook":false,"twitter":false,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"prism":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":10,"fontFamily":"Arial","paperSize":"a5","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":40,"left":40,"top":64,"bottom":64}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Modern Development Handbook","gitbook":"*"},"file":{"path":"git/why.md","mtime":"2017-08-21T17:24:55.783Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2017-08-21T17:26:02.687Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>

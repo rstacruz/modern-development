@@ -2,12 +2,12 @@
 <!DOCTYPE HTML>
 <html lang="" >
     <head>
-        <title>Continuous integration · Modern Development Handbook</title>
         <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Continuous integration · Modern Development Handbook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
-        <meta name="generator" content="GitBook 3.2.0">
+        <meta name="generator" content="GitBook 3.2.3">
         
         
         
@@ -1020,31 +1020,32 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="continuous-integration">Continuous integration</h1><figure class="-s60 -shadow">
+                                <h1 id="continuous-integration">Continuous integration</h1>
+<figure class="-s60 -shadow">
 <img src="../images/travis-ci-example.png" alt="Travis CI screenshot">
 </figure>
 
+<p>A modern development pipeline will need a continuous integration (CI) service. A CI service lets you run tasks whenever your project gets updated. These are usually used to automatically run tests in your project. CI services are used to automate:</p>
+<ul>
+<li>Running unit and integration tests</li>
+<li>Deploying to websites</li>
+<li>Generating builds (eg, mobile and desktop apps)</li>
+</ul>
+<h2 id="popular-ci-services">Popular CI services</h2>
+<p>There are many CI services available today. Most of them offer free plans for open source projects, with paid plans available for private projects. Here&apos;s a selection of some of the more popular ones at time of writing:</p>
+<ul>
+<li><a href="https://travis-ci.org/" target="_blank">Travis CI</a> is popular among open source projects.</li>
+<li><a href="https://www.appveyor.com/" target="_blank">Appveyor</a> is useful for Windows projects.</li>
+<li><a href="https://codeship.com/" target="_blank">Codeship</a> specializes in Docker.</li>
+<li><a href="https://about.gitlab.com/gitlab-ci/" target="_blank">GitLab</a> offers a CI service with its platform.</li>
+<li><a href="http://semaphoreci.com/" target="_blank">Semaphore</a></li>
+<li><a href="http://circleci.com/" target="_blank">Circle</a></li>
+</ul>
+<p>It doesn&apos;t really matter which CI solution you pick. What&apos;s important is that you use a CI to automate your testing and deployments. What you choose typically depends on the features you need and your budget.</p>
+<blockquote>
+<p><strong>Next:</strong> Let&apos;s use a CI to <a href="testing.html">automate our tests</a>.</p>
+</blockquote>
 
-
-<p>A modern development pipeline will need a continuous integration (CI) service. A CI service lets you run tasks whenever your project gets updated. These are usually used to automatically run tests in your project. CI services are used to automate:</p><ul><li>Running unit and integration tests
-</li>
-<li>Deploying to websites
-</li>
-<li>Generating builds (eg, mobile and desktop apps)
-</li></ul>
-<h2 id="popular-ci-services">Popular CI services</h2><p>There are many CI services available today. Most of them offer free plans for open source projects, with paid plans available for private projects. Here&apos;s a selection of some of the more popular ones at time of writing:</p><ul><li><a href="https://travis-ci.org/" target="_blank">Travis CI</a> is popular among open source projects.
-</li>
-<li><a href="https://www.appveyor.com/" target="_blank">Appveyor</a> is useful for Windows projects.
-</li>
-<li><a href="https://codeship.com/" target="_blank">Codeship</a> specializes in Docker.
-</li>
-<li><a href="https://about.gitlab.com/gitlab-ci/" target="_blank">GitLab</a> offers a CI service with its platform.
-</li>
-<li><a href="http://semaphoreci.com/" target="_blank">Semaphore</a>
-</li>
-<li><a href="http://circleci.com/" target="_blank">Circle</a>
-</li></ul>
-<p>It doesn&apos;t really matter which CI solution you pick. What&apos;s important is that you use a CI to automate your testing and deployments. What you choose typically depends on the features you need and your budget.</p><blockquote><p><strong>Next:</strong> Let&apos;s use a CI to <a href="testing.html">automate our tests</a>.</p></blockquote>
                                 
                                 </section>
                             
@@ -1087,7 +1088,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Continuous integration","level":"4.2.1","depth":2,"next":{"title":"Automated testing","level":"4.2.2","depth":2,"path":"automation/testing.md","ref":"automation/testing.md","articles":[]},"previous":{"title":"Automation","level":"4.2","depth":1,"path":"automation/README.md","ref":"automation/README.md","articles":[{"title":"Continuous integration","level":"4.2.1","depth":2,"path":"automation/ci.md","ref":"automation/ci.md","articles":[]},{"title":"Automated testing","level":"4.2.2","depth":2,"path":"automation/testing.md","ref":"automation/testing.md","articles":[]},{"title":"Deployment automation","level":"4.2.3","depth":2,"path":"automation/deployment.md","ref":"automation/deployment.md","articles":[]},{"title":"The staging system","level":"4.2.4","depth":2,"path":"automation/staging.md","ref":"automation/staging.md","articles":[]},{"title":"Coverage reporting","level":"4.2.5","depth":2,"path":"automation/coverage.md","ref":"automation/coverage.md","articles":[]},{"title":"Summary","level":"4.2.6","depth":2,"path":"automation/summary.md","ref":"automation/summary.md","articles":[]}]},"dir":"ltr"},"config":{"plugins":["edit-link","ga","github","prism","-highlight","-fontsettings"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"edit-link":{"label":"Edit","base":"https://github.com/rstacruz/modern-development/edit/master"},"ga":{"configuration":"auto","token":"UA-20473929-1"},"github":{"url":"https://github.com/rstacruz/modern-development/"},"sharing":{"facebook":false,"twitter":false,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"prism":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":10,"fontFamily":"Arial","paperSize":"a5","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":40,"left":40,"top":64,"bottom":64}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Modern Development Handbook","gitbook":"*"},"file":{"path":"automation/ci.md","mtime":"2017-01-08T10:41:47.000Z","type":"markdown"},"gitbook":{"version":"3.2.0","time":"2017-08-21T17:25:19.566Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Continuous integration","level":"4.2.1","depth":2,"next":{"title":"Automated testing","level":"4.2.2","depth":2,"path":"automation/testing.md","ref":"automation/testing.md","articles":[]},"previous":{"title":"Automation","level":"4.2","depth":1,"path":"automation/README.md","ref":"automation/README.md","articles":[{"title":"Continuous integration","level":"4.2.1","depth":2,"path":"automation/ci.md","ref":"automation/ci.md","articles":[]},{"title":"Automated testing","level":"4.2.2","depth":2,"path":"automation/testing.md","ref":"automation/testing.md","articles":[]},{"title":"Deployment automation","level":"4.2.3","depth":2,"path":"automation/deployment.md","ref":"automation/deployment.md","articles":[]},{"title":"The staging system","level":"4.2.4","depth":2,"path":"automation/staging.md","ref":"automation/staging.md","articles":[]},{"title":"Coverage reporting","level":"4.2.5","depth":2,"path":"automation/coverage.md","ref":"automation/coverage.md","articles":[]},{"title":"Summary","level":"4.2.6","depth":2,"path":"automation/summary.md","ref":"automation/summary.md","articles":[]}]},"dir":"ltr"},"config":{"plugins":["edit-link","ga","github","prism","-highlight","-fontsettings"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"edit-link":{"label":"Edit","base":"https://github.com/rstacruz/modern-development/edit/master"},"ga":{"configuration":"auto","token":"UA-20473929-1"},"github":{"url":"https://github.com/rstacruz/modern-development/"},"sharing":{"facebook":false,"twitter":false,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"prism":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":10,"fontFamily":"Arial","paperSize":"a5","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":40,"left":40,"top":64,"bottom":64}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Modern Development Handbook","gitbook":"*"},"file":{"path":"automation/ci.md","mtime":"2017-08-21T17:24:55.779Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2017-08-21T17:26:02.687Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>

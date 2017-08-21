@@ -2,12 +2,12 @@
 <!DOCTYPE HTML>
 <html lang="" >
     <head>
-        <title>Readme files · Modern Development Handbook</title>
         <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Readme files · Modern Development Handbook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
-        <meta name="generator" content="GitBook 3.2.0">
+        <meta name="generator" content="GitBook 3.2.3">
         
         
         
@@ -1020,62 +1020,76 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="readme-files">Readme files</h1><p>Every project should have a <code>README.md</code> file in their Git repository. It should contain everything anyone ever needs to get started working on the project.</p><ul><li>External links (Trello, JIRA, Slack, and so on)
-</li>
-<li>Required software and how to install them
-</li>
-<li>Setting up a development environment
-</li>
-<li>Deployment instructions
-</li>
-<li>Running tests
-</li></ul>
-<h2 id="the-purpose">The purpose</h2><p>When a new developer joins the team, they should be able to get by by simply telling them to &quot;read the readme file&quot;. This helps the project in many ways:</p><ul><li>Makes it easy for people to join the team.
-</li>
-<li>Helps out team members when moving to new laptops.
-</li></ul>
-<p>Be sure to maintain the Readme file. Things may change and get added to the project that the Readme may need to be updated. Don&apos;t let it stagnate, you&apos;ll never know when you&apos;ll need it!</p><h2 id="example-readme">Example readme</h2><p>This is a bare example that manages to cram everything in the list above in just a few sections.</p><blockquote><h4 class="quote-heading" id="readmemd-example">README.md example</h4>
+                                <h1 id="readme-files">Readme files</h1>
+<p>Every project should have a <code>README.md</code> file in their Git repository. It should contain everything anyone ever needs to get started working on the project.</p>
+<ul>
+<li>External links (Trello, JIRA, Slack, and so on)</li>
+<li>Required software and how to install them</li>
+<li>Setting up a development environment</li>
+<li>Deployment instructions</li>
+<li>Running tests</li>
+</ul>
+<h2 id="the-purpose">The purpose</h2>
+<p>When a new developer joins the team, they should be able to get by by simply telling them to &quot;read the readme file&quot;. This helps the project in many ways:</p>
+<ul>
+<li>Makes it easy for people to join the team.</li>
+<li>Helps out team members when moving to new laptops.</li>
+</ul>
+<p>Be sure to maintain the Readme file. Things may change and get added to the project that the Readme may need to be updated. Don&apos;t let it stagnate, you&apos;ll never know when you&apos;ll need it!</p>
+<h2 id="example-readme">Example readme</h2>
+<p>This is a bare example that manages to cram everything in the list above in just a few sections.</p>
+<blockquote>
+<h4 class="quote-heading" id="readmemd-example">README.md example</h4>
 
-
-
-<h2 id="requirements">Requirements</h2><ul><li>Ruby 2.3
-</li>
-<li>Redis 2.3
-</li>
-<li>PostgreSQL 9.5
-</li>
-<li>Bundler (<code>gem install bundler</code>)
-</li></ul>
-<p>For OSX, we recommend you install via:</p><ul><li><a href="http://brew.sh/" target="_blank">Homebrew</a>
-</li>
-<li>Ruby via <a href="https://rvm.io/" target="_blank">RVM</a>
-</li>
-<li>Redis via Homebrew (<code>brew install redis</code>)
-</li>
-<li>Postgres via Homebrew (<code>brew install postgres</code>)
-</li></ul>
-<h2 id="setting-up">Setting up</h2><p>Install dependencies via Bundler and npm:</p><pre class="language-"><code class="lang-bash"><span class="token function">git</span> checkout https://github.com/x/my_project.git
+<h2 id="requirements">Requirements</h2>
+<ul>
+<li>Ruby 2.3</li>
+<li>Redis 2.3</li>
+<li>PostgreSQL 9.5</li>
+<li>Bundler (<code>gem install bundler</code>)</li>
+</ul>
+<p>For OSX, we recommend you install via:</p>
+<ul>
+<li><a href="http://brew.sh/" target="_blank">Homebrew</a></li>
+<li>Ruby via <a href="https://rvm.io/" target="_blank">RVM</a></li>
+<li>Redis via Homebrew (<code>brew install redis</code>)</li>
+<li>Postgres via Homebrew (<code>brew install postgres</code>)</li>
+</ul>
+<h2 id="setting-up">Setting up</h2>
+<p>Install dependencies via Bundler and npm:</p>
+<pre class="language-"><code class="lang-bash"><span class="token function">git</span> checkout https://github.com/x/my_project.git
 <span class="token function">cd</span> my_project
 
 bundle
-npm <span class="token function">install</span></code></pre>
-<p>Run a Rails development server:</p><pre class="language-"><code class="lang-bash">bundle <span class="token function">exec</span> rails s</code></pre>
-<h2 id="running-tests">Running tests</h2><p>Tests are managed via RSpec.</p><pre class="language-"><code class="lang-bash">bundle <span class="token function">exec</span> rspec</code></pre>
-<h2 id="deployments">Deployments</h2><p>Deployments are managed via SemaphoreCI using Capistrano. <code>develop</code> is automatically deployed to <a href="#">staging.oursite.com</a>, while <code>master</code> is auto-deployed to <a href="#">oursite.com</a> production. To manually invoke a deployment, use:</p><pre class="language-"><code class="lang-bash">bundle <span class="token function">exec</span> cap staging deploy     <span class="token comment" spellcheck="true"># staging.oursite.com</span>
-bundle <span class="token function">exec</span> cap production deploy  <span class="token comment" spellcheck="true"># oursite.com</span></code></pre>
-<h2 id="also-see">Also see</h2><ul><li><a href="#">Slack team</a> for communication
-</li>
-<li><a href="#">Trello board</a> for stories and bug reports
-</li>
-<li><a href="#">SemaphoreCI</a> for tests and deployments
-</li></ul>
-</blockquote><blockquote class="note-callout -info">
+npm <span class="token function">install</span>
+</code></pre>
+<p>Run a Rails development server:</p>
+<pre class="language-"><code class="lang-bash">bundle <span class="token function">exec</span> rails s
+</code></pre>
+<h2 id="running-tests">Running tests</h2>
+<p>Tests are managed via RSpec.</p>
+<pre class="language-"><code class="lang-bash">bundle <span class="token function">exec</span> rspec
+</code></pre>
+<h2 id="deployments">Deployments</h2>
+<p>Deployments are managed via SemaphoreCI using Capistrano. <code>develop</code> is automatically deployed to <a href="#">staging.oursite.com</a>, while <code>master</code> is auto-deployed to <a href="#">oursite.com</a> production. To manually invoke a deployment, use:</p>
+<pre class="language-"><code class="lang-bash">bundle <span class="token function">exec</span> cap staging deploy     <span class="token comment" spellcheck="true"># staging.oursite.com</span>
+bundle <span class="token function">exec</span> cap production deploy  <span class="token comment" spellcheck="true"># oursite.com</span>
+</code></pre>
+<h2 id="also-see">Also see</h2>
+<ul>
+<li><a href="#">Slack team</a> for communication</li>
+<li><a href="#">Trello board</a> for stories and bug reports</li>
+<li><a href="#">SemaphoreCI</a> for tests and deployments</li>
+</ul>
+</blockquote>
+<blockquote class="note-callout -info">
 Note: this section mostly applies to private projects. Different ettiquette applies to Readme files in open source projects.
 </blockquote>
 
+<blockquote>
+<p><strong>Next:</strong> Help teammates understand your work with <a href="inline_docs.html">documentation</a>.</p>
+</blockquote>
 
-
-<blockquote><p><strong>Next:</strong> Help teammates understand your work with <a href="inline_docs.html">documentation</a>.</p></blockquote>
                                 
                                 </section>
                             
@@ -1118,7 +1132,7 @@ Note: this section mostly applies to private projects. Different ettiquette appl
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Readme files","level":"4.3.5","depth":2,"next":{"title":"Inline documentation","level":"4.3.6","depth":2,"path":"coding/inline_docs.md","ref":"coding/inline_docs.md","articles":[]},"previous":{"title":"Linting","level":"4.3.4","depth":2,"path":"coding/linting.md","ref":"coding/linting.md","articles":[]},"dir":"ltr"},"config":{"plugins":["edit-link","ga","github","prism","-highlight","-fontsettings"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"edit-link":{"label":"Edit","base":"https://github.com/rstacruz/modern-development/edit/master"},"ga":{"configuration":"auto","token":"UA-20473929-1"},"github":{"url":"https://github.com/rstacruz/modern-development/"},"sharing":{"facebook":false,"twitter":false,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"prism":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":10,"fontFamily":"Arial","paperSize":"a5","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":40,"left":40,"top":64,"bottom":64}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Modern Development Handbook","gitbook":"*"},"file":{"path":"coding/readme_files.md","mtime":"2017-01-10T15:47:29.000Z","type":"markdown"},"gitbook":{"version":"3.2.0","time":"2017-08-21T17:25:19.566Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Readme files","level":"4.3.5","depth":2,"next":{"title":"Inline documentation","level":"4.3.6","depth":2,"path":"coding/inline_docs.md","ref":"coding/inline_docs.md","articles":[]},"previous":{"title":"Linting","level":"4.3.4","depth":2,"path":"coding/linting.md","ref":"coding/linting.md","articles":[]},"dir":"ltr"},"config":{"plugins":["edit-link","ga","github","prism","-highlight","-fontsettings"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"edit-link":{"label":"Edit","base":"https://github.com/rstacruz/modern-development/edit/master"},"ga":{"configuration":"auto","token":"UA-20473929-1"},"github":{"url":"https://github.com/rstacruz/modern-development/"},"sharing":{"facebook":false,"twitter":false,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"prism":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":10,"fontFamily":"Arial","paperSize":"a5","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":40,"left":40,"top":64,"bottom":64}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Modern Development Handbook","gitbook":"*"},"file":{"path":"coding/readme_files.md","mtime":"2017-08-21T17:24:55.779Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2017-08-21T17:26:02.687Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>

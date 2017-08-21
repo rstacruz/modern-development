@@ -2,12 +2,12 @@
 <!DOCTYPE HTML>
 <html lang="" >
     <head>
-        <title>Submitting bug reports · Modern Development Handbook</title>
         <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Submitting bug reports · Modern Development Handbook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
-        <meta name="generator" content="GitBook 3.2.0">
+        <meta name="generator" content="GitBook 3.2.3">
         
         
         
@@ -1018,49 +1018,64 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="writing-bug-reports">Writing bug reports</h1><blockquote><h4 class="quote-heading" id="bug-report-example">Bug report example</h4>
+                                <h1 id="writing-bug-reports">Writing bug reports</h1>
+<blockquote>
+<h4 class="quote-heading" id="bug-report-example">Bug report example</h4>
 
+<h2 id="cant-change-passwords">Can&apos;t change passwords</h2>
+<p>When I&apos;m logged into as a User, the &quot;change email&quot; form returns an error. Using Firefox on OSX. See <code>oursite.com/users/23/edit</code>.</p>
+<p><img src="https://placehold.it/300x100/fff/eee" alt="Screenshot"></p>
+</blockquote>
+<p>A good bug report has a short title, a one-sentence short description, relevant details, and screenshots. Make sure these details are listed down, or are obvious enough:</p>
+<ul>
+<li>URL <em class="bad-example">(if applicable)</em></li>
+<li>Environment <em class="bad-example">(OS, browser, website environment)</em></li>
+<li>Screenshot</li>
+<li>Steps to reproduce</li>
+<li>Expected result</li>
+<li>Actual result</li>
+</ul>
+<h2 id="writing-titles">Writing titles</h2>
+<p>Keep the title short. Put any details in the body, not in the title. This makes it easier to digest a long list of issues.</p>
+<blockquote>
+<ul>
+<li>&quot;When I try to change passwords, an error is raised.&quot; <em class="bad-example"><em>...can be shorter</em></em></li>
+<li>&quot;Can&apos;t change passwords&quot; <em class="good-example">OK!</em></li>
+</ul>
+</blockquote>
+<p>Try to be specific. Titles that are too broad are not helpful.</p>
+<blockquote>
+<ul>
+<li>&quot;Products error&quot;  <em class="bad-example"><em>...too broad</em></em></li>
+<li>&quot;Can&apos;t buy products&quot; <em class="bad-example"><em>...still too broad</em></em></li>
+<li>&quot;Product page error&quot; <em class="bad-example"><em>...still too broad</em></em></li>
+<li>&quot;Product page: the buy button isn&apos;t clickable&quot; <em class="good-example">OK!</em></li>
+</ul>
+</blockquote>
+<h2 id="full-example">Full example</h2>
+<p>This example also includes steps, actual result, and expected result details. While some reports don&apos;t need all these details, it&apos;s a good idea to include them anyway.</p>
+<blockquote>
+<h4 class="quote-heading" id="bug-report-example">Bug report example</h4>
 
-
-<h2 id="cant-change-passwords">Can&apos;t change passwords</h2><p>When I&apos;m logged into as a User, the &quot;change email&quot; form returns an error. Using Firefox on OSX. See <code>oursite.com/users/23/edit</code>.</p><p><img alt="Screenshot" src="https://placehold.it/300x100/fff/eee"></p></blockquote><p>A good bug report has a short title, a one-sentence short description, relevant details, and screenshots. Make sure these details are listed down, or are obvious enough:</p><ul><li>URL <em class="bad-example">(if applicable)</em>
-</li>
-<li>Environment <em class="bad-example">(OS, browser, website environment)</em>
-</li>
-<li>Screenshot
-</li>
-<li>Steps to reproduce
-</li>
-<li>Expected result
-</li>
-<li>Actual result
-</li></ul>
-<h2 id="writing-titles">Writing titles</h2><p>Keep the title short. Put any details in the body, not in the title. This makes it easier to digest a long list of issues.</p><blockquote><ul><li>&quot;When I try to change passwords, an error is raised.&quot; <em class="bad-example"><em>...can be shorter</em></em>
-</li>
-<li>&quot;Can&apos;t change passwords&quot; <em class="good-example">OK!</em>
-</li></ul>
-</blockquote><p>Try to be specific. Titles that are too broad are not helpful.</p><blockquote><ul><li>&quot;Products error&quot;  <em class="bad-example"><em>...too broad</em></em>
-</li>
-<li>&quot;Can&apos;t buy products&quot; <em class="bad-example"><em>...still too broad</em></em>
-</li>
-<li>&quot;Product page error&quot; <em class="bad-example"><em>...still too broad</em></em>
-</li>
-<li>&quot;Product page: the buy button isn&apos;t clickable&quot; <em class="good-example">OK!</em>
-</li></ul>
-</blockquote><h2 id="full-example">Full example</h2><p>This example also includes steps, actual result, and expected result details. While some reports don&apos;t need all these details, it&apos;s a good idea to include them anyway.</p><blockquote><h4 class="quote-heading" id="bug-report-example">Bug report example</h4>
-
-
-
-<h2 id="cant-send-email">Can&apos;t send email</h2><p>The &quot;send email&quot; button isn&apos;t clickable.
-Using Firefox/OSX on Production. See <code>oursite.com/user/23/edit</code>.</p><p><img alt="Screenshot" src="https://placehold.it/300x100/fff/eee"></p><h4 id="steps">Steps</h4><ol><li>Log in as a user
-</li>
-<li>Go to the Inbox page
-</li>
-<li>Click &quot;write new email&quot;
-</li>
-<li>Click &quot;send&quot;
-</li></ol>
+<h2 id="cant-send-email">Can&apos;t send email</h2>
+<p>The &quot;send email&quot; button isn&apos;t clickable.
+Using Firefox/OSX on Production. See <code>oursite.com/user/23/edit</code>.</p>
+<p><img src="https://placehold.it/300x100/fff/eee" alt="Screenshot"></p>
+<h4 id="steps">Steps</h4>
+<ol>
+<li>Log in as a user</li>
+<li>Go to the Inbox page</li>
+<li>Click &quot;write new email&quot;</li>
+<li>Click &quot;send&quot;</li>
+</ol>
 <p>Expected: The email will be sent.<br>
-Actual: A JavaScript error appears when &quot;send&quot; is clicked.</p></blockquote><p><br></p><blockquote><p><strong>Next:</strong> <a href="../toc/">...</a></p></blockquote>
+Actual: A JavaScript error appears when &quot;send&quot; is clicked.</p>
+</blockquote>
+<p><br></p>
+<blockquote>
+<p><strong>Next:</strong> <a href="../toc/">...</a></p>
+</blockquote>
+
                                 
                                 </section>
                             
@@ -1099,7 +1114,7 @@ Actual: A JavaScript error appears when &quot;send&quot; is clicked.</p></blockq
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Submitting bug reports","level":"5.3.3","depth":2,"next":{"title":"Communication","level":"5.4","depth":1,"path":"communication/README.md","ref":"communication/README.md","articles":[{"title":"Communicating effectively","level":"5.4.1","depth":2,"ref":"","articles":[]},{"title":"Using Slack","level":"5.4.2","depth":2,"path":"communication/using_slack.md","ref":"communication/using_slack.md","articles":[]},{"title":"Sprint kickoffs","level":"5.4.3","depth":2,"ref":"","articles":[]},{"title":"Sprint retrospectives","level":"5.4.4","depth":2,"ref":"","articles":[]},{"title":"Summary","level":"5.4.5","depth":2,"ref":"","articles":[]}]},"previous":{"title":"Writing stories","level":"5.3.2","depth":2,"ref":"","articles":[]},"dir":"ltr"},"config":{"plugins":["edit-link","ga","github","prism","-highlight","-fontsettings"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"edit-link":{"label":"Edit","base":"https://github.com/rstacruz/modern-development/edit/master"},"ga":{"configuration":"auto","token":"UA-20473929-1"},"github":{"url":"https://github.com/rstacruz/modern-development/"},"sharing":{"facebook":false,"twitter":false,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"prism":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":10,"fontFamily":"Arial","paperSize":"a5","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":40,"left":40,"top":64,"bottom":64}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Modern Development Handbook","gitbook":"*"},"file":{"path":"tracking/bug_reports.md","mtime":"2017-01-08T18:55:46.000Z","type":"markdown"},"gitbook":{"version":"3.2.0","time":"2017-08-21T17:25:19.566Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Submitting bug reports","level":"5.3.3","depth":2,"next":{"title":"Communication","level":"5.4","depth":1,"path":"communication/README.md","ref":"communication/README.md","articles":[{"title":"Communicating effectively","level":"5.4.1","depth":2,"ref":"","articles":[]},{"title":"Using Slack","level":"5.4.2","depth":2,"path":"communication/using_slack.md","ref":"communication/using_slack.md","articles":[]},{"title":"Sprint kickoffs","level":"5.4.3","depth":2,"ref":"","articles":[]},{"title":"Sprint retrospectives","level":"5.4.4","depth":2,"ref":"","articles":[]},{"title":"Summary","level":"5.4.5","depth":2,"ref":"","articles":[]}]},"previous":{"title":"Writing stories","level":"5.3.2","depth":2,"ref":"","articles":[]},"dir":"ltr"},"config":{"plugins":["edit-link","ga","github","prism","-highlight","-fontsettings"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"edit-link":{"label":"Edit","base":"https://github.com/rstacruz/modern-development/edit/master"},"ga":{"configuration":"auto","token":"UA-20473929-1"},"github":{"url":"https://github.com/rstacruz/modern-development/"},"sharing":{"facebook":false,"twitter":false,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"prism":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":10,"fontFamily":"Arial","paperSize":"a5","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":40,"left":40,"top":64,"bottom":64}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Modern Development Handbook","gitbook":"*"},"file":{"path":"tracking/bug_reports.md","mtime":"2017-08-21T17:24:55.791Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2017-08-21T17:26:02.687Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>

@@ -2,12 +2,12 @@
 <!DOCTYPE HTML>
 <html lang="" >
     <head>
-        <title>Inline documentation · Modern Development Handbook</title>
         <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Inline documentation · Modern Development Handbook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
-        <meta name="generator" content="GitBook 3.2.0">
+        <meta name="generator" content="GitBook 3.2.3">
         
         
         
@@ -1020,16 +1020,27 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="inline-documentation">Inline documentation</h1><pre class="language-"><code class="lang-rb"><span class="token comment" spellcheck="true"># Publishes an article. This sets the `published_at`</span>
+                                <h1 id="inline-documentation">Inline documentation</h1>
+<pre class="language-"><code class="lang-rb"><span class="token comment" spellcheck="true"># Publishes an article. This sets the `published_at`</span>
 <span class="token comment" spellcheck="true"># timestamp and makes the article appear in the</span>
 <span class="token comment" spellcheck="true"># `Article.published` scope.</span>
 <span class="token keyword">def</span> publish<span class="token operator">!</span>
   <span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span>
-<span class="token keyword">end</span></code></pre>
-<p>In an ideal world, we should always describe our work with documentation. In practical scenarios, we have time constraints and some things may be more important.</p><h2 id="should-i-write-documentation">Should I write documentation?</h2><ul><li><p><strong>Prioritize tests over documentation.</strong> A strong test suite has more long-term benefits than documentation, and good tests can be a poor substitute for documentation as well.</p></li>
-<li><p><strong>Prioritize documenting reusable parts.</strong> If you&apos;re writing code that a teammate it likely to need in the future, write some documentation for it.</p></li>
-<li><p><strong>Prioritize documenting classes/modules</strong> over individual methods. Documenting evry method is time consuming. If you little time to write documentation, prioritize documenting whole classes.</p></li></ul>
-<h2 id="example">Example</h2><p>Here&apos;s a very basic example of documentation that was written in haste. Despite missing actual words, a quick glance can help a new developer understand how this class works and how it&apos;s used.</p><pre class="language-"><code class="lang-rb"><span class="token comment" spellcheck="true"># A blog post.</span>
+<span class="token keyword">end</span>
+</code></pre>
+<p>In an ideal world, we should always describe our work with documentation. In practical scenarios, we have time constraints and some things may be more important.</p>
+<h2 id="should-i-write-documentation">Should I write documentation?</h2>
+<ul>
+<li><p><strong>Prioritize tests over documentation.</strong> A strong test suite has more long-term benefits than documentation, and good tests can be a poor substitute for documentation as well.</p>
+</li>
+<li><p><strong>Prioritize documenting reusable parts.</strong> If you&apos;re writing code that a teammate it likely to need in the future, write some documentation for it.</p>
+</li>
+<li><p><strong>Prioritize documenting classes/modules</strong> over individual methods. Documenting evry method is time consuming. If you little time to write documentation, prioritize documenting whole classes.</p>
+</li>
+</ul>
+<h2 id="example">Example</h2>
+<p>Here&apos;s a very basic example of documentation that was written in haste. Despite missing actual words, a quick glance can help a new developer understand how this class works and how it&apos;s used.</p>
+<pre class="language-"><code class="lang-rb"><span class="token comment" spellcheck="true"># A blog post.</span>
 <span class="token comment" spellcheck="true">#</span>
 <span class="token comment" spellcheck="true"># == Scopes</span>
 <span class="token comment" spellcheck="true">#</span>
@@ -1050,14 +1061,16 @@
 <span class="token comment" spellcheck="true">#</span>
 <span class="token keyword">class</span> <span class="token class-name">Article</span> <span class="token operator">&lt;</span> <span class="token constant">ActiveRecord</span><span class="token punctuation">:</span><span class="token symbol">:Base</span>
   <span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span>
-<span class="token keyword">end</span></code></pre>
+<span class="token keyword">end</span>
+</code></pre>
 <blockquote class="note-callout -info">
 Note: this section mostly applies to private projects. Different ettiquette applies to documentation in open source projects.
 </blockquote>
 
+<blockquote>
+<p><strong>Next:</strong> Let&apos;s <a href="summary.html">recap what we&apos;ve learned</a>.</p>
+</blockquote>
 
-
-<blockquote><p><strong>Next:</strong> Let&apos;s <a href="summary.html">recap what we&apos;ve learned</a>.</p></blockquote>
                                 
                                 </section>
                             
@@ -1100,7 +1113,7 @@ Note: this section mostly applies to private projects. Different ettiquette appl
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Inline documentation","level":"4.3.6","depth":2,"next":{"title":"Summary","level":"4.3.7","depth":2,"path":"coding/summary.md","ref":"coding/summary.md","articles":[]},"previous":{"title":"Readme files","level":"4.3.5","depth":2,"path":"coding/readme_files.md","ref":"coding/readme_files.md","articles":[]},"dir":"ltr"},"config":{"plugins":["edit-link","ga","github","prism","-highlight","-fontsettings"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"edit-link":{"label":"Edit","base":"https://github.com/rstacruz/modern-development/edit/master"},"ga":{"configuration":"auto","token":"UA-20473929-1"},"github":{"url":"https://github.com/rstacruz/modern-development/"},"sharing":{"facebook":false,"twitter":false,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"prism":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":10,"fontFamily":"Arial","paperSize":"a5","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":40,"left":40,"top":64,"bottom":64}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Modern Development Handbook","gitbook":"*"},"file":{"path":"coding/inline_docs.md","mtime":"2017-01-10T15:46:24.000Z","type":"markdown"},"gitbook":{"version":"3.2.0","time":"2017-08-21T17:25:19.566Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Inline documentation","level":"4.3.6","depth":2,"next":{"title":"Summary","level":"4.3.7","depth":2,"path":"coding/summary.md","ref":"coding/summary.md","articles":[]},"previous":{"title":"Readme files","level":"4.3.5","depth":2,"path":"coding/readme_files.md","ref":"coding/readme_files.md","articles":[]},"dir":"ltr"},"config":{"plugins":["edit-link","ga","github","prism","-highlight","-fontsettings"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"edit-link":{"label":"Edit","base":"https://github.com/rstacruz/modern-development/edit/master"},"ga":{"configuration":"auto","token":"UA-20473929-1"},"github":{"url":"https://github.com/rstacruz/modern-development/"},"sharing":{"facebook":false,"twitter":false,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"prism":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":10,"fontFamily":"Arial","paperSize":"a5","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":40,"left":40,"top":64,"bottom":64}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Modern Development Handbook","gitbook":"*"},"file":{"path":"coding/inline_docs.md","mtime":"2017-08-21T17:24:55.779Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2017-08-21T17:26:02.687Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>

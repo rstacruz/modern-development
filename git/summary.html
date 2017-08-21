@@ -2,12 +2,12 @@
 <!DOCTYPE HTML>
 <html lang="" >
     <head>
-        <title>Summary · Modern Development Handbook</title>
         <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Summary · Modern Development Handbook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
-        <meta name="generator" content="GitBook 3.2.0">
+        <meta name="generator" content="GitBook 3.2.3">
         
         
         
@@ -1020,47 +1020,53 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="summary">Summary</h1><p>The branch-based Git workflow helps your team collaborate seamlessly. By making sure that every change is reviewed, you get a useful trail of changes in the form of pull requests and merge commits.</p><ul><li>Everything you do has to be reviewed by someone else.
-</li>
-<li>It should be easy to review other people&apos;s work.
-</li>
-<li>All work happens in feature branches and have pull requests.
-</li>
-<li>Nobody should ever commit directly into <code>develop</code> or <code>master</code>.
-</li>
-<li>Set up a staging system to test the latest version.
-</li></ul>
-<h4 id="the-main-branches">The main branches</h4><ul><li><code>develop</code> is always ready for developers and testers.
-</li>
-<li><code>master</code> is always ready for users.
-</li></ul>
-<h4 id="making-changes">Making changes</h4><ul><li>Create a feature branch.
-</li>
-<li>Send a pull request for this feature branch into <code>develop</code>.
-</li>
-<li>Your team will need to review and merge this pull request.
-</li></ul>
-<h4 id="releasing-versions">Releasing versions</h4><ul><li>Merge <code>develop</code> into <code>master</code>.
-</li>
-<li>Create a GitHub release.
-</li></ul>
-<h4 id="deploying-emergency-hotfixes">Deploying emergency hotfixes</h4><ul><li>Create a branch from <code>master</code>.
-</li>
-<li>Send a pull request for this branch into <code>master</code>.
-</li>
-<li>Merge <code>master</code> back to <code>develop</code> if necessary.
-</li></ul>
-<h4 id="staging-system">Staging system</h4><ul><li>Create a staging system that looks like your production system.
-</li>
-<li>Set up CI to auto-deploy to staging whenever tests pass.
-</li></ul>
-<h2 id="see-also">See also</h2><p>This git workflow is based on <a href="http://nvie.com/posts/a-successful-git-branching-model/" target="_blank">git-flow</a>.</p><ul><li><a href="">git-flow</a> (nvie.com)
-</li>
-<li><a href="https://about.gitlab.com/2014/09/29/gitlab-flow/" target="_blank">GitLab flow</a> (gitlab.com)
-</li>
-<li><a href="">Git manual</a> (git-scm.com)
-</li></ul>
-<blockquote><p><strong>Done!</strong> Go back to the <a href="../toc/">table of contents</a>.</p></blockquote>
+                                <h1 id="summary">Summary</h1>
+<p>The branch-based Git workflow helps your team collaborate seamlessly. By making sure that every change is reviewed, you get a useful trail of changes in the form of pull requests and merge commits.</p>
+<ul>
+<li>Everything you do has to be reviewed by someone else.</li>
+<li>It should be easy to review other people&apos;s work.</li>
+<li>All work happens in feature branches and have pull requests.</li>
+<li>Nobody should ever commit directly into <code>develop</code> or <code>master</code>.</li>
+<li>Set up a staging system to test the latest version.</li>
+</ul>
+<h4 id="the-main-branches">The main branches</h4>
+<ul>
+<li><code>develop</code> is always ready for developers and testers.</li>
+<li><code>master</code> is always ready for users.</li>
+</ul>
+<h4 id="making-changes">Making changes</h4>
+<ul>
+<li>Create a feature branch.</li>
+<li>Send a pull request for this feature branch into <code>develop</code>.</li>
+<li>Your team will need to review and merge this pull request.</li>
+</ul>
+<h4 id="releasing-versions">Releasing versions</h4>
+<ul>
+<li>Merge <code>develop</code> into <code>master</code>.</li>
+<li>Create a GitHub release.</li>
+</ul>
+<h4 id="deploying-emergency-hotfixes">Deploying emergency hotfixes</h4>
+<ul>
+<li>Create a branch from <code>master</code>.</li>
+<li>Send a pull request for this branch into <code>master</code>.</li>
+<li>Merge <code>master</code> back to <code>develop</code> if necessary.</li>
+</ul>
+<h4 id="staging-system">Staging system</h4>
+<ul>
+<li>Create a staging system that looks like your production system.</li>
+<li>Set up CI to auto-deploy to staging whenever tests pass.</li>
+</ul>
+<h2 id="see-also">See also</h2>
+<p>This git workflow is based on <a href="http://nvie.com/posts/a-successful-git-branching-model/" target="_blank">git-flow</a>.</p>
+<ul>
+<li><a href="">git-flow</a> (nvie.com)</li>
+<li><a href="https://about.gitlab.com/2014/09/29/gitlab-flow/" target="_blank">GitLab flow</a> (gitlab.com)</li>
+<li><a href="">Git manual</a> (git-scm.com)</li>
+</ul>
+<blockquote>
+<p><strong>Done!</strong> Go back to the <a href="../toc/">table of contents</a>.</p>
+</blockquote>
+
                                 
                                 </section>
                             
@@ -1103,7 +1109,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Summary","level":"4.1.8","depth":2,"next":{"title":"Automation","level":"4.2","depth":1,"path":"automation/README.md","ref":"automation/README.md","articles":[{"title":"Continuous integration","level":"4.2.1","depth":2,"path":"automation/ci.md","ref":"automation/ci.md","articles":[]},{"title":"Automated testing","level":"4.2.2","depth":2,"path":"automation/testing.md","ref":"automation/testing.md","articles":[]},{"title":"Deployment automation","level":"4.2.3","depth":2,"path":"automation/deployment.md","ref":"automation/deployment.md","articles":[]},{"title":"The staging system","level":"4.2.4","depth":2,"path":"automation/staging.md","ref":"automation/staging.md","articles":[]},{"title":"Coverage reporting","level":"4.2.5","depth":2,"path":"automation/coverage.md","ref":"automation/coverage.md","articles":[]},{"title":"Summary","level":"4.2.6","depth":2,"path":"automation/summary.md","ref":"automation/summary.md","articles":[]}]},"previous":{"title":"Why we use branches","level":"4.1.7","depth":2,"path":"git/why.md","ref":"git/why.md","articles":[]},"dir":"ltr"},"config":{"plugins":["edit-link","ga","github","prism","-highlight","-fontsettings"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"edit-link":{"label":"Edit","base":"https://github.com/rstacruz/modern-development/edit/master"},"ga":{"configuration":"auto","token":"UA-20473929-1"},"github":{"url":"https://github.com/rstacruz/modern-development/"},"sharing":{"facebook":false,"twitter":false,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"prism":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":10,"fontFamily":"Arial","paperSize":"a5","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":40,"left":40,"top":64,"bottom":64}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Modern Development Handbook","gitbook":"*"},"file":{"path":"git/summary.md","mtime":"2017-01-08T10:53:12.000Z","type":"markdown"},"gitbook":{"version":"3.2.0","time":"2017-08-21T17:25:19.566Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Summary","level":"4.1.8","depth":2,"next":{"title":"Automation","level":"4.2","depth":1,"path":"automation/README.md","ref":"automation/README.md","articles":[{"title":"Continuous integration","level":"4.2.1","depth":2,"path":"automation/ci.md","ref":"automation/ci.md","articles":[]},{"title":"Automated testing","level":"4.2.2","depth":2,"path":"automation/testing.md","ref":"automation/testing.md","articles":[]},{"title":"Deployment automation","level":"4.2.3","depth":2,"path":"automation/deployment.md","ref":"automation/deployment.md","articles":[]},{"title":"The staging system","level":"4.2.4","depth":2,"path":"automation/staging.md","ref":"automation/staging.md","articles":[]},{"title":"Coverage reporting","level":"4.2.5","depth":2,"path":"automation/coverage.md","ref":"automation/coverage.md","articles":[]},{"title":"Summary","level":"4.2.6","depth":2,"path":"automation/summary.md","ref":"automation/summary.md","articles":[]}]},"previous":{"title":"Why we use branches","level":"4.1.7","depth":2,"path":"git/why.md","ref":"git/why.md","articles":[]},"dir":"ltr"},"config":{"plugins":["edit-link","ga","github","prism","-highlight","-fontsettings"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"edit-link":{"label":"Edit","base":"https://github.com/rstacruz/modern-development/edit/master"},"ga":{"configuration":"auto","token":"UA-20473929-1"},"github":{"url":"https://github.com/rstacruz/modern-development/"},"sharing":{"facebook":false,"twitter":false,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"prism":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":10,"fontFamily":"Arial","paperSize":"a5","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":40,"left":40,"top":64,"bottom":64}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Modern Development Handbook","gitbook":"*"},"file":{"path":"git/summary.md","mtime":"2017-08-21T17:24:55.783Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2017-08-21T17:26:02.687Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>

@@ -2,12 +2,12 @@
 <!DOCTYPE HTML>
 <html lang="" >
     <head>
-        <title>Deployment automation · Modern Development Handbook</title>
         <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Deployment automation · Modern Development Handbook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
-        <meta name="generator" content="GitBook 3.2.0">
+        <meta name="generator" content="GitBook 3.2.3">
         
         
         
@@ -1020,19 +1020,31 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="deployment-automation">Deployment automation</h1><p>Before you can use a CI for continuous delivery, you&apos;ll need to set up a deploy automation tool.</p><p>A modern project needs to have a simple set of commands to magically update your servers. Contrast this to legacy projects, where deployment may involve manually transfering files and using a browser to invoke certain commands. These tasks need to be automated so they can be repeatable and protected from human errors.</p><h2 id="example">Example</h2><p>For websites hosted on <a href="https://www.heroku.com/" target="_blank">Heroku</a>, their platform already takes care of deploy automation for you. To update a Heroku website, you simply need to do a <code>git push</code>:</p><pre class="language-"><code class="lang-bash"><span class="token comment" spellcheck="true"># Deploy your app into Heroku&apos;s hosting platform</span>
-<span class="token function">git</span> push heroku master</code></pre>
-<p>In other cases, you&apos;d have to use other tools. For Ruby projects, <a href="http://capistranorb.com/" target="_blank">Capistrano</a> is a popular choice. A typical Ruby/Capistrano project would be deployed like so:</p><pre class="language-"><code class="lang-bash"><span class="token comment" spellcheck="true"># Deploy your app using Capistrano</span>
-bundle <span class="token function">exec</span> cap production deploy</code></pre>
-<h2 id="how-to-set-up-deployments">How to set up deployments</h2><p>There are many different tools for this for many different programming languages. Some popular ones include:</p><ul><li><a href="http://www.fabfile.org/" target="_blank">Fabric</a> (Python)
-</li>
-<li><a href="http://capistranorb.com/" target="_blank">Capistrano</a> (Ruby)
-</li>
-<li><a href="http://www.fabfile.org/" target="_blank">Shipit</a> (Node.js)
-</li>
-<li><a href="https://github.com/boldpoker/edeliver" target="_blank">Edeliver</a> (Elixir and Erlang)
-</li></ul>
-<p>It doesn&apos;t matter which solution you pick, as long as your project&apos;s deployments are easy, automated, and reliable.</p><blockquote><p><strong>Next:</strong> Use your CI to maintain a <a href="staging.html">staging system</a>.</p></blockquote>
+                                <h1 id="deployment-automation">Deployment automation</h1>
+<p>Before you can use a CI for continuous delivery, you&apos;ll need to set up a deploy automation tool.</p>
+<p>A modern project needs to have a simple set of commands to magically update your servers. Contrast this to legacy projects, where deployment may involve manually transfering files and using a browser to invoke certain commands. These tasks need to be automated so they can be repeatable and protected from human errors.</p>
+<h2 id="example">Example</h2>
+<p>For websites hosted on <a href="https://www.heroku.com/" target="_blank">Heroku</a>, their platform already takes care of deploy automation for you. To update a Heroku website, you simply need to do a <code>git push</code>:</p>
+<pre class="language-"><code class="lang-bash"><span class="token comment" spellcheck="true"># Deploy your app into Heroku&apos;s hosting platform</span>
+<span class="token function">git</span> push heroku master
+</code></pre>
+<p>In other cases, you&apos;d have to use other tools. For Ruby projects, <a href="http://capistranorb.com/" target="_blank">Capistrano</a> is a popular choice. A typical Ruby/Capistrano project would be deployed like so:</p>
+<pre class="language-"><code class="lang-bash"><span class="token comment" spellcheck="true"># Deploy your app using Capistrano</span>
+bundle <span class="token function">exec</span> cap production deploy
+</code></pre>
+<h2 id="how-to-set-up-deployments">How to set up deployments</h2>
+<p>There are many different tools for this for many different programming languages. Some popular ones include:</p>
+<ul>
+<li><a href="http://www.fabfile.org/" target="_blank">Fabric</a> (Python)</li>
+<li><a href="http://capistranorb.com/" target="_blank">Capistrano</a> (Ruby)</li>
+<li><a href="http://www.fabfile.org/" target="_blank">Shipit</a> (Node.js)</li>
+<li><a href="https://github.com/boldpoker/edeliver" target="_blank">Edeliver</a> (Elixir and Erlang)</li>
+</ul>
+<p>It doesn&apos;t matter which solution you pick, as long as your project&apos;s deployments are easy, automated, and reliable.</p>
+<blockquote>
+<p><strong>Next:</strong> Use your CI to maintain a <a href="staging.html">staging system</a>.</p>
+</blockquote>
+
                                 
                                 </section>
                             
@@ -1075,7 +1087,7 @@ bundle <span class="token function">exec</span> cap production deploy</code></pr
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Deployment automation","level":"4.2.3","depth":2,"next":{"title":"The staging system","level":"4.2.4","depth":2,"path":"automation/staging.md","ref":"automation/staging.md","articles":[]},"previous":{"title":"Automated testing","level":"4.2.2","depth":2,"path":"automation/testing.md","ref":"automation/testing.md","articles":[]},"dir":"ltr"},"config":{"plugins":["edit-link","ga","github","prism","-highlight","-fontsettings"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"edit-link":{"label":"Edit","base":"https://github.com/rstacruz/modern-development/edit/master"},"ga":{"configuration":"auto","token":"UA-20473929-1"},"github":{"url":"https://github.com/rstacruz/modern-development/"},"sharing":{"facebook":false,"twitter":false,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"prism":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":10,"fontFamily":"Arial","paperSize":"a5","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":40,"left":40,"top":64,"bottom":64}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Modern Development Handbook","gitbook":"*"},"file":{"path":"automation/deployment.md","mtime":"2017-01-08T10:53:12.000Z","type":"markdown"},"gitbook":{"version":"3.2.0","time":"2017-08-21T17:25:19.566Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Deployment automation","level":"4.2.3","depth":2,"next":{"title":"The staging system","level":"4.2.4","depth":2,"path":"automation/staging.md","ref":"automation/staging.md","articles":[]},"previous":{"title":"Automated testing","level":"4.2.2","depth":2,"path":"automation/testing.md","ref":"automation/testing.md","articles":[]},"dir":"ltr"},"config":{"plugins":["edit-link","ga","github","prism","-highlight","-fontsettings"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"edit-link":{"label":"Edit","base":"https://github.com/rstacruz/modern-development/edit/master"},"ga":{"configuration":"auto","token":"UA-20473929-1"},"github":{"url":"https://github.com/rstacruz/modern-development/"},"sharing":{"facebook":false,"twitter":false,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"prism":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":10,"fontFamily":"Arial","paperSize":"a5","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":40,"left":40,"top":64,"bottom":64}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Modern Development Handbook","gitbook":"*"},"file":{"path":"automation/deployment.md","mtime":"2017-08-21T17:24:55.779Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2017-08-21T17:26:02.687Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>

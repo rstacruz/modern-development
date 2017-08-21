@@ -2,12 +2,12 @@
 <!DOCTYPE HTML>
 <html lang="" >
     <head>
-        <title>Building a release · Modern Development Handbook</title>
         <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Building a release · Modern Development Handbook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
-        <meta name="generator" content="GitBook 3.2.0">
+        <meta name="generator" content="GitBook 3.2.3">
         
         
         
@@ -1020,13 +1020,18 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="building-a-release">Building a release</h1><p>A release is simply a merge commit in <code>master</code>. To build a release, you&apos;ll need to do these steps:</p><ol><li>Merge <code>develop</code> into <code>master</code>.
-</li>
-<li>Merge <code>master</code> back into <code>develop</code> (if needed).
-</li>
-<li>Create a release.
-</li></ol>
-<h2 id="merging-into-a-clean-master">Merging into a clean master</h2><p>For clean merges of <code>develop</code> into <code>master</code>, you can use the GitHub interface. Simply create a pull request from <code>develop</code> into <code>master</code> and merge it using the GitHub website. This works when <code>master</code> is clean and up-to-date with the latest <code>develop</code> branch, and has no merge conflicts.</p><h2 id="merging-into-a-dirty-master">Merging into a dirty master</h2><p>If <code>master</code> has changes that are out-of-sync with <code>develop</code>, you may run into merge conflicts. The only way to resolve this is by using the command line. This is the only time pushing directly into <code>master</code> is acceptable.</p><pre class="language-"><code class="lang-bash"><span class="token comment" spellcheck="true"># Switch to the master branch</span>
+                                <h1 id="building-a-release">Building a release</h1>
+<p>A release is simply a merge commit in <code>master</code>. To build a release, you&apos;ll need to do these steps:</p>
+<ol>
+<li>Merge <code>develop</code> into <code>master</code>.</li>
+<li>Merge <code>master</code> back into <code>develop</code> (if needed).</li>
+<li>Create a release.</li>
+</ol>
+<h2 id="merging-into-a-clean-master">Merging into a clean master</h2>
+<p>For clean merges of <code>develop</code> into <code>master</code>, you can use the GitHub interface. Simply create a pull request from <code>develop</code> into <code>master</code> and merge it using the GitHub website. This works when <code>master</code> is clean and up-to-date with the latest <code>develop</code> branch, and has no merge conflicts.</p>
+<h2 id="merging-into-a-dirty-master">Merging into a dirty master</h2>
+<p>If <code>master</code> has changes that are out-of-sync with <code>develop</code>, you may run into merge conflicts. The only way to resolve this is by using the command line. This is the only time pushing directly into <code>master</code> is acceptable.</p>
+<pre class="language-"><code class="lang-bash"><span class="token comment" spellcheck="true"># Switch to the master branch</span>
 <span class="token function">git</span> checkout master
 
 <span class="token comment" spellcheck="true"># Merge develop into master; do a fetch first</span>
@@ -1039,19 +1044,25 @@ get fetch
 <span class="token function">git</span> commit
 
 <span class="token comment" spellcheck="true"># Push into master</span>
-<span class="token function">git</span> push</code></pre>
-<h2 id="synchronizing-develop">Synchronizing develop</h2><p>There are commits in <code>master</code> that are not in <code>develop</code>, it may be a good time to merge those into <code>develop</code>. Make a pull request of <code>master</code> back into <code>develop</code>. Doing this is not necessary, but it will clean up your git history.</p><h2 id="creating-a-release">Creating a release</h2><p>Every deployment should have a version number tag. Simply create a release in GitHub. This will create a git tag for you (equivalent to <code>git tag v1.0.4 master &amp;&amp; git push --tags</code>).</p><ul><li>Create a GitHub release for the latest <code>master</code>.
-</li>
-<li>Tag it in the format <code>vX.X.X</code> (eg, <code>v1.0.4</code>).
-</li></ul>
+<span class="token function">git</span> push
+</code></pre>
+<h2 id="synchronizing-develop">Synchronizing develop</h2>
+<p>There are commits in <code>master</code> that are not in <code>develop</code>, it may be a good time to merge those into <code>develop</code>. Make a pull request of <code>master</code> back into <code>develop</code>. Doing this is not necessary, but it will clean up your git history.</p>
+<h2 id="creating-a-release">Creating a release</h2>
+<p>Every deployment should have a version number tag. Simply create a release in GitHub. This will create a git tag for you (equivalent to <code>git tag v1.0.4 master &amp;&amp; git push --tags</code>).</p>
+<ul>
+<li>Create a GitHub release for the latest <code>master</code>.</li>
+<li>Tag it in the format <code>vX.X.X</code> (eg, <code>v1.0.4</code>).</li>
+</ul>
 <figure class="-bordered">
 <img src="../images/github-new-release.png">
 <figcaption>Creating a new GitHub release.</figcaption>
 </figure>
 
+<blockquote>
+<p><strong>Next</strong>: <a href="hotfix.html">Emergency fixes</a></p>
+</blockquote>
 
-
-<blockquote><p><strong>Next</strong>: <a href="hotfix.html">Emergency fixes</a></p></blockquote>
                                 
                                 </section>
                             
@@ -1094,7 +1105,7 @@ get fetch
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Building a release","level":"4.1.5","depth":2,"next":{"title":"Emergency fixes","level":"4.1.6","depth":2,"path":"git/hotfix.md","ref":"git/hotfix.md","articles":[]},"previous":{"title":"Reviewing pull requests","level":"4.1.4","depth":2,"path":"git/reviewing.md","ref":"git/reviewing.md","articles":[]},"dir":"ltr"},"config":{"plugins":["edit-link","ga","github","prism","-highlight","-fontsettings"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"edit-link":{"label":"Edit","base":"https://github.com/rstacruz/modern-development/edit/master"},"ga":{"configuration":"auto","token":"UA-20473929-1"},"github":{"url":"https://github.com/rstacruz/modern-development/"},"sharing":{"facebook":false,"twitter":false,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"prism":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":10,"fontFamily":"Arial","paperSize":"a5","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":40,"left":40,"top":64,"bottom":64}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Modern Development Handbook","gitbook":"*"},"file":{"path":"git/releasing.md","mtime":"2017-01-20T04:43:08.000Z","type":"markdown"},"gitbook":{"version":"3.2.0","time":"2017-08-21T17:25:19.566Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Building a release","level":"4.1.5","depth":2,"next":{"title":"Emergency fixes","level":"4.1.6","depth":2,"path":"git/hotfix.md","ref":"git/hotfix.md","articles":[]},"previous":{"title":"Reviewing pull requests","level":"4.1.4","depth":2,"path":"git/reviewing.md","ref":"git/reviewing.md","articles":[]},"dir":"ltr"},"config":{"plugins":["edit-link","ga","github","prism","-highlight","-fontsettings"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"edit-link":{"label":"Edit","base":"https://github.com/rstacruz/modern-development/edit/master"},"ga":{"configuration":"auto","token":"UA-20473929-1"},"github":{"url":"https://github.com/rstacruz/modern-development/"},"sharing":{"facebook":false,"twitter":false,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"prism":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":10,"fontFamily":"Arial","paperSize":"a5","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":40,"left":40,"top":64,"bottom":64}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Modern Development Handbook","gitbook":"*"},"file":{"path":"git/releasing.md","mtime":"2017-08-21T17:24:55.783Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2017-08-21T17:26:02.687Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>

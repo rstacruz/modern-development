@@ -2,12 +2,12 @@
 <!DOCTYPE HTML>
 <html lang="" >
     <head>
-        <title>Emergency fixes · Modern Development Handbook</title>
         <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Emergency fixes · Modern Development Handbook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
-        <meta name="generator" content="GitBook 3.2.0">
+        <meta name="generator" content="GitBook 3.2.3">
         
         
         
@@ -1020,25 +1020,37 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="emergency-fixes">Emergency fixes</h1><p>There are times when bug fixes must be made outside the release cycle. This is called a <em>hotfix</em>.</p><p>The main branches (<code>develop</code> and <code>master</code>) are never to be pushed directly to, and hotfixes are no excuse to violate this rule. Instead, they should be made as hotfix branches.</p><h2 id="hotfix-branches">Hotfix branches</h2><p>Hotfixes branches are just like feature branches. They&apos;re worked on in the same way: pull requests, review, merge. The only difference is that they&apos;re branched from <code>master</code> instead of <code>develop</code>.</p><pre class="language-"><code class="lang-bash"><span class="token comment" spellcheck="true"># Switch to the master branch</span>
+                                <h1 id="emergency-fixes">Emergency fixes</h1>
+<p>There are times when bug fixes must be made outside the release cycle. This is called a <em>hotfix</em>.</p>
+<p>The main branches (<code>develop</code> and <code>master</code>) are never to be pushed directly to, and hotfixes are no excuse to violate this rule. Instead, they should be made as hotfix branches.</p>
+<h2 id="hotfix-branches">Hotfix branches</h2>
+<p>Hotfixes branches are just like feature branches. They&apos;re worked on in the same way: pull requests, review, merge. The only difference is that they&apos;re branched from <code>master</code> instead of <code>develop</code>.</p>
+<pre class="language-"><code class="lang-bash"><span class="token comment" spellcheck="true"># Switch to the master branch</span>
 <span class="token function">git</span> checkout master
 
 <span class="token comment" spellcheck="true"># Create your branch</span>
 <span class="token function">git</span> branch hotfix/security-fix
 
-<span class="token comment" spellcheck="true"># Start working!</span></code></pre>
-<h2 id="merging-hotfixes">Merging hotfixes</h2><p>Pull requests are made for hotfixes too, just like feature branches. A colleague will have to review and merge your pull request, ideally.</p><p>The <code>master</code> branch will be updated once a pull request is merged in. This should trigger your automated deployment process and deploy the hotfix to production servers.</p><h2 id="syncing-the-develop-branch">Syncing the develop branch</h2><p>Once the pull request is merged, <code>master</code> now has the fixes, but not <code>develop</code>. In these cases, you can do one of two things:</p><ul><li>Option A: Merge <code>master</code> back into <code>develop</code>.
-</li>
-<li>Option B: Merge the hotfix into <code>develop</code> as well (&quot;backporting&quot;).
-</li></ul>
-<p>Option A is preferred in most cases, with option B only being used when merging <code>master</code> back may be too complicated.</p><h2 id="self-merging">Self-merging</h2><p>There may be cases when fixes are time-sensitive and colleagues aren&apos;t available to review and merge your changes. If this happens:</p><ul><li>Create a pull request as usual.
-</li>
-<li>Merge the pull request yourself.
-</li>
-<li>Leave a comment in the pull request with the reason for urgency.
-</li>
-<li>Inform your teammates afterwards so they can still review your changes.
-</li></ul>
+<span class="token comment" spellcheck="true"># Start working!</span>
+</code></pre>
+<h2 id="merging-hotfixes">Merging hotfixes</h2>
+<p>Pull requests are made for hotfixes too, just like feature branches. A colleague will have to review and merge your pull request, ideally.</p>
+<p>The <code>master</code> branch will be updated once a pull request is merged in. This should trigger your automated deployment process and deploy the hotfix to production servers.</p>
+<h2 id="syncing-the-develop-branch">Syncing the develop branch</h2>
+<p>Once the pull request is merged, <code>master</code> now has the fixes, but not <code>develop</code>. In these cases, you can do one of two things:</p>
+<ul>
+<li>Option A: Merge <code>master</code> back into <code>develop</code>.</li>
+<li>Option B: Merge the hotfix into <code>develop</code> as well (&quot;backporting&quot;).</li>
+</ul>
+<p>Option A is preferred in most cases, with option B only being used when merging <code>master</code> back may be too complicated.</p>
+<h2 id="self-merging">Self-merging</h2>
+<p>There may be cases when fixes are time-sensitive and colleagues aren&apos;t available to review and merge your changes. If this happens:</p>
+<ul>
+<li>Create a pull request as usual.</li>
+<li>Merge the pull request yourself.</li>
+<li>Leave a comment in the pull request with the reason for urgency.</li>
+<li>Inform your teammates afterwards so they can still review your changes.</li>
+</ul>
 <details>
 <summary>See also...</summary>
 
@@ -1047,9 +1059,10 @@
 </li></ul>
 </details>
 
+<blockquote>
+<p><strong>Next:</strong> <a href="why.html">Why we use branches</a></p>
+</blockquote>
 
-
-<blockquote><p><strong>Next:</strong> <a href="why.html">Why we use branches</a></p></blockquote>
                                 
                                 </section>
                             
@@ -1092,7 +1105,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Emergency fixes","level":"4.1.6","depth":2,"next":{"title":"Why we use branches","level":"4.1.7","depth":2,"path":"git/why.md","ref":"git/why.md","articles":[]},"previous":{"title":"Building a release","level":"4.1.5","depth":2,"path":"git/releasing.md","ref":"git/releasing.md","articles":[]},"dir":"ltr"},"config":{"plugins":["edit-link","ga","github","prism","-highlight","-fontsettings"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"edit-link":{"label":"Edit","base":"https://github.com/rstacruz/modern-development/edit/master"},"ga":{"configuration":"auto","token":"UA-20473929-1"},"github":{"url":"https://github.com/rstacruz/modern-development/"},"sharing":{"facebook":false,"twitter":false,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"prism":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":10,"fontFamily":"Arial","paperSize":"a5","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":40,"left":40,"top":64,"bottom":64}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Modern Development Handbook","gitbook":"*"},"file":{"path":"git/hotfix.md","mtime":"2017-01-08T10:53:12.000Z","type":"markdown"},"gitbook":{"version":"3.2.0","time":"2017-08-21T17:25:19.566Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Emergency fixes","level":"4.1.6","depth":2,"next":{"title":"Why we use branches","level":"4.1.7","depth":2,"path":"git/why.md","ref":"git/why.md","articles":[]},"previous":{"title":"Building a release","level":"4.1.5","depth":2,"path":"git/releasing.md","ref":"git/releasing.md","articles":[]},"dir":"ltr"},"config":{"plugins":["edit-link","ga","github","prism","-highlight","-fontsettings"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"edit-link":{"label":"Edit","base":"https://github.com/rstacruz/modern-development/edit/master"},"ga":{"configuration":"auto","token":"UA-20473929-1"},"github":{"url":"https://github.com/rstacruz/modern-development/"},"sharing":{"facebook":false,"twitter":false,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"prism":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":10,"fontFamily":"Arial","paperSize":"a5","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":40,"left":40,"top":64,"bottom":64}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Modern Development Handbook","gitbook":"*"},"file":{"path":"git/hotfix.md","mtime":"2017-08-21T17:24:55.783Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2017-08-21T17:26:02.687Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
