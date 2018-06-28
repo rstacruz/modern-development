@@ -2,8 +2,8 @@
  * See: https://github.com/GitbookIO/theme-default/tree/master/src/less/website
  */
 
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:300');
-@import url('https://fonts.googleapis.com/css?family=Fira+Mono');
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans:300,700');
+@import url('https://fonts.googleapis.com/css?family=Cousine');
 
 /*
  * Base
@@ -49,26 +49,70 @@
   }
 }
 
+.markdown-section {
+  /* Don't clip wide figures */
+  overflow: visible;
+}
+
 /*
  * Headings
  */
 
 .markdown-section h1,
-.markdown-section h2 {
-  font-family: 'open sans', -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+.markdown-section h2,
+.markdown-section h3 {
+  font-family: 'IBM Plex Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  border-bottom: 0;
 }
 
 .markdown-section h1 {
   font-weight: 300;
   font-size: 2.48em; /* 1.2 ^ 5 */
   color: #25a;
-  border-bottom: solid 1px #f0f0f0;
-  padding-bottom: 0.4em;
+  line-height: 1.4;
+}
+
+.markdown-section h3 {
+  font-weight: 700;
+  color: #111;
+  font-size: 1.44em; /* 1.2 ^ 2 */
+}
+
+.markdown-section h3 + p,
+.markdown-section h4 + p {
+  margin-top: -1em;
+}
+
+.markdown-section h4 {
+  color: #111;
+}
+
+/* Horizontal rule */
+.markdown-section h1::after,
+.markdown-section h2::after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 1px;
+  margin-top: 0.8em;
+  background: linear-gradient(to right, #ccc, transparent);
+}
+
+.markdown-section h2::after {
+  margin-top: 0.5em;
+}
+
+.markdown-section h1 em,
+.markdown-section h2 em {
+  display: block;
+  color: #ccc;
+  font-style: normal;
 }
 
 @media (max-width: 768px) {
   .markdown-section h1 {
     font-size: 2.01em; /* 1.15 ^ 5 */
+    padding-right: 0;
   }
 }
 
@@ -82,8 +126,6 @@
   font-weight: 300;
   font-size: 1.73em; /* 1.2 ^ 3 */
   color: #25a;
-  border-bottom: solid 1px #f0f0f0;
-  padding-bottom: 0.2em;
 }
 
 @media (max-width: 768px) {
@@ -141,6 +183,10 @@ nav[role="navigation"] > .summary > .chapter > a {
 }
 
 .markdown-section > blockquote:last-child > p > strong:first-child {
+  color: #111;
+}
+
+.markdown-section blockquote strong {
   color: #111;
 }
 
@@ -359,16 +405,27 @@ nav[role="navigation"] > .summary > .chapter > a {
 .markdown-section blockquote {
   background: #fcfcfc;
   padding: 16px;
-  margin: 2em auto !important;
+  color: #333;
+}
+
+.markdown-section pre,
+.markdown-section blockquote,
+.markdown-section table {
   border: solid 1px #eee;
   border-radius: 2px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
-  color: #333;
+  margin: 2em auto !important;
 }
 
 .markdown-section blockquote {
   color: #666;
   padding: 16px 24px;
+}
+
+.markdown-section blockquote:not(:last-child) img {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .markdown-section blockquote > :first-child {
@@ -385,18 +442,11 @@ nav[role="navigation"] > .summary > .chapter > a {
 }
 
 .markdown-section pre {
-  line-height: 1.4;
+  line-height: 1.3;
 }
 
 .markdown-section pre + pre {
   margin-top: -1.5em;
-}
-
-@media (min-width: 481px) {
-  .markdown-section pre,
-  .markdown-section blockquote {
-    max-width: 90%;
-  }
 }
 
 .book.book.book.book.book.book .token.comment {
@@ -407,7 +457,7 @@ nav[role="navigation"] > .summary > .chapter > a {
 }
 
 .markdown-section code {
-  font-family: 'fira mono', menlo, monospace;
+  font-family: cousine, 'fira mono', menlo, monospace;
   font-feature-settings: "liga" 0;
   letter-spacing: -0.03em;
   margin: 0;
@@ -672,4 +722,62 @@ nav[role="navigation"] > .summary > .chapter > a {
 .markdown-section .cta-button:active {
   text-decoration: none;
   background: rgb(54, 218, 128);
+}
+
+/*
+ * SVG
+ */
+
+svg g.node[title] {
+  cursor: pointer;
+}
+
+svg g.node[title]:hover rect {
+  stroke-width: 2px;
+  stroke: dodgerblue;
+}
+
+@media (min-width: 769px) {
+  .wide-figure {
+    border-radius: 3px;
+    padding: 24px;
+    margin: 1.5em -64px;
+    box-shadow: 0 1px 2px #3458;
+  }
+
+  .wide-figure > svg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (min-width: 769px) {
+  .markdown-section .right-figure {
+    float: right;
+    margin: 0 0 1em 1em;
+  }
+}
+
+/*
+ * Glossary terms:
+ * Undo the link-like highlighting and make it look like <abbr>
+ */
+
+.markdown-section a.glossary-term,
+.markdown-section a.glossary-term:visited {
+  color: #333;
+  text-decoration: none;
+  border-bottom: dashed 1px #3333;
+}
+
+/*
+ * Space above h1:
+ * Add some extra space so the first load looks cool
+ */
+
+ @media (min-width: 769px) {
+  .markdown-section > :first-child {
+    margin-top: 32px !important;
+  }
 }
