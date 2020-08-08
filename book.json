@@ -5,6 +5,7 @@
     "ga",
     "github",
     "prism",
+    "canonical-link",
     "-highlight",
     "-fontsettings"
   ],
@@ -43,6 +44,9 @@
         "weibo",
         "instapaper"
       ]
+    },
+    "canonical-link": {
+      "baseURL": "https://modern-development.now.sh"
     }
   }
 }

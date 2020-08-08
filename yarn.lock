@@ -636,6 +636,11 @@ gitbook-cli@2.3.0:
     tmp "0.0.28"
     user-home "2.0.0"
 
+gitbook-plugin-canonical-link@^2.0.3:
+  version "2.0.3"
+  resolved "https://registry.yarnpkg.com/gitbook-plugin-canonical-link/-/gitbook-plugin-canonical-link-2.0.3.tgz#ec7b816ef833127f3e2972eb6b49700bb5c6c3a1"
+  integrity sha512-lidsygXDF7xjChi6ENsgp5J3Nib4K9fOPQrjl2m//EwjjMRGIWYpYRioKmvnYqAqPVk0VIkbuC5szBJqXBbwKw==
+
 gitbook-plugin-edit-link@2.0.2:
   version "2.0.2"
   resolved "https://registry.yarnpkg.com/gitbook-plugin-edit-link/-/gitbook-plugin-edit-link-2.0.2.tgz#d8fcd927eced81e7a662a72d59db609eafd7e72f"
