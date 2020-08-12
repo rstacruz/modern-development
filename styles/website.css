@@ -395,7 +395,7 @@ nav[role="navigation"] > .summary > .chapter > a {
 }
 
 .markdown-section .chapter-h1::before {
-    content: 'Modern Development';
+    content: 'Effective Development';
     display: block;
     font-size: 1.4rem;
     font-weight: bold;
