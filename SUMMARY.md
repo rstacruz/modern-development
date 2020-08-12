@@ -1,6 +1,6 @@
 # Summary
 
-* [Modern Development Handbook](README.md)
+* [Effective Development Handbook](README.md)
 
 ---
 
