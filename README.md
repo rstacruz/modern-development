@@ -1,10 +1,6 @@
 <div class='_hide'>
-<p align='center'>This book is a work-in-progress.<br>—<br><strong><a href='http://ricostacruz.com/modern-development/'>Read it online →</a></strong><br><br></p>
+<p align='center'><strong><a href='http://effective-development.now.sh/'>Read it online →</a></strong><br><br></p>
 <hr>
-</div>
-
-<div class='_hide'>
-<a href='https://travis-ci.org/rstacruz/modern-development'><img src='https://travis-ci.org/rstacruz/modern-development.svg?branch=master'></a>
 </div>
 
 <div class='cover-section'>
@@ -12,7 +8,7 @@
 <a href='toc/README.md'><img src='images/cover-shadow.png'></a>
 </div>
 <div class='text'>
-<p><strong>Modern Development Handbook</strong><br>This book is a work-in-progress draft.</p>
+<p><strong>Modern Development Handbook</strong></p>
 
 <p class='actions'><a href='toc/README.md' class='cta-button'>Start reading</a></p>
 </div>
