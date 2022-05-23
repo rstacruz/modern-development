@@ -26,7 +26,7 @@ There are many different tools for this for many different programming languages
 
 - [Fabric](http://www.fabfile.org/) (Python)
 - [Capistrano](http://capistranorb.com/) (Ruby)
-- [Shipit](http://www.fabfile.org/) (Node.js)
+- [Shipit](https://github.com/shipitjs/shipit) (Node.js)
 - [Edeliver](https://github.com/boldpoker/edeliver) (Elixir and Erlang)
 
 It doesn't matter which solution you pick, as long as your project's deployments are easy, automated, and reliable.
